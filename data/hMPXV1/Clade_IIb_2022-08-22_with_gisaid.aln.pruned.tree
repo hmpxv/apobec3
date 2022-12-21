@@ -1,0 +1,146 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=44;
+	taxlabels
+	'EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17'
+	'KJ642617|Nigeria-SE-1971|Nigeria_Abie_State|1971-04-14'
+	'MG693724|MPXV_Nig_2017_298464|Nigeria|2017'
+	'MK783027|3018|Nigeria_Rivers_State|2017-11-09'
+	'MK783028|3019|Nigeria_Rivers_State|2017-11-09'
+	'MK783029|3029|Nigeria_Rivers_State|2017-12-06'
+	'MK783030|3025|Nigeria_Rivers_State|2017-11-30'
+	'MK783031|3020|Nigeria_Rivers_State|2017-11-09'
+	'MK783032|3030|Nigeria_Rivers_State|2017-11'
+	'MK783033|2920|Nigeria_Rivers_State|2017-10-09'
+	'MN648051|Israel_2018|Israel_ex_Nigeria|2018-10-04'
+	'MT250197|Singapore_2019|Singapore_ex_Nigeria|2019-05-08'
+	'MT903341|MPXV-M5320_M15_Bayelsa|Nigeria_Bayelsa_State|2018-08-14'
+	'MT903343|MPXV-UK_P1|UK_ex_Nigeria|2018-09-07'
+	'MT903344|MPXV-UK_P2|UK_ex_Nigeria|2018-09-07'
+	'MT903345|MPXV-UK_P3|UK|2018-09-22'
+	'NC_063383|MPXV-M5312_HM12_Rivers|Nigeria_Rivers_State|2018-08'
+	'OL504741|2091|UK_ex_Nigeria|2019-12-03'
+	'ON563414|MA001|USA|2022-05-19'[&lineage="B.1"]
+	'ON674051|FL001|USA|2022-05-22'
+	'ON675438|VA001|USA|2022-05-27'
+	'ON676707|USA_2021_TX|USA|2021-07-15'
+	'ON676708|USA_2021_MD|USA|2021-11-16'
+	'unpublished|9000155|UK|2022-06-03'
+	'unpublished|9000166|UK|2022-06-29'
+	'unpublished|9000312|UK|2022-08'
+	'unpublished|MPX/003/19|Nigeria_Bayelsa_State|2019-01-12'
+	'unpublished|MPX/007/19|Nigeria_Bayelsa_State|2019-01-30'
+	'unpublished|MPX/013/79|Nigeria_Bayelsa_State|2019-02-20'
+	'unpublished|MPX/015/19|Nigeria_Rivers_State|2019-03-12'
+	'unpublished|MPX/017/19|Nigeria_Rivers_State|2019-11-02'
+	'unpublished|MPX/018/19|Nigeria_Delta_State|2019-03-14'
+	'unpublished|MPX/021/19|Nigeria_Lagos_State|2019-04-01'
+	'unpublished|MPX/039/19|Nigeria_Bayelsa_State|2019-04-20'
+	'unpublished|MPX/040/19|Nigeria_Bayelsa_State|2019-04-20'
+	'unpublished|MPX/042/19|Nigeria_Delta_State|2019-04-18'
+	'unpublished|MPX/046/19|Nigeria_Lagos_State|2019-05-10'
+	'unpublished|MPX/052/19|Nigeria_Delta_State|2019-05-29'
+	'unpublished|MPX/053/19|Nigeria_Delta_State|2019-06-26'
+	'unpublished|MPX/058/19|Nigeria_Enugu_State|2019-07-11'
+	'unpublished|MPX/104/19|Nigeria_Oyo_State|2019-10-07'
+	'unpublished|MPX/111/19|Nigeria_Rivers_State|2019-12-17'
+	'unpublished|MPX/113/19|Nigeria_Imo_State|2019-12-17'
+	'unpublished|MPX/191/20|Nigeria|2020-01-23'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((('unpublished|9000312|UK|2022-08'[&lineage="A.3"]:1.52E-4,'unpublished|MPX/015/19|Nigeria_Rivers_State|2019-03-12'[&lineage="A.3"]:1.6E-5)[&label="Node7",lineage="A.3"]:3.7E-5,'MK783033|2920|Nigeria_Rivers_State|2017-10-09'[&lineage="A.3"]:4.8E-5)[&label="Node6",lineage="A.3"]:6.3E-5,('MG693724|MPXV_Nig_2017_298464|Nigeria|2017'[&lineage="A"]:4.6E-5,'NC_063383|MPXV-M5312_HM12_Rivers|Nigeria_Rivers_State|2018-08'[&lineage="A"]:1.6E-5)[&label="Node43",lineage="A"]:1.0E-5,('MK783027|3018|Nigeria_Rivers_State|2017-11-09'[&lineage="A"]:1.0E-6,'MK783028|3019|Nigeria_Rivers_State|2017-11-09'[&lineage="A"]:1.0E-6,'MK783029|3029|Nigeria_Rivers_State|2017-12-06'[&lineage="A"]:1.0E-5,'MK783031|3020|Nigeria_Rivers_State|2017-11-09'[&lineage="A"]:5.0E-6)[&label="Node35",lineage="A"]:2.1E-5,('MK783030|3025|Nigeria_Rivers_State|2017-11-30'[&lineage="A"]:3.7E-5,((('unpublished|MPX/007/19|Nigeria_Bayelsa_State|2019-01-30'[&lineage="A"]:1.0E-6,'unpublished|MPX/013/79|Nigeria_Bayelsa_State|2019-02-20'[&lineage="A"]:1.0E-6)[&label="Node41",lineage="A"]:1.0E-5,'unpublished|MPX/017/19|Nigeria_Rivers_State|2019-11-02'[&lineage="A"]:1.6E-5)[&label="Node40",lineage="A"]:1.6E-5,('unpublished|MPX/021/19|Nigeria_Lagos_State|2019-04-01'[&lineage="A"]:1.0E-5,'unpublished|MPX/046/19|Nigeria_Lagos_State|2019-05-10'[&lineage="A"]:1.6E-5)[&label="Node42",lineage="A"]:1.6E-5)[&label="Node39",lineage="A"]:2.6E-5)[&label="Node38",lineage="A"]:1.0E-5,('MK783032|3030|Nigeria_Rivers_State|2017-11'[&lineage="A"]:4.2E-5,((('ON674051|FL001|USA|2022-05-22'[&lineage="A.2"]:1.6E-5,'unpublished|9000155|UK|2022-06-03'[&lineage="A.2"]:2.6E-5)[&label="Node31",lineage="A.2"]:6.8E-5,'unpublished|MPX/191/20|Nigeria|2020-01-23'[&lineage="A.2"]:1.0E-5)[&label="Node30",lineage="A.2"]:5.0E-6,'ON675438|VA001|USA|2022-05-27'[&lineage="A.2"]:1.16E-4,'ON676707|USA_2021_TX|USA|2021-07-15'[&lineage="A.2"]:9.5E-5,'unpublished|MPX/111/19|Nigeria_Rivers_State|2019-12-17'[&lineage="A.2"]:5.0E-6,'unpublished|MPX/113/19|Nigeria_Imo_State|2019-12-17'[&lineage="A.2"]:1.0E-6,'unpublished|9000166|UK|2022-06-29'[&lineage="A.2"]:1.52E-4,'EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17'[&lineage="A.2"]:1.31E-4)[&label="Node26",lineage="A.2"]:7.9E-5)[&label="Node25",lineage="A"]:5.0E-6,('MN648051|Israel_2018|Israel_ex_Nigeria|2018-10-04'[&lineage="A.1"]:2.1E-5,(('MT250197|Singapore_2019|Singapore_ex_Nigeria|2019-05-08'[&lineage="A.1"]:1.0E-5,'unpublished|MPX/052/19|Nigeria_Delta_State|2019-05-29'[&lineage="A.1"]:1.0E-6)[&label="Node14",lineage="A.1"]:5.0E-6,'unpublished|MPX/042/19|Nigeria_Delta_State|2019-04-18'[&lineage="A.1"]:1.0E-5,'OL504741|2091|UK_ex_Nigeria|2019-12-03'[&lineage="A.1"]:3.8E-5)[&label="Node12",lineage="A.1"]:5.0E-6,'MT903341|MPXV-M5320_M15_Bayelsa|Nigeria_Bayelsa_State|2018-08-14'[&lineage="A.1"]:1.1E-5,'MT903343|MPXV-UK_P1|UK_ex_Nigeria|2018-09-07'[&lineage="A.1"]:1.6E-5,(('MT903344|MPXV-UK_P2|UK_ex_Nigeria|2018-09-07'[&lineage="A.1"]:1.0E-6,'MT903345|MPXV-UK_P3|UK|2018-09-22'[&lineage="A.1"]:1.0E-6,((('ON563414|MA001|USA|2022-05-19'[&lineage="A.1.1"]:5.8E-5,'ON676708|USA_2021_MD|USA|2021-11-16'[&lineage="A.1.1"]:1.6E-5)[&label="Node24",lineage="A.1.1"]:1.31E-4,'unpublished|MPX/053/19|Nigeria_Delta_State|2019-06-26'[&lineage="A.1"]:5.0E-6)[&label="Node23",lineage="A.1"]:5.0E-6,'unpublished|MPX/058/19|Nigeria_Enugu_State|2019-07-11'[&lineage="A.1"]:3.2E-5)[&label="Node22",lineage="A.1"]:2.1E-5)[&label="Node20",lineage="A.1"]:5.0E-6,'unpublished|MPX/018/19|Nigeria_Delta_State|2019-03-14'[&lineage="A.1"]:4.3E-5)[&label="Node19",lineage="A.1"]:1.0E-5,'unpublished|MPX/003/19|Nigeria_Bayelsa_State|2019-01-12'[&lineage="A.1"]:2.6E-5,'unpublished|MPX/039/19|Nigeria_Bayelsa_State|2019-04-20'[&lineage="A.1"]:4.2E-5,('unpublished|MPX/040/19|Nigeria_Bayelsa_State|2019-04-20'[&lineage="A.1"]:1.6E-5,'unpublished|MPX/104/19|Nigeria_Oyo_State|2019-10-07'[&lineage="A.1"]:4.7E-5)[&label="Node16",lineage="A.1"]:1.0E-5)[&label="Node8",lineage="A.1"]:6.8E-5)[&label="Node2",lineage="A"]:1.42E-4,'KJ642617|Nigeria-SE-1971|Nigeria_Abie_State|1971-04-14':3.7E-5)[&label="Node1"];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=673;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="lineage";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
