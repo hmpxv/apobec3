@@ -11,7 +11,7 @@ The model for the linear regression of number of APOBEC3-type mutations against 
 >   
 >   β ~ Lognormal(0, 1) and
 >   
->   σ ~ Normal(0, 50),
+>   σ ~ Normal(0, 20),
 
 where m<sub>i</sub> is the number of mutations for genome i,
 α is the y-intercept and has a prior centred on the minimum number of mutations observed over all genomes, β is a strictly-positive evolutionary rate per year, t<sub>i</sub> is the time of collection of the sample and σ is the model error standard deviation.
