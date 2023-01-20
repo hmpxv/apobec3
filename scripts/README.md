@@ -3,13 +3,14 @@ Scripts for creating figures / performing analyses
 ## Linear regression of mutations against time
 
 The model for the linear regression of number of APOBEC3-type mutations against time was as follows:
-   mi ~ Normal(μ, σ)
-   μ = α + β  (ti - tmean) 
-   α ~ Normal(11, 100)
-   β ~ Lognormal(0, 1) and
-   σ ~ Normal(0, 50),
-where mi is the number of mutations for genome i,
-α is the y-intercept and has a prior centred on the minimum number of mutations observed over all genomes, β is a strictly-positive evolutionary rate per year, ti is the time of collection of the sample and σ is the model error standard deviation.
+>   m<sub>i</sub> ~ Normal(μ, σ)
+>   μ = α + β  (t<sub>i</sub> - tmean) 
+>   α ~ Normal(11, 100)
+>   β ~ Lognormal(0, 1) and
+>   σ ~ Normal(0, 50),
+
+where m<sub>i</sub> is the number of mutations for genome i,
+α is the y-intercept and has a prior centred on the minimum number of mutations observed over all genomes, β is a strictly-positive evolutionary rate per year, t<sub>i</sub> is the time of collection of the sample and σ is the model error standard deviation.
 
 ### posterior estimates of parameters
 
