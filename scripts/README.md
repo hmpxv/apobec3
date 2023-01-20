@@ -4,9 +4,13 @@ Scripts for creating figures / performing analyses
 
 The model for the linear regression of number of APOBEC3-type mutations against time was as follows:
 >   m<sub>i</sub> ~ Normal(μ, σ)
+>   
 >   μ = α + β  (t<sub>i</sub> - tmean) 
+>   
 >   α ~ Normal(11, 100)
+>   
 >   β ~ Lognormal(0, 1) and
+>   
 >   σ ~ Normal(0, 50),
 
 where m<sub>i</sub> is the number of mutations for genome i,
