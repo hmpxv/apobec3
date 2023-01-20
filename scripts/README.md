@@ -4,6 +4,7 @@ Scripts for creating figures / performing analyses
 ### posterior estimates of parameters for root to tip plot:
 
 Lineage A
+
       |    mean   |   sd   |     2.5%    |  97.5%
 --- | --- | --- | --- | ---          
 \alpha|    25.236597| 0.7343179| 23.797360| 26.675833
@@ -12,6 +13,7 @@ Lineage A
 time of origin| 2015.462 | | 2014.757 | 2016.163
 
 Lineage B.1
+
       |    mean   |   sd   |     2.5%    |  97.5%
 --- | --- | --- | --- | ---          
 \alpha |57.669440|0.09242696| 57.488287 |57.850594
