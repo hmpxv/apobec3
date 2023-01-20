@@ -49,7 +49,7 @@ rtt <- quap(
     mu <- a + b * (year - xbar),
     a ~ dnorm(mut_min, 100),
     b ~ dlnorm(0, 1),
-    sigma ~ dunif(1, 50)
+    sigma ~ dnorm(0, 50)
   ),
   data = d)
 
