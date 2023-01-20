@@ -1,0 +1,412 @@
+site,gene,direction,snp,dimer,apobec,aa_position,parent,parent_codon,parent_aa,child,child_codon,child_aa,mutation_category,score,prediction,homoplasy,occurrence
+3450,OPG003_CDS_176,reverse,G->A,GA,True,2,Node1,TCA,S,Node2,TTA,L,nonsynonymous,145,moderately radical,True,2
+3450,OPG003_CDS_176,reverse,A->G,,False,2,Node14,TTA,L,MT250197|Singapore_2019|Singapore_ex_Nigeria|2019-05-08,TCA,S,nonsynonymous,145,moderately radical,True,2
+8893,NA,NA,C->A,,False,NA,Node1,NA,NA,Node2,NA,NA,intergenic,NA,NA,False,1
+18312,OPG031_CDS_165,reverse,G->A,GA,True,3,Node1,ATC,I,Node2,ATT,I,synonymous,NA,NA,False,1
+19367,OPG034_CDS_164,reverse,C->T,TC,True,2,Node1,CGA,R,Node2,CAA,Q,nonsynonymous,43,conservative,False,1
+33143,OPG049_CDS_150,reverse,C->T,TC,True,2,Node1,CGA,R,Node2,CAA,Q,nonsynonymous,43,conservative,False,1
+38067,OPG056_CDS_143,reverse,G->A,GC,False,1,Node1,CGT,R,Node2,TGT,C,nonsynonymous,180,radical,False,1
+46895,OPG066_CDS_133,reverse,G->A,GT,False,2,Node1,ACG,T,Node2,ATG,M,nonsynonymous,81,moderately conservative,False,1
+48138,NA,NA,A->G,,False,NA,Node1,NA,NA,Node2,NA,NA,intergenic,NA,NA,False,1
+48527,OPG068_CDS_132,forward,C->A,,False,1,Node1,CGT,R,Node2,AGT,S,nonsynonymous,110,moderately radical,False,1
+53207,OPG071_CDS_129,reverse,C->A,,False,1,Node1,GGG,G,Node2,TGG,W,nonsynonymous,184,radical,False,1
+66580,OPG084_CDS_116,forward,G->A,GA,True,3,Node1,ACG,T,Node2,ACA,T,synonymous,NA,NA,False,1
+80986,OPG104_CDS_96,reverse,C->T,GC,False,3,Node1,ATG,M,Node2,ATA,I,nonsynonymous,10,conservative,False,1
+92516,OPG113_CDS_87,forward,T->C,,False,1,Node1,TGG,W,Node2,CGG,R,nonsynonymous,101,moderately radical,False,1
+100562,OPG119_CDS_81,forward,C->T,GC,False,1,Node1,CGA,R,Node2,TGA,*,nonsense,NA,NA,False,1
+105126,OPG124_CDS_76,reverse,T->C,,False,2,Node1,GAC,D,Node2,GGC,G,nonsynonymous,94,moderately conservative,False,1
+128076,OPG150_CDS_50,forward,G->A,GA,True,2,Node1,AGA,R,Node2,AAA,K,nonsynonymous,26,conservative,False,1
+133145,NA,NA,C->T,AC,False,NA,Node1,NA,NA,Node2,NA,NA,intergenic,NA,NA,False,1
+137627,OPG153_CDS_48,reverse,G->A,GT,False,1,Node1,CGG,R,Node2,TGG,W,nonsynonymous,101,moderately radical,False,1
+141300,OPG161_CDS_40,forward,G->A,GA,True,2,Node1,CGA,R,Node2,CAA,Q,nonsynonymous,43,conservative,False,1
+141364,OPG161_CDS_40,forward,C->T,GC,False,3,Node1,TGC,C,Node2,TGT,C,synonymous,NA,NA,False,1
+142450,OPG163_CDS_38,forward,C->A,,False,1,Node1,CGC,R,Node2,AGC,S,nonsynonymous,110,moderately radical,False,1
+146687,OPG170_CDS_34,reverse,T->C,,False,1,Node1,ACA,T,Node2,GCA,A,nonsynonymous,58,moderately conservative,False,1
+149878,OPG176_CDS_28,forward,A->G,,False,2,Node1,AAA,K,Node2,AGA,R,nonsynonymous,26,conservative,False,1
+160867,OPG187_CDS_23,forward,G->A,GT,False,1,Node1,GTG,V,Node2,ATG,M,nonsynonymous,21,conservative,False,1
+167656,OPG193_CDS_17,forward,G->T,,False,3,Node1,AAG,K,Node2,AAT,N,nonsynonymous,94,moderately conservative,False,1
+171675,OPG199_CDS_13,forward,G->A,GA,True,2,Node1,GGA,G,Node2,GAA,E,nonsynonymous,98,moderately conservative,False,1
+178423,NA,NA,G->A,GA,True,NA,Node1,NA,NA,Node2,NA,NA,intergenic,NA,NA,False,1
+23353,OPG039_CDS_159,reverse,C->T,TC,True,3,Node2,ACG,T,Node6,ACA,T,synonymous,NA,NA,True,2
+23353,OPG039_CDS_159,reverse,C->T,TC,True,3,Node26,ACG,T,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,ACA,T,synonymous,NA,NA,True,2
+51809,OPG071_CDS_129,reverse,C->T,TC,True,1,Node2,GAT,D,Node6,AAT,N,nonsynonymous,23,conservative,False,1
+61844,OPG080_CDS_120,reverse,G->A,GA,True,3,Node2,CTC,L,Node6,CTT,L,synonymous,NA,NA,True,2
+61844,OPG080_CDS_120,reverse,G->A,GA,True,3,Node26,CTC,L,ON676707|USA_2021_TX|USA|2021-07-15,CTT,L,synonymous,NA,NA,True,2
+69678,OPG088_CDS_112,reverse,G->A,GA,True,2,Node2,TCG,S,Node6,TTG,L,nonsynonymous,145,moderately radical,False,1
+84008,OPG105_CDS_95,forward,C->T,TC,True,1,Node2,CAA,Q,Node6,TAA,*,nonsense,NA,NA,False,1
+96841,OPG117_CDS_83,forward,G->A,GA,True,2,Node2,CGA,R,Node6,CAA,Q,nonsynonymous,43,conservative,False,1
+100971,OPG120_CDS_80,reverse,C->T,TC,True,3,Node2,GAG,E,Node6,GAA,E,synonymous,NA,NA,False,1
+125492,OPG146_CDS_54,reverse,C->T,TC,True,3,Node2,TGG,W,Node6,TGA,*,nonsense,NA,NA,False,1
+128174,OPG150_CDS_50,forward,C->T,TC,True,1,Node2,CAA,Q,Node6,TAA,*,nonsense,NA,NA,False,1
+134078,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node6,NA,NA,intergenic,NA,NA,False,1
+151050,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node6,NA,NA,intergenic,NA,NA,False,1
+188889,NA,NA,G->A,GA,True,NA,Node2,NA,NA,Node6,NA,NA,intergenic,NA,NA,False,1
+56968,OPG074_CDS_126,reverse,G->A,GA,True,1,Node6,CAG,Q,Node7,TAG,*,nonsense,NA,NA,False,1
+92053,OPG113_CDS_87,forward,C->T,TC,True,3,Node6,ATC,I,Node7,ATT,I,synonymous,NA,NA,False,1
+123000,OPG143_CDS_57,reverse,C->T,TC,True,3,Node6,ACG,T,Node7,ACA,T,synonymous,NA,NA,False,1
+146052,NA,NA,C->T,TC,True,NA,Node6,NA,NA,Node7,NA,NA,intergenic,NA,NA,False,1
+150831,NA,NA,C->T,TC,True,NA,Node6,NA,NA,Node7,NA,NA,intergenic,NA,NA,False,1
+151305,NA,NA,C->T,TC,True,NA,Node6,NA,NA,Node7,NA,NA,intergenic,NA,NA,False,1
+187428,NA,NA,C->T,TC,True,NA,Node6,NA,NA,Node7,NA,NA,intergenic,NA,NA,True,2
+187428,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node8,NA,NA,intergenic,NA,NA,True,2
+2930,OPG003_CDS_176,reverse,C->T,TC,True,3,Node7,CGG,R,unpublished|9000312|UK|2022-08,CGA,R,synonymous,NA,NA,False,1
+18493,OPG031_CDS_165,reverse,C->T,TC,True,2,Node7,TGA,*,unpublished|9000312|UK|2022-08,TAA,*,synonymous,NA,NA,False,1
+18908,NA,NA,C->T,TC,True,NA,Node7,NA,NA,unpublished|9000312|UK|2022-08,NA,NA,intergenic,NA,NA,False,1
+21898,OPG037_CDS_161,reverse,G->A,GA,True,1,Node7,CAG,Q,unpublished|9000312|UK|2022-08,TAG,*,nonsense,NA,NA,False,1
+23626,OPG039_CDS_159,reverse,G->A,GA,True,3,Node7,TTC,F,unpublished|9000312|UK|2022-08,TTT,F,synonymous,NA,NA,False,1
+25254,OPG040_CDS_158,reverse,C->T,TC,True,2,Node7,TGA,*,unpublished|9000312|UK|2022-08,TAA,*,synonymous,NA,NA,False,1
+29199,OPG045_CDS_154,reverse,C->T,TC,True,3,Node7,ATG,M,unpublished|9000312|UK|2022-08,ATA,I,nonsynonymous,10,conservative,False,1
+36901,OPG055_CDS_144,reverse,G->A,GA,True,2,Node7,TCT,S,unpublished|9000312|UK|2022-08,TTT,F,nonsynonymous,155,radical,False,1
+44085,OPG064_CDS_135,reverse,G->A,GA,True,1,Node7,CAG,Q,unpublished|9000312|UK|2022-08,TAG,*,nonsense,NA,NA,False,1
+63034,OPG082_CDS_118,reverse,G->A,GA,True,1,Node7,CGG,R,unpublished|9000312|UK|2022-08,TGG,W,nonsynonymous,101,moderately radical,False,1
+75099,OPG095_CDS_105,forward,G->A,GA,True,1,Node7,GAG,E,unpublished|9000312|UK|2022-08,AAG,K,nonsynonymous,56,moderately conservative,False,1
+75144,OPG095_CDS_105,forward,G->A,GA,True,1,Node7,GAC,D,unpublished|9000312|UK|2022-08,AAC,N,nonsynonymous,23,conservative,False,1
+76509,OPG097_CDS_103,reverse,G->A,GA,True,3,Node7,CTC,L,unpublished|9000312|UK|2022-08,CTT,L,synonymous,NA,NA,False,1
+87659,OPG109_CDS_91,reverse,C->T,TC,True,3,Node7,GCG,A,unpublished|9000312|UK|2022-08,GCA,A,synonymous,NA,NA,False,1
+115332,OPG133_CDS_67,reverse,G->A,GA,True,1,Node7,CTG,L,unpublished|9000312|UK|2022-08,TTG,L,synonymous,NA,NA,False,1
+115572,OPG133_CDS_67,reverse,C->T,TC,True,1,Node7,GAA,E,unpublished|9000312|UK|2022-08,AAA,K,nonsynonymous,56,moderately conservative,False,1
+122627,OPG143_CDS_57,reverse,G->A,GT,False,1,Node7,CGG,R,unpublished|9000312|UK|2022-08,TGG,W,nonsynonymous,101,moderately radical,False,1
+128771,OPG150_CDS_50,forward,C->T,TC,True,1,Node7,CAA,Q,unpublished|9000312|UK|2022-08,TAA,*,nonsense,NA,NA,False,1
+140739,OPG160_CDS_41,reverse,C->T,TC,True,2,Node7,TGA,*,unpublished|9000312|UK|2022-08,TAA,*,synonymous,NA,NA,False,1
+151519,OPG178_CDS_27,forward,G->T,,False,3,Node7,TGG,W,unpublished|9000312|UK|2022-08,TGT,C,nonsynonymous,215,radical,False,1
+151875,OPG178_CDS_27,forward,G->A,GA,True,2,Node7,CGA,R,unpublished|9000312|UK|2022-08,CAA,Q,nonsynonymous,43,conservative,False,1
+160008,NA,NA,C->T,TC,True,NA,Node7,NA,NA,unpublished|9000312|UK|2022-08,NA,NA,intergenic,NA,NA,False,1
+160312,NA,NA,C->T,TC,True,NA,Node7,NA,NA,unpublished|9000312|UK|2022-08,NA,NA,intergenic,NA,NA,False,1
+165130,OPG190_CDS_20,forward,G->A,GA,True,1,Node7,GAT,D,unpublished|9000312|UK|2022-08,AAT,N,nonsynonymous,23,conservative,False,1
+168862,OPG195_CDS_16,forward,G->A,GA,True,1,Node7,GAG,E,unpublished|9000312|UK|2022-08,AAG,K,nonsynonymous,56,moderately conservative,False,1
+174491,NA,NA,G->A,GA,True,NA,Node7,NA,NA,unpublished|9000312|UK|2022-08,NA,NA,intergenic,NA,NA,False,1
+176289,OPG205_CDS_10,forward,G->A,GC,False,2,Node7,CGC,R,unpublished|9000312|UK|2022-08,CAC,H,nonsynonymous,29,conservative,False,1
+176366,OPG205_CDS_10,forward,G->A,GG,False,1,Node7,GGA,G,unpublished|9000312|UK|2022-08,AGA,R,nonsynonymous,125,moderately radical,False,1
+177703,OPG205_CDS_10,forward,C->T,TC,True,3,Node7,GTC,V,unpublished|9000312|UK|2022-08,GTT,V,synonymous,NA,NA,False,1
+56351,OPG074_CDS_126,reverse,C->T,TC,True,3,Node7,ACG,T,unpublished|MPX/015/19|Nigeria_Rivers_State|2019-03-12,ACA,T,synonymous,NA,NA,False,1
+74032,OPG094_CDS_106,forward,G->A,GC,False,2,Node7,CGC,R,unpublished|MPX/015/19|Nigeria_Rivers_State|2019-03-12,CAC,H,nonsynonymous,29,conservative,False,1
+190782,hypothetical_protein_CDS_5,forward,G->A,GA,True,2,Node7,TGA,*,unpublished|MPX/015/19|Nigeria_Rivers_State|2019-03-12,TAA,*,synonymous,NA,NA,False,1
+25731,NA,NA,C->T,TC,True,NA,Node6,NA,NA,MK783033|2920|Nigeria_Rivers_State|2017-10-09,NA,NA,intergenic,NA,NA,False,1
+25768,NA,NA,C->T,TC,True,NA,Node6,NA,NA,MK783033|2920|Nigeria_Rivers_State|2017-10-09,NA,NA,intergenic,NA,NA,False,1
+26020,OPG042_CDS_157,reverse,C->T,TC,True,3,Node6,CGG,R,MK783033|2920|Nigeria_Rivers_State|2017-10-09,CGA,R,synonymous,NA,NA,False,1
+27971,NA,NA,T->C,,False,NA,Node6,NA,NA,MK783033|2920|Nigeria_Rivers_State|2017-10-09,NA,NA,intergenic,NA,NA,False,1
+102267,OPG121_CDS_79,forward,G->T,,False,2,Node6,AGG,R,MK783033|2920|Nigeria_Rivers_State|2017-10-09,ATG,M,nonsynonymous,91,moderately conservative,False,1
+117099,OPG136_CDS_64,reverse,C->T,TC,True,1,Node6,GAA,E,MK783033|2920|Nigeria_Rivers_State|2017-10-09,AAA,K,nonsynonymous,56,moderately conservative,False,1
+129583,OPG151_CDS_49,forward,G->A,GA,True,1,Node6,GAA,E,MK783033|2920|Nigeria_Rivers_State|2017-10-09,AAA,K,nonsynonymous,56,moderately conservative,False,1
+155707,NA,NA,C->T,AC,False,NA,Node6,NA,NA,MK783033|2920|Nigeria_Rivers_State|2017-10-09,NA,NA,intergenic,NA,NA,False,1
+161701,OPG188_CDS_22,forward,G->A,GT,False,2,Node6,AGT,S,MK783033|2920|Nigeria_Rivers_State|2017-10-09,AAT,N,nonsynonymous,46,conservative,False,1
+18769,OPG031_CDS_165,reverse,G->A,GA,True,2,Node2,TCA,S,Node43,TTA,L,nonsynonymous,145,moderately radical,False,1
+100261,OPG118_CDS_82,forward,G->A,GA,True,2,Node2,CGA,R,Node43,CAA,Q,nonsynonymous,43,conservative,False,1
+6739,NA,NA,C->T,TC,True,NA,Node43,NA,NA,MG693724|MPXV_Nig_2017_298464|Nigeria|2017,NA,NA,intergenic,NA,NA,False,1
+114221,OPG133_CDS_67,reverse,G->A,GA,True,2,Node43,TCT,S,MG693724|MPXV_Nig_2017_298464|Nigeria|2017,TTT,F,nonsynonymous,155,radical,False,1
+114537,OPG133_CDS_67,reverse,T->A,,False,1,Node43,ATC,I,MG693724|MPXV_Nig_2017_298464|Nigeria|2017,TTC,F,nonsynonymous,21,conservative,False,1
+124853,OPG145_CDS_55,forward,G->T,,False,2,Node43,CGA,R,MG693724|MPXV_Nig_2017_298464|Nigeria|2017,CTA,L,nonsynonymous,102,moderately radical,False,1
+133201,NA,NA,A->T,,False,NA,Node43,NA,NA,MG693724|MPXV_Nig_2017_298464|Nigeria|2017,NA,NA,intergenic,NA,NA,False,1
+133202,NA,NA,C->T,AC,False,NA,Node43,NA,NA,MG693724|MPXV_Nig_2017_298464|Nigeria|2017,NA,NA,intergenic,NA,NA,False,1
+156429,NA,NA,C->T,TC,True,NA,Node43,NA,NA,MG693724|MPXV_Nig_2017_298464|Nigeria|2017,NA,NA,intergenic,NA,NA,True,2
+156429,NA,NA,C->T,TC,True,NA,Node26,NA,NA,ON675438|VA001|USA|2022-05-27,NA,NA,intergenic,NA,NA,True,2
+176642,OPG205_CDS_10,forward,C->A,,False,1,Node43,CGA,R,MG693724|MPXV_Nig_2017_298464|Nigeria|2017,AGA,R,synonymous,NA,NA,False,1
+28175,OPG044_CDS_155,forward,C->T,TC,True,2,Node43,TCT,S,NC_063383|MPXV-M5312_HM12_Rivers|Nigeria_Rivers_State|2018-08,TTT,F,nonsynonymous,155,radical,False,1
+81977,OPG105_CDS_95,forward,G->A,GA,True,1,Node43,GAC,D,NC_063383|MPXV-M5312_HM12_Rivers|Nigeria_Rivers_State|2018-08,AAC,N,nonsynonymous,23,conservative,False,1
+154408,NA,NA,C->T,TC,True,NA,Node43,NA,NA,NC_063383|MPXV-M5312_HM12_Rivers|Nigeria_Rivers_State|2018-08,NA,NA,intergenic,NA,NA,False,1
+5157,OPG015_CDS_175,reverse,C->T,TC,True,3,Node2,TTG,L,Node35,TTA,L,synonymous,NA,NA,False,1
+7764,OPG019_CDS_174,forward,G->A,GA,True,3,Node2,TAG,*,Node35,TAA,*,synonymous,NA,NA,False,1
+9782,OPG021_CDS_173,forward,G->A,GC,False,2,Node2,CGC,R,Node35,CAC,H,nonsynonymous,29,conservative,False,1
+133161,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node35,NA,NA,intergenic,NA,NA,False,1
+13797,OPG025_CDS_169,reverse,C->T,TC,True,3,Node35,ACG,T,MK783029|3029|Nigeria_Rivers_State|2017-12-06,ACA,T,synonymous,NA,NA,False,1
+20153,OPG035_CDS_163,reverse,A->G,,False,2,Node35,GTA,V,MK783029|3029|Nigeria_Rivers_State|2017-12-06,GCA,A,nonsynonymous,64,moderately conservative,False,1
+109736,OPG129_CDS_71,reverse,G->A,GA,True,2,Node35,TCG,S,MK783031|3020|Nigeria_Rivers_State|2017-11-09,TTG,L,nonsynonymous,145,moderately radical,False,1
+37209,OPG056_CDS_143,reverse,G->A,GA,True,1,Node2,CTC,L,Node38,TTC,F,nonsynonymous,22,conservative,False,1
+48180,NA,NA,G->A,GA,True,NA,Node2,NA,NA,Node38,NA,NA,intergenic,NA,NA,False,1
+3477,OPG003_CDS_176,reverse,G->A,GA,True,2,Node38,TCG,S,MK783030|3025|Nigeria_Rivers_State|2017-11-30,TTG,L,nonsynonymous,145,moderately radical,False,1
+98046,OPG117_CDS_83,forward,C->T,TC,True,1,Node38,CGC,R,MK783030|3025|Nigeria_Rivers_State|2017-11-30,TGC,C,nonsynonymous,180,radical,False,1
+120237,OPG137_CDS_63,forward,C->T,TC,True,1,Node38,CGA,R,MK783030|3025|Nigeria_Rivers_State|2017-11-30,TGA,*,nonsense,NA,NA,False,1
+127906,OPG150_CDS_50,forward,C->T,TC,True,3,Node38,CTC,L,MK783030|3025|Nigeria_Rivers_State|2017-11-30,CTT,L,synonymous,NA,NA,True,2
+127906,OPG150_CDS_50,forward,C->T,TC,True,3,Node26,CTC,L,unpublished|9000166|UK|2022-06-29,CTT,L,synonymous,NA,NA,True,2
+149775,OPG175_CDS_29,forward,G->A,GA,True,2,Node38,TGA,*,MK783030|3025|Nigeria_Rivers_State|2017-11-30,TAA,*,synonymous,NA,NA,False,1
+172965,NA,NA,C->T,TC,True,NA,Node38,NA,NA,MK783030|3025|Nigeria_Rivers_State|2017-11-30,NA,NA,intergenic,NA,NA,False,1
+174056,NA,NA,G->A,GA,True,NA,Node38,NA,NA,MK783030|3025|Nigeria_Rivers_State|2017-11-30,NA,NA,intergenic,NA,NA,False,1
+8385,NA,NA,C->T,TC,True,NA,Node38,NA,NA,Node39,NA,NA,intergenic,NA,NA,False,1
+29889,OPG047_CDS_152,reverse,G->A,GA,True,3,Node38,ATC,I,Node39,ATT,I,synonymous,NA,NA,False,1
+43118,OPG063_CDS_136,reverse,G->A,GA,True,3,Node38,CTC,L,Node39,CTT,L,synonymous,NA,NA,False,1
+113841,OPG133_CDS_67,reverse,C->T,TC,True,1,Node38,GAA,E,Node39,AAA,K,nonsynonymous,56,moderately conservative,False,1
+146607,OPG170_CDS_34,reverse,C->T,TC,True,3,Node38,CCG,P,Node39,CCA,P,synonymous,NA,NA,False,1
+28164,OPG044_CDS_155,forward,C->T,TC,True,3,Node39,CTC,L,Node40,CTT,L,synonymous,NA,NA,False,1
+87027,OPG108_CDS_92,reverse,C->T,GC,False,2,Node39,TGC,C,Node40,TAC,Y,nonsynonymous,194,radical,False,1
+121454,NA,NA,G->A,GA,True,NA,Node39,NA,NA,Node40,NA,NA,intergenic,NA,NA,False,1
+3531,OPG003_CDS_176,reverse,G->A,GA,True,2,Node40,TCG,S,Node41,TTG,L,nonsynonymous,145,moderately radical,False,1
+151621,OPG178_CDS_27,forward,T->G,,False,3,Node40,CTT,L,Node41,CTG,L,synonymous,NA,NA,False,1
+46685,OPG066_CDS_133,reverse,G->A,GA,True,2,Node40,TCG,S,unpublished|MPX/017/19|Nigeria_Rivers_State|2019-11-02,TTG,L,nonsynonymous,145,moderately radical,False,1
+144659,OPG167_CDS_35,reverse,G->A,GA,True,1,Node40,CTG,L,unpublished|MPX/017/19|Nigeria_Rivers_State|2019-11-02,TTG,L,synonymous,NA,NA,False,1
+165688,OPG190_CDS_20,forward,G->A,GT,False,1,Node40,GTC,V,unpublished|MPX/017/19|Nigeria_Rivers_State|2019-11-02,ATC,I,nonsynonymous,29,conservative,False,1
+40251,OPG058_CDS_141,reverse,C->T,TC,True,3,Node39,CCG,P,Node42,CCA,P,synonymous,NA,NA,False,1
+63801,OPG083_CDS_117,reverse,C->T,TC,True,3,Node39,TCG,S,Node42,TCA,S,synonymous,NA,NA,False,1
+162243,OPG188_CDS_22,forward,G->A,GA,True,1,Node39,GAA,E,Node42,AAA,K,nonsynonymous,56,moderately conservative,True,2
+162243,OPG188_CDS_22,forward,G->A,GA,True,1,Node19,GAA,E,Node20,AAA,K,nonsynonymous,56,moderately conservative,True,2
+63264,OPG082_CDS_118,reverse,C->T,TC,True,2,Node42,TGA,*,unpublished|MPX/021/19|Nigeria_Lagos_State|2019-04-01,TAA,*,synonymous,NA,NA,False,1
+104748,OPG123_CDS_77,reverse,T->C,,False,1,Node42,ATT,I,unpublished|MPX/021/19|Nigeria_Lagos_State|2019-04-01,GTT,V,nonsynonymous,29,conservative,False,1
+92830,OPG113_CDS_87,forward,C->T,TC,True,3,Node42,ATC,I,unpublished|MPX/046/19|Nigeria_Lagos_State|2019-05-10,ATT,I,synonymous,NA,NA,False,1
+180656,OPG209_CDS_8,forward,G->A,GA,True,2,Node42,CGA,R,unpublished|MPX/046/19|Nigeria_Lagos_State|2019-05-10,CAA,Q,nonsynonymous,43,conservative,False,1
+186423,OPG210_CDS_7,forward,G->A,GA,True,2,Node42,CGA,R,unpublished|MPX/046/19|Nigeria_Lagos_State|2019-05-10,CAA,Q,nonsynonymous,43,conservative,False,1
+154015,OPG180_CDS_26,forward,G->A,GA,True,2,Node2,CGA,R,Node25,CAA,Q,nonsynonymous,43,conservative,False,1
+10430,NA,NA,C->T,TC,True,NA,Node25,NA,NA,MK783032|3030|Nigeria_Rivers_State|2017-11,NA,NA,intergenic,NA,NA,False,1
+18699,OPG031_CDS_165,reverse,C->T,TC,True,3,Node25,TAG,*,MK783032|3030|Nigeria_Rivers_State|2017-11,TAA,*,synonymous,NA,NA,False,1
+26002,OPG042_CDS_157,reverse,G->A,GA,True,3,Node25,TTC,F,MK783032|3030|Nigeria_Rivers_State|2017-11,TTT,F,synonymous,NA,NA,False,1
+134814,NA,NA,C->T,TC,True,NA,Node25,NA,NA,MK783032|3030|Nigeria_Rivers_State|2017-11,NA,NA,intergenic,NA,NA,False,1
+143669,OPG165_CDS_36,forward,C->T,TC,True,2,Node25,TCT,S,MK783032|3030|Nigeria_Rivers_State|2017-11,TTT,F,nonsynonymous,155,radical,False,1
+180039,OPG208_CDS_9,forward,G->A,GA,True,1,Node25,GAC,D,MK783032|3030|Nigeria_Rivers_State|2017-11,AAC,N,nonsynonymous,23,conservative,False,1
+180827,OPG209_CDS_8,forward,G->A,GA,True,2,Node25,TGA,*,MK783032|3030|Nigeria_Rivers_State|2017-11,TAA,*,synonymous,NA,NA,False,1
+189317,OPG005_CDS_6,forward,G->A,GA,True,3,Node25,TAG,*,MK783032|3030|Nigeria_Rivers_State|2017-11,TAA,*,synonymous,NA,NA,False,1
+13298,NA,NA,C->T,AC,False,NA,Node25,NA,NA,Node26,NA,NA,intergenic,NA,NA,False,1
+18792,OPG031_CDS_165,reverse,C->T,TC,True,3,Node25,TTG,L,Node26,TTA,L,synonymous,NA,NA,False,1
+30636,OPG047_CDS_152,reverse,C->T,TC,True,3,Node25,TTG,L,Node26,TTA,L,synonymous,NA,NA,False,1
+34472,OPG053_CDS_146,reverse,C->T,TC,True,2,Node25,TGA,*,Node26,TAA,*,synonymous,NA,NA,False,1
+34578,OPG053_CDS_146,reverse,C->T,TC,True,1,Node25,GAG,E,Node26,AAG,K,nonsynonymous,56,moderately conservative,False,1
+80099,OPG103_CDS_97,forward,G->A,GA,True,1,Node25,GAG,E,Node26,AAG,K,nonsynonymous,56,moderately conservative,False,1
+93387,OPG113_CDS_87,forward,G->A,GA,True,2,Node25,AGA,R,Node26,AAA,K,nonsynonymous,26,conservative,False,1
+114659,OPG133_CDS_67,reverse,G->A,GG,False,2,Node25,CCA,P,Node26,CTA,L,nonsynonymous,98,moderately conservative,False,1
+124031,OPG145_CDS_55,forward,G->A,GA,True,2,Node25,AGA,R,Node26,AAA,K,nonsynonymous,26,conservative,False,1
+149265,OPG174_CDS_30,reverse,G->A,GA,True,1,Node25,CGA,R,Node26,TGA,*,nonsense,NA,NA,False,1
+149872,OPG176_CDS_28,forward,C->T,TC,True,2,Node25,TCA,S,Node26,TTA,L,nonsynonymous,145,moderately radical,False,1
+161953,OPG188_CDS_22,forward,C->T,TC,True,2,Node25,TCA,S,Node26,TTA,L,nonsynonymous,145,moderately radical,False,1
+165782,OPG190_CDS_20,forward,C->T,TC,True,2,Node25,TCC,S,Node26,TTC,F,nonsynonymous,155,radical,False,1
+168205,NA,NA,G->A,GC,False,NA,Node25,NA,NA,Node26,NA,NA,intergenic,NA,NA,False,1
+177720,OPG205_CDS_10,forward,C->T,TC,True,2,Node25,TCG,S,Node26,TTG,L,nonsynonymous,145,moderately radical,False,1
+25072,OPG040_CDS_158,reverse,C->T,TC,True,1,Node26,GAG,E,Node30,AAG,K,nonsynonymous,56,moderately conservative,False,1
+36898,OPG055_CDS_144,reverse,G->A,GA,True,2,Node30,TCG,S,Node31,TTG,L,nonsynonymous,145,moderately radical,False,1
+42183,OPG062_CDS_137,forward,G->A,GA,True,1,Node30,GAG,E,Node31,AAG,K,nonsynonymous,56,moderately conservative,False,1
+42903,OPG063_CDS_136,reverse,C->T,TC,True,2,Node30,TGA,*,Node31,TAA,*,synonymous,NA,NA,False,1
+50346,OPG069_CDS_131,forward,G->A,GA,True,2,Node30,AGA,R,Node31,AAA,K,nonsynonymous,26,conservative,False,1
+54268,OPG071_CDS_129,reverse,C->T,TC,True,2,Node30,CGA,R,Node31,CAA,Q,nonsynonymous,43,conservative,False,1
+73616,OPG093_CDS_107,forward,C->T,TC,True,1,Node30,CAA,Q,Node31,TAA,*,nonsense,NA,NA,False,1
+79406,OPG102_CDS_98,forward,G->A,GA,True,2,Node30,TGA,*,Node31,TAA,*,synonymous,NA,NA,False,1
+105746,OPG124_CDS_76,reverse,G->A,GA,True,3,Node30,ATC,I,Node31,ATT,I,synonymous,NA,NA,False,1
+140492,OPG160_CDS_41,reverse,A->C,,False,3,Node30,TCT,S,Node31,TCG,S,synonymous,NA,NA,False,1
+142498,OPG163_CDS_38,forward,C->T,TC,True,1,Node30,CAT,H,Node31,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+157737,NA,NA,C->T,TC,True,NA,Node30,NA,NA,Node31,NA,NA,intergenic,NA,NA,False,1
+161152,OPG187_CDS_23,forward,C->T,AC,False,1,Node30,CGG,R,Node31,TGG,W,nonsynonymous,101,moderately radical,False,1
+179537,OPG208_CDS_9,forward,C->T,TC,True,3,Node30,CTC,L,Node31,CTT,L,synonymous,NA,NA,False,1
+95936,OPG116_CDS_84,forward,T->A,,False,1,Node31,TCG,S,ON674051|FL001|USA|2022-05-22,ACG,T,nonsynonymous,58,moderately conservative,False,1
+112544,OPG132_CDS_68,reverse,C->T,TC,True,3,Node31,AAG,K,ON674051|FL001|USA|2022-05-22,AAA,K,synonymous,NA,NA,False,1
+163540,OPG189_CDS_21,forward,G->A,GA,True,2,Node31,GGA,G,ON674051|FL001|USA|2022-05-22,GAA,E,nonsynonymous,98,moderately conservative,False,1
+30868,OPG047_CDS_152,reverse,G->A,GA,True,2,Node31,TCT,S,unpublished|9000155|UK|2022-06-03,TTT,F,nonsynonymous,155,radical,False,1
+43103,OPG063_CDS_136,reverse,G->A,GA,True,3,Node31,ATC,I,unpublished|9000155|UK|2022-06-03,ATT,I,synonymous,NA,NA,False,1
+102599,OPG122_CDS_78,forward,G->A,GA,True,2,Node31,TGA,*,unpublished|9000155|UK|2022-06-03,TAA,*,synonymous,NA,NA,False,1
+164210,OPG189_CDS_21,forward,C->T,TC,True,3,Node31,CTC,L,unpublished|9000155|UK|2022-06-03,CTT,L,synonymous,NA,NA,False,1
+184924,OPG210_CDS_7,forward,C->T,TC,True,3,Node31,ATC,I,unpublished|9000155|UK|2022-06-03,ATT,I,synonymous,NA,NA,False,1
+90329,OPG111_CDS_89,forward,C->T,TC,True,3,Node30,ATC,I,unpublished|MPX/191/20|Nigeria|2020-01-23,ATT,I,synonymous,NA,NA,False,1
+132520,NA,NA,C->T,TC,True,NA,Node30,NA,NA,unpublished|MPX/191/20|Nigeria|2020-01-23,NA,NA,intergenic,NA,NA,False,1
+11332,OPG023_CDS_171,reverse,G->A,GA,True,2,Node26,TCG,S,ON675438|VA001|USA|2022-05-27,TTG,L,nonsynonymous,145,moderately radical,False,1
+12099,OPG023_CDS_171,reverse,G->A,GA,True,3,Node26,CTC,L,ON675438|VA001|USA|2022-05-27,CTT,L,synonymous,NA,NA,False,1
+13648,OPG025_CDS_169,reverse,C->T,AC,False,2,Node26,TGT,C,ON675438|VA001|USA|2022-05-27,TAT,Y,nonsynonymous,194,radical,False,1
+15105,OPG025_CDS_169,reverse,C->T,TC,True,3,Node26,ACG,T,ON675438|VA001|USA|2022-05-27,ACA,T,synonymous,NA,NA,False,1
+16227,OPG027_CDS_168,reverse,C->T,TC,True,3,Node26,CAG,Q,ON675438|VA001|USA|2022-05-27,CAA,Q,synonymous,NA,NA,False,1
+29887,OPG047_CDS_152,reverse,C->T,TC,True,2,Node26,CGA,R,ON675438|VA001|USA|2022-05-27,CAA,Q,nonsynonymous,43,conservative,True,2
+29887,OPG047_CDS_152,reverse,C->T,TC,True,2,Node12,CGA,R,OL504741|2091|UK_ex_Nigeria|2019-12-03,CAA,Q,nonsynonymous,43,conservative,True,2
+42101,OPG062_CDS_137,forward,C->T,TC,True,3,Node26,CTC,L,ON675438|VA001|USA|2022-05-27,CTT,L,synonymous,NA,NA,False,1
+64216,OPG083_CDS_117,reverse,G->A,GG,False,2,Node26,CCT,P,ON675438|VA001|USA|2022-05-27,CTT,L,nonsynonymous,98,moderately conservative,False,1
+75614,OPG096_CDS_104,forward,G->A,GA,True,2,Node26,CGA,R,ON675438|VA001|USA|2022-05-27,CAA,Q,nonsynonymous,43,conservative,False,1
+117119,OPG136_CDS_64,reverse,C->T,TC,True,2,Node26,CGA,R,ON675438|VA001|USA|2022-05-27,CAA,Q,nonsynonymous,43,conservative,False,1
+128534,OPG150_CDS_50,forward,C->T,TC,True,1,Node26,CAT,H,ON675438|VA001|USA|2022-05-27,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+130454,OPG151_CDS_49,forward,G->A,GA,True,2,Node26,TGA,*,ON675438|VA001|USA|2022-05-27,TAA,*,synonymous,NA,NA,False,1
+134442,NA,NA,C->T,TC,True,NA,Node26,NA,NA,ON675438|VA001|USA|2022-05-27,NA,NA,intergenic,NA,NA,False,1
+142918,OPG164_CDS_37,forward,C->T,TC,True,1,Node26,CAT,H,ON675438|VA001|USA|2022-05-27,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+144446,NA,NA,G->A,GA,True,NA,Node26,NA,NA,ON675438|VA001|USA|2022-05-27,NA,NA,intergenic,NA,NA,False,1
+164832,OPG189_CDS_21,forward,C->T,TC,True,1,Node26,CGA,R,ON675438|VA001|USA|2022-05-27,TGA,*,nonsense,NA,NA,True,2
+164832,OPG189_CDS_21,forward,C->T,TC,True,1,Node2,CGA,R,Node8,TGA,*,nonsense,NA,NA,True,2
+168532,OPG195_CDS_16,forward,C->T,TC,True,1,Node26,CAG,Q,ON675438|VA001|USA|2022-05-27,TAG,*,nonsense,NA,NA,False,1
+174610,OPG204_CDS_11,forward,G->A,GA,True,2,Node26,CGA,R,ON675438|VA001|USA|2022-05-27,CAA,Q,nonsynonymous,43,conservative,False,1
+179628,OPG208_CDS_9,forward,A->G,,False,1,Node26,AAT,N,ON675438|VA001|USA|2022-05-27,GAT,D,nonsynonymous,23,conservative,False,1
+179853,OPG208_CDS_9,forward,C->T,TC,True,1,Node26,CGG,R,ON675438|VA001|USA|2022-05-27,TGG,W,nonsynonymous,101,moderately radical,False,1
+188544,NA,NA,G->A,GA,True,NA,Node26,NA,NA,ON675438|VA001|USA|2022-05-27,NA,NA,intergenic,NA,NA,False,1
+2752,NA,NA,G->A,GA,True,NA,Node26,NA,NA,ON676707|USA_2021_TX|USA|2021-07-15,NA,NA,intergenic,NA,NA,False,1
+39173,OPG057_CDS_142,reverse,G->A,GA,True,2,Node26,TCA,S,ON676707|USA_2021_TX|USA|2021-07-15,TTA,L,nonsynonymous,145,moderately radical,False,1
+57284,OPG075_CDS_125,reverse,C->T,TC,True,1,Node26,GAA,E,ON676707|USA_2021_TX|USA|2021-07-15,AAA,K,nonsynonymous,56,moderately conservative,False,1
+74226,OPG094_CDS_106,forward,C->T,TC,True,1,Node26,CGG,R,ON676707|USA_2021_TX|USA|2021-07-15,TGG,W,nonsynonymous,101,moderately radical,False,1
+100640,OPG119_CDS_81,forward,C->T,TC,True,1,Node26,CAG,Q,ON676707|USA_2021_TX|USA|2021-07-15,TAG,*,nonsense,NA,NA,False,1
+118739,OPG136_CDS_64,reverse,G->A,GA,True,2,Node26,TCA,S,ON676707|USA_2021_TX|USA|2021-07-15,TTA,L,nonsynonymous,145,moderately radical,False,1
+142636,OPG163_CDS_38,forward,G->A,GA,True,1,Node26,GAA,E,ON676707|USA_2021_TX|USA|2021-07-15,AAA,K,nonsynonymous,56,moderately conservative,False,1
+146223,OPG170_CDS_34,reverse,C->T,TC,True,3,Node26,ACG,T,ON676707|USA_2021_TX|USA|2021-07-15,ACA,T,synonymous,NA,NA,False,1
+148427,OPG174_CDS_30,reverse,G->A,GA,True,2,Node26,TCA,S,ON676707|USA_2021_TX|USA|2021-07-15,TTA,L,nonsynonymous,145,moderately radical,False,1
+150800,NA,NA,G->A,GA,True,NA,Node26,NA,NA,ON676707|USA_2021_TX|USA|2021-07-15,NA,NA,intergenic,NA,NA,False,1
+168365,OPG195_CDS_16,forward,G->A,GA,True,2,Node26,CGA,R,ON676707|USA_2021_TX|USA|2021-07-15,CAA,Q,nonsynonymous,43,conservative,True,2
+168365,OPG195_CDS_16,forward,G->A,GA,True,2,Node22,CGA,R,unpublished|MPX/058/19|Nigeria_Enugu_State|2019-07-11,CAA,Q,nonsynonymous,43,conservative,True,2
+170317,OPG198_CDS_14,forward,G->A,GA,True,2,Node26,CGA,R,ON676707|USA_2021_TX|USA|2021-07-15,CAA,Q,nonsynonymous,43,conservative,False,1
+172527,OPG200_CDS_12,forward,G->A,GA,True,1,Node26,GAA,E,ON676707|USA_2021_TX|USA|2021-07-15,AAA,K,nonsynonymous,56,moderately conservative,False,1
+175759,OPG205_CDS_10,forward,C->T,GC,False,3,Node26,TGC,C,ON676707|USA_2021_TX|USA|2021-07-15,TGT,C,synonymous,NA,NA,False,1
+186104,OPG210_CDS_7,forward,C->T,TC,True,1,Node26,CGA,R,ON676707|USA_2021_TX|USA|2021-07-15,TGA,*,nonsense,NA,NA,False,1
+189417,OPG005_CDS_6,forward,G->A,GA,True,1,Node26,GAA,E,ON676707|USA_2021_TX|USA|2021-07-15,AAA,K,nonsynonymous,56,moderately conservative,False,1
+189474,OPG005_CDS_6,forward,C->T,TC,True,1,Node26,CAG,Q,ON676707|USA_2021_TX|USA|2021-07-15,TAG,*,nonsense,NA,NA,False,1
+144876,OPG167_CDS_35,reverse,G->A,GA,True,3,Node26,ATC,I,unpublished|MPX/111/19|Nigeria_Rivers_State|2019-12-17,ATT,I,synonymous,NA,NA,False,1
+11948,OPG023_CDS_171,reverse,G->A,GA,True,1,Node26,CTT,L,unpublished|9000166|UK|2022-06-29,TTT,F,nonsynonymous,22,conservative,False,1
+13686,OPG025_CDS_169,reverse,C->T,TC,True,3,Node26,TAG,*,unpublished|9000166|UK|2022-06-29,TAA,*,synonymous,NA,NA,False,1
+14790,OPG025_CDS_169,reverse,C->T,TC,True,3,Node26,TTG,L,unpublished|9000166|UK|2022-06-29,TTA,L,synonymous,NA,NA,False,1
+21861,OPG037_CDS_161,reverse,C->T,TC,True,2,Node26,TGA,*,unpublished|9000166|UK|2022-06-29,TAA,*,synonymous,NA,NA,False,1
+21991,OPG037_CDS_161,reverse,G->A,GA,True,1,Node26,CAG,Q,unpublished|9000166|UK|2022-06-29,TAG,*,nonsense,NA,NA,False,1
+23118,OPG038_CDS_160,reverse,G->A,GA,True,2,Node26,TCG,S,unpublished|9000166|UK|2022-06-29,TTG,L,nonsynonymous,145,moderately radical,False,1
+27826,OPG043_CDS_156,reverse,C->T,TC,True,3,Node26,ACG,T,unpublished|9000166|UK|2022-06-29,ACA,T,synonymous,NA,NA,False,1
+38923,OPG056_CDS_143,reverse,G->A,GA,True,3,Node26,GTC,V,unpublished|9000166|UK|2022-06-29,GTT,V,synonymous,NA,NA,False,1
+39515,OPG057_CDS_142,reverse,G->A,GA,True,2,Node26,TCA,S,unpublished|9000166|UK|2022-06-29,TTA,L,nonsynonymous,145,moderately radical,False,1
+56546,OPG074_CDS_126,reverse,G->A,GA,True,3,Node26,TTC,F,unpublished|9000166|UK|2022-06-29,TTT,F,synonymous,NA,NA,False,1
+57786,OPG077_CDS_123,reverse,G->A,GA,True,2,Node26,TCG,S,unpublished|9000166|UK|2022-06-29,TTG,L,nonsynonymous,145,moderately radical,False,1
+59282,OPG079_CDS_121,reverse,G->A,GA,True,3,Node26,TTC,F,unpublished|9000166|UK|2022-06-29,TTT,F,synonymous,NA,NA,False,1
+65743,OPG084_CDS_116,forward,C->A,,False,3,Node26,ACC,T,unpublished|9000166|UK|2022-06-29,ACA,T,synonymous,NA,NA,False,1
+85356,OPG106_CDS_94,reverse,G->A,GA,True,1,Node26,CTG,L,unpublished|9000166|UK|2022-06-29,TTG,L,synonymous,NA,NA,False,1
+93312,OPG113_CDS_87,forward,G->A,GT,False,2,Node26,TGT,C,unpublished|9000166|UK|2022-06-29,TAT,Y,nonsynonymous,194,radical,False,1
+103019,OPG122_CDS_78,forward,C->T,TC,True,2,Node26,TCA,S,unpublished|9000166|UK|2022-06-29,TTA,L,nonsynonymous,145,moderately radical,False,1
+112470,OPG132_CDS_68,reverse,C->T,TC,True,2,Node26,TGA,*,unpublished|9000166|UK|2022-06-29,TAA,*,synonymous,NA,NA,False,1
+124129,OPG145_CDS_55,forward,C->T,TC,True,1,Node26,CGA,R,unpublished|9000166|UK|2022-06-29,TGA,*,nonsense,NA,NA,False,1
+135303,NA,NA,G->A,GA,True,NA,Node26,NA,NA,unpublished|9000166|UK|2022-06-29,NA,NA,intergenic,NA,NA,False,1
+145902,NA,NA,G->A,GT,False,NA,Node26,NA,NA,unpublished|9000166|UK|2022-06-29,NA,NA,intergenic,NA,NA,False,1
+149365,OPG174_CDS_30,reverse,C->T,CC,False,3,Node26,CCG,P,unpublished|9000166|UK|2022-06-29,CCA,P,synonymous,NA,NA,False,1
+151112,NA,NA,G->A,GA,True,NA,Node26,NA,NA,unpublished|9000166|UK|2022-06-29,NA,NA,intergenic,NA,NA,False,1
+155611,NA,NA,G->A,GA,True,NA,Node26,NA,NA,unpublished|9000166|UK|2022-06-29,NA,NA,intergenic,NA,NA,False,1
+158424,NA,NA,G->A,GA,True,NA,Node26,NA,NA,unpublished|9000166|UK|2022-06-29,NA,NA,intergenic,NA,NA,False,1
+162640,OPG188_CDS_22,forward,G->A,GG,False,2,Node26,CGG,R,unpublished|9000166|UK|2022-06-29,CAG,Q,nonsynonymous,43,conservative,False,1
+174721,OPG204_CDS_11,forward,G->A,GC,False,2,Node26,CGC,R,unpublished|9000166|UK|2022-06-29,CAC,H,nonsynonymous,29,conservative,False,1
+186984,OPG210_CDS_7,forward,G->A,GA,True,2,Node26,TGA,*,unpublished|9000166|UK|2022-06-29,TAA,*,synonymous,NA,NA,False,1
+188491,NA,NA,C->T,TC,True,NA,Node26,NA,NA,unpublished|9000166|UK|2022-06-29,NA,NA,intergenic,NA,NA,False,1
+3093,OPG003_CDS_176,reverse,G->A,GA,True,2,Node26,TCG,S,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,TTG,L,nonsynonymous,145,moderately radical,False,1
+6376,NA,NA,G->A,GA,True,NA,Node26,NA,NA,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,NA,NA,intergenic,NA,NA,False,1
+15390,NA,NA,C->T,TC,True,NA,Node26,NA,NA,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,NA,NA,intergenic,NA,NA,False,1
+24824,OPG040_CDS_158,reverse,C->T,TC,True,3,Node26,TCG,S,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,TCA,S,synonymous,NA,NA,False,1
+27403,OPG043_CDS_156,reverse,C->T,TC,True,3,Node26,ATG,M,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,ATA,I,nonsynonymous,10,conservative,False,1
+27661,OPG043_CDS_156,reverse,G->A,GA,True,3,Node26,TTC,F,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,TTT,F,synonymous,NA,NA,False,1
+30539,OPG047_CDS_152,reverse,C->T,TC,True,1,Node26,GAG,E,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,AAG,K,nonsynonymous,56,moderately conservative,False,1
+30588,OPG047_CDS_152,reverse,G->A,GA,True,3,Node26,ATC,I,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,ATT,I,synonymous,NA,NA,False,1
+33544,OPG051_CDS_148,reverse,C->T,TC,True,3,Node26,ATG,M,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,ATA,I,nonsynonymous,10,conservative,False,1
+36214,OPG055_CDS_144,reverse,G->A,GA,True,2,Node26,TCA,S,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,TTA,L,nonsynonymous,145,moderately radical,False,1
+41161,OPG060_CDS_139,reverse,C->T,TC,True,3,Node26,TAG,*,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,TAA,*,synonymous,NA,NA,False,1
+47078,OPG066_CDS_133,reverse,G->A,GA,True,2,Node26,TCC,S,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,TTC,F,nonsynonymous,155,radical,False,1
+56644,OPG074_CDS_126,reverse,C->T,TC,True,1,Node26,GAG,E,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,AAG,K,nonsynonymous,56,moderately conservative,False,1
+71766,OPG091_CDS_109,forward,G->A,GA,True,2,Node26,AGA,R,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,AAA,K,nonsynonymous,26,conservative,False,1
+82704,OPG105_CDS_95,forward,G->A,GA,True,2,Node26,CGA,R,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,CAA,Q,nonsynonymous,43,conservative,False,1
+112712,OPG132_CDS_68,reverse,C->T,TC,True,3,Node26,TCG,S,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,TCA,S,synonymous,NA,NA,False,1
+121997,OPG142_CDS_58,reverse,G->A,GA,True,3,Node26,ATC,I,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,ATT,I,synonymous,NA,NA,False,1
+146609,OPG170_CDS_34,reverse,G->A,GA,True,1,Node26,CCG,P,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,TCG,S,nonsynonymous,74,moderately conservative,False,1
+156437,NA,NA,C->T,TC,True,NA,Node26,NA,NA,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,NA,NA,intergenic,NA,NA,False,1
+162936,OPG188_CDS_22,forward,C->T,TC,True,1,Node26,CAA,Q,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,TAA,*,nonsense,NA,NA,False,1
+164886,OPG189_CDS_21,forward,G->A,GA,True,1,Node26,GAG,E,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,AAG,K,nonsynonymous,56,moderately conservative,False,1
+172348,OPG200_CDS_12,forward,G->A,GA,True,2,Node26,CGA,R,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,CAA,Q,nonsynonymous,43,conservative,False,1
+172354,OPG200_CDS_12,forward,C->T,TC,True,2,Node26,TCG,S,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,TTG,L,nonsynonymous,145,moderately radical,False,1
+181806,OPG210_CDS_7,forward,C->T,TC,True,2,Node26,TCT,S,EPI_ISL_13983888|NIC-74|A.2|Thailand_ex_Nigeria|2022-07-17,TTT,F,nonsynonymous,155,radical,False,1
+23564,OPG039_CDS_159,reverse,C->T,TC,True,2,Node2,CGA,R,Node8,CAA,Q,nonsynonymous,43,conservative,False,1
+72362,OPG092_CDS_108,reverse,C->T,TC,True,3,Node2,CTG,L,Node8,CTA,L,synonymous,NA,NA,False,1
+83326,OPG105_CDS_95,forward,C->T,TC,True,3,Node2,TTC,F,Node8,TTT,F,synonymous,NA,NA,False,1
+87230,OPG109_CDS_91,reverse,G->A,GA,True,3,Node2,ATC,I,Node8,ATT,I,synonymous,NA,NA,False,1
+87297,OPG109_CDS_91,reverse,G->A,GA,True,2,Node2,TCG,S,Node8,TTG,L,nonsynonymous,145,moderately radical,False,1
+91728,NA,NA,G->A,GA,True,NA,Node2,NA,NA,Node8,NA,NA,intergenic,NA,NA,False,1
+119296,OPG136_CDS_64,reverse,C->T,TC,True,3,Node2,TAG,*,Node8,TAA,*,synonymous,NA,NA,False,1
+121320,OPG139_CDS_61,reverse,C->T,GC,False,3,Node2,TCG,S,Node8,TCA,S,synonymous,NA,NA,False,1
+125249,OPG145_CDS_55,forward,G->A,GA,True,2,Node2,AGA,R,Node8,AAA,K,nonsynonymous,26,conservative,False,1
+148412,OPG174_CDS_30,reverse,G->A,GA,True,2,Node2,TCT,S,Node8,TTT,F,nonsynonymous,155,radical,False,1
+168120,OPG193_CDS_17,forward,C->T,TC,True,2,Node2,TCT,S,Node8,TTT,F,nonsynonymous,155,radical,False,1
+8772,NA,NA,C->T,TC,True,NA,Node8,NA,NA,MN648051|Israel_2018|Israel_ex_Nigeria|2018-10-04,NA,NA,intergenic,NA,NA,False,1
+91363,OPG112_CDS_88,forward,C->T,CC,False,1,Node8,CAT,H,MN648051|Israel_2018|Israel_ex_Nigeria|2018-10-04,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+147593,OPG172_CDS_32,forward,A->T,,False,3,Node8,TGA,*,MN648051|Israel_2018|Israel_ex_Nigeria|2018-10-04,TGT,C,nonsynonymous,NA,NA,False,1
+177273,OPG205_CDS_10,forward,G->A,GA,True,2,Node8,TGA,*,MN648051|Israel_2018|Israel_ex_Nigeria|2018-10-04,TAA,*,synonymous,NA,NA,False,1
+151929,OPG178_CDS_27,forward,G->A,GA,True,2,Node8,CGA,R,Node12,CAA,Q,nonsynonymous,43,conservative,False,1
+39767,OPG057_CDS_142,reverse,C->T,TC,True,2,Node12,CGA,R,Node14,CAA,Q,nonsynonymous,43,conservative,False,1
+170573,OPG198_CDS_14,forward,C->T,TC,True,3,Node14,TTC,F,MT250197|Singapore_2019|Singapore_ex_Nigeria|2019-05-08,TTT,F,synonymous,NA,NA,False,1
+81523,OPG105_CDS_95,forward,G->A,GC,False,3,Node12,CAG,Q,unpublished|MPX/042/19|Nigeria_Delta_State|2019-04-18,CAA,Q,synonymous,NA,NA,False,1
+141757,OPG162_CDS_39,forward,C->T,TC,True,2,Node12,TCT,S,unpublished|MPX/042/19|Nigeria_Delta_State|2019-04-18,TTT,F,nonsynonymous,155,radical,False,1
+13065,OPG024_CDS_170,reverse,C->T,TC,True,1,Node12,GAG,E,OL504741|2091|UK_ex_Nigeria|2019-12-03,AAG,K,nonsynonymous,56,moderately conservative,False,1
+61329,OPG080_CDS_120,reverse,G->A,GC,False,2,Node12,GCA,A,OL504741|2091|UK_ex_Nigeria|2019-12-03,GTA,V,nonsynonymous,64,moderately conservative,False,1
+72206,OPG092_CDS_108,reverse,C->T,TC,True,3,Node12,TAG,*,OL504741|2091|UK_ex_Nigeria|2019-12-03,TAA,*,synonymous,NA,NA,False,1
+103431,OPG123_CDS_77,reverse,G->A,GA,True,1,Node12,CAC,H,OL504741|2091|UK_ex_Nigeria|2019-12-03,TAC,Y,nonsynonymous,83,moderately conservative,False,1
+165369,OPG190_CDS_20,forward,C->T,TC,True,3,Node12,CTC,L,OL504741|2091|UK_ex_Nigeria|2019-12-03,CTT,L,synonymous,NA,NA,False,1
+188949,NA,NA,G->A,GA,True,NA,Node12,NA,NA,OL504741|2091|UK_ex_Nigeria|2019-12-03,NA,NA,intergenic,NA,NA,False,1
+11727,OPG023_CDS_171,reverse,C->T,TC,True,3,Node8,TCG,S,MT903341|MPXV-M5320_M15_Bayelsa|Nigeria_Bayelsa_State|2018-08-14,TCA,S,synonymous,NA,NA,False,1
+39139,OPG057_CDS_142,reverse,C->T,TC,True,3,Node8,GCG,A,MT903341|MPXV-M5320_M15_Bayelsa|Nigeria_Bayelsa_State|2018-08-14,GCA,A,synonymous,NA,NA,True,2
+39139,OPG057_CDS_142,reverse,C->T,TC,True,3,Node24,GCG,A,ON563414|MA001|USA|2022-05-19,GCA,A,synonymous,NA,NA,True,2
+28838,OPG045_CDS_154,reverse,G->A,GC,False,1,Node8,CGA,R,MT903343|MPXV-UK_P1|UK_ex_Nigeria|2018-09-07,TGA,*,nonsense,NA,NA,False,1
+92349,OPG113_CDS_87,forward,G->A,GA,True,2,Node8,TGA,*,MT903343|MPXV-UK_P1|UK_ex_Nigeria|2018-09-07,TAA,*,synonymous,NA,NA,False,1
+188494,NA,NA,G->A,GG,False,NA,Node8,NA,NA,MT903343|MPXV-UK_P1|UK_ex_Nigeria|2018-09-07,NA,NA,intergenic,NA,NA,False,1
+25661,NA,NA,G->A,GA,True,NA,Node8,NA,NA,Node19,NA,NA,intergenic,NA,NA,False,1
+39119,OPG057_CDS_142,reverse,C->T,TC,True,2,Node8,AGA,R,Node19,AAA,K,nonsynonymous,26,conservative,False,1
+1262,OPG001_CDS_178,reverse,G->A,GA,True,1,Node20,CAT,H,Node22,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+3818,OPG003_CDS_176,reverse,C->T,TC,True,3,Node20,TTG,L,Node22,TTA,L,synonymous,NA,NA,False,1
+124130,OPG145_CDS_55,forward,G->A,GA,True,2,Node20,CGA,R,Node22,CAA,Q,nonsynonymous,43,conservative,False,1
+128698,OPG150_CDS_50,forward,C->T,TC,True,3,Node20,GTC,V,Node22,GTT,V,synonymous,NA,NA,False,1
+81275,OPG105_CDS_95,forward,G->A,GA,True,1,Node22,GAC,D,Node23,AAC,N,nonsynonymous,23,conservative,False,1
+2591,OPG002_CDS_177,reverse,G->A,GA,True,1,Node23,CCA,P,Node24,TCA,S,nonsynonymous,74,moderately conservative,False,1
+3522,OPG003_CDS_176,reverse,G->A,GA,True,2,Node23,TCG,S,Node24,TTG,L,nonsynonymous,145,moderately radical,False,1
+7771,OPG019_CDS_174,forward,C->T,TC,True,1,Node23,CGA,R,Node24,TGA,*,nonsense,NA,NA,False,1
+14000,OPG025_CDS_169,reverse,G->T,,False,1,Node23,CCC,P,Node24,ACC,T,nonsynonymous,38,conservative,False,1
+15428,NA,NA,G->A,GA,True,NA,Node23,NA,NA,Node24,NA,NA,intergenic,NA,NA,False,1
+21723,OPG037_CDS_161,reverse,G->A,GA,True,2,Node23,TCG,S,Node24,TTG,L,nonsynonymous,145,moderately radical,False,1
+30367,OPG047_CDS_152,reverse,G->A,GA,True,2,Node23,TCA,S,Node24,TTA,L,nonsynonymous,145,moderately radical,False,1
+31053,OPG047_CDS_152,reverse,G->A,GA,True,3,Node23,TTC,F,Node24,TTT,F,synonymous,NA,NA,False,1
+34459,OPG053_CDS_146,reverse,G->A,GA,True,3,Node23,TTC,F,Node24,TTT,F,synonymous,NA,NA,False,1
+37202,OPG056_CDS_143,reverse,G->A,GA,True,2,Node23,TCA,S,Node24,TTA,L,nonsynonymous,145,moderately radical,False,1
+38360,OPG056_CDS_143,reverse,G->A,GA,True,2,Node23,TCG,S,Node24,TTG,L,nonsynonymous,145,moderately radical,False,1
+38662,OPG056_CDS_143,reverse,C->T,TC,True,3,Node23,TTG,L,Node24,TTA,L,synonymous,NA,NA,False,1
+52885,OPG071_CDS_129,reverse,G->A,GA,True,2,Node23,TCA,S,Node24,TTA,L,nonsynonymous,145,moderately radical,False,1
+54117,OPG071_CDS_129,reverse,G->A,GA,True,3,Node23,TTC,F,Node24,TTT,F,synonymous,NA,NA,False,1
+54635,OPG072_CDS_128,forward,G->A,GA,True,2,Node23,GGA,G,Node24,GAA,E,nonsynonymous,98,moderately conservative,False,1
+64297,OPG083_CDS_117,reverse,G->A,GA,True,2,Node23,TCG,S,Node24,TTG,L,nonsynonymous,145,moderately radical,False,1
+73066,OPG093_CDS_107,forward,C->T,TC,True,3,Node23,CTC,L,Node24,CTT,L,synonymous,NA,NA,False,1
+82373,OPG105_CDS_95,forward,C->T,TC,True,1,Node23,CGA,R,Node24,TGA,*,nonsense,NA,NA,False,1
+82451,OPG105_CDS_95,forward,G->A,GA,True,1,Node23,GAC,D,Node24,AAC,N,nonsynonymous,23,conservative,False,1
+95034,OPG115_CDS_85,forward,G->A,GC,False,1,Node23,GCC,A,Node24,ACC,T,nonsynonymous,58,moderately conservative,False,1
+124674,OPG145_CDS_55,forward,G->A,GA,True,3,Node23,CCG,P,Node24,CCA,P,synonymous,NA,NA,False,1
+162331,OPG188_CDS_22,forward,C->T,TC,True,2,Node23,TCT,S,Node24,TTT,F,nonsynonymous,155,radical,False,1
+178133,NA,NA,G->A,GA,True,NA,Node23,NA,NA,Node24,NA,NA,intergenic,NA,NA,False,1
+181980,OPG210_CDS_7,forward,G->A,GA,True,2,Node23,TGA,*,Node24,TAA,*,synonymous,NA,NA,False,1
+186578,OPG210_CDS_7,forward,G->A,GA,True,1,Node23,GAG,E,Node24,AAG,K,nonsynonymous,56,moderately conservative,False,1
+3111,OPG003_CDS_176,reverse,G->A,GA,True,2,Node24,TCC,S,ON563414|MA001|USA|2022-05-19,TTC,F,nonsynonymous,155,radical,False,1
+73239,OPG093_CDS_107,forward,G->A,GA,True,2,Node24,AGA,R,ON563414|MA001|USA|2022-05-19,AAA,K,nonsynonymous,26,conservative,False,1
+74205,OPG094_CDS_106,forward,G->A,GA,True,1,Node24,GAA,E,ON563414|MA001|USA|2022-05-19,AAA,K,nonsynonymous,56,moderately conservative,False,1
+77383,OPG098_CDS_102,forward,G->A,GA,True,2,Node24,TGA,*,ON563414|MA001|USA|2022-05-19,TAA,*,synonymous,NA,NA,False,1
+84587,OPG105_CDS_95,forward,C->T,TC,True,1,Node24,CGG,R,ON563414|MA001|USA|2022-05-19,TGG,W,nonsynonymous,101,moderately radical,False,1
+150469,OPG176_CDS_28,forward,C->T,TC,True,2,Node24,TCA,S,ON563414|MA001|USA|2022-05-19,TTA,L,nonsynonymous,145,moderately radical,False,1
+151461,NA,NA,A->C,,False,NA,Node24,NA,NA,ON563414|MA001|USA|2022-05-19,NA,NA,intergenic,NA,NA,False,1
+155795,NA,NA,G->A,GG,False,NA,Node24,NA,NA,ON563414|MA001|USA|2022-05-19,NA,NA,intergenic,NA,NA,False,1
+170262,OPG198_CDS_14,forward,G->A,GG,False,1,Node24,GGA,G,ON563414|MA001|USA|2022-05-19,AGA,R,nonsynonymous,125,moderately radical,False,1
+183519,OPG210_CDS_7,forward,C->T,TC,True,2,Node24,TCC,S,ON563414|MA001|USA|2022-05-19,TTC,F,nonsynonymous,155,radical,False,1
+79348,OPG102_CDS_98,forward,C->T,TC,True,1,Node24,CAT,H,ON676708|USA_2021_MD|USA|2021-11-16,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+86979,OPG108_CDS_92,reverse,C->T,GC,False,2,Node24,AGC,S,ON676708|USA_2021_MD|USA|2021-11-16,AAC,N,nonsynonymous,46,conservative,False,1
+133714,NA,NA,C->T,TC,True,NA,Node24,NA,NA,ON676708|USA_2021_MD|USA|2021-11-16,NA,NA,intergenic,NA,NA,False,1
+88640,OPG109_CDS_91,reverse,G->A,GA,True,3,Node23,ATC,I,unpublished|MPX/053/19|Nigeria_Delta_State|2019-06-26,ATT,I,synonymous,NA,NA,False,1
+756,NA,NA,C->T,TC,True,NA,Node22,NA,NA,unpublished|MPX/058/19|Nigeria_Enugu_State|2019-07-11,NA,NA,intergenic,NA,NA,False,1
+2039,OPG002_CDS_177,reverse,G->A,GA,True,1,Node22,CAG,Q,unpublished|MPX/058/19|Nigeria_Enugu_State|2019-07-11,TAG,*,nonsense,NA,NA,True,2
+2039,OPG002_CDS_177,reverse,G->A,GA,True,1,Node8,CAG,Q,Node16,TAG,*,nonsense,NA,NA,True,2
+188605,NA,NA,C->A,,False,NA,Node22,NA,NA,unpublished|MPX/058/19|Nigeria_Enugu_State|2019-07-11,NA,NA,intergenic,NA,NA,False,1
+188606,NA,NA,A->C,,False,NA,Node22,NA,NA,unpublished|MPX/058/19|Nigeria_Enugu_State|2019-07-11,NA,NA,intergenic,NA,NA,False,1
+188607,NA,NA,G->A,GC,False,NA,Node22,NA,NA,unpublished|MPX/058/19|Nigeria_Enugu_State|2019-07-11,NA,NA,intergenic,NA,NA,False,1
+8500,NA,NA,C->T,TC,True,NA,Node19,NA,NA,unpublished|MPX/018/19|Nigeria_Delta_State|2019-03-14,NA,NA,intergenic,NA,NA,False,1
+79538,OPG102_CDS_98,forward,G->A,GA,True,2,Node19,GGA,G,unpublished|MPX/018/19|Nigeria_Delta_State|2019-03-14,GAA,E,nonsynonymous,98,moderately conservative,False,1
+81354,OPG105_CDS_95,forward,G->A,GA,True,2,Node19,TGA,*,unpublished|MPX/018/19|Nigeria_Delta_State|2019-03-14,TAA,*,synonymous,NA,NA,False,1
+84416,OPG105_CDS_95,forward,G->A,GA,True,1,Node19,GAT,D,unpublished|MPX/018/19|Nigeria_Delta_State|2019-03-14,AAT,N,nonsynonymous,23,conservative,False,1
+88736,OPG109_CDS_91,reverse,C->T,TC,True,3,Node19,TAG,*,unpublished|MPX/018/19|Nigeria_Delta_State|2019-03-14,TAA,*,synonymous,NA,NA,False,1
+100642,OPG119_CDS_81,forward,G->A,GA,True,3,Node19,CAG,Q,unpublished|MPX/018/19|Nigeria_Delta_State|2019-03-14,CAA,Q,synonymous,NA,NA,False,1
+138791,OPG156_CDS_45,reverse,C->T,TC,True,3,Node19,TTG,L,unpublished|MPX/018/19|Nigeria_Delta_State|2019-03-14,TTA,L,synonymous,NA,NA,False,1
+161616,OPG188_CDS_22,forward,C->T,TC,True,1,Node19,CGG,R,unpublished|MPX/018/19|Nigeria_Delta_State|2019-03-14,TGG,W,nonsynonymous,101,moderately radical,False,1
+11555,OPG023_CDS_171,reverse,C->T,TC,True,1,Node8,GAG,E,unpublished|MPX/003/19|Nigeria_Bayelsa_State|2019-01-12,AAG,K,nonsynonymous,56,moderately conservative,False,1
+28645,OPG045_CDS_154,reverse,G->A,GA,True,2,Node8,TCA,S,unpublished|MPX/003/19|Nigeria_Bayelsa_State|2019-01-12,TTA,L,nonsynonymous,145,moderately radical,False,1
+75967,OPG097_CDS_103,reverse,G->A,GC,False,2,Node8,GCG,A,unpublished|MPX/003/19|Nigeria_Bayelsa_State|2019-01-12,GTG,V,nonsynonymous,64,moderately conservative,False,1
+94840,OPG115_CDS_85,forward,G->A,GA,True,2,Node8,CGA,R,unpublished|MPX/003/19|Nigeria_Bayelsa_State|2019-01-12,CAA,Q,nonsynonymous,43,conservative,False,1
+188503,NA,NA,C->T,TC,True,NA,Node8,NA,NA,unpublished|MPX/003/19|Nigeria_Bayelsa_State|2019-01-12,NA,NA,intergenic,NA,NA,False,1
+1231,OPG001_CDS_178,reverse,A->G,,False,2,Node8,CTG,L,unpublished|MPX/039/19|Nigeria_Bayelsa_State|2019-04-20,CCG,P,nonsynonymous,98,moderately conservative,False,1
+22971,OPG038_CDS_160,reverse,G->A,GA,True,2,Node8,TCG,S,unpublished|MPX/039/19|Nigeria_Bayelsa_State|2019-04-20,TTG,L,nonsynonymous,145,moderately radical,False,1
+23711,OPG039_CDS_159,reverse,G->A,GA,True,2,Node8,TCA,S,unpublished|MPX/039/19|Nigeria_Bayelsa_State|2019-04-20,TTA,L,nonsynonymous,145,moderately radical,False,1
+33177,NA,NA,G->A,GA,True,NA,Node8,NA,NA,unpublished|MPX/039/19|Nigeria_Bayelsa_State|2019-04-20,NA,NA,intergenic,NA,NA,False,1
+77635,OPG098_CDS_102,forward,G->A,GA,True,2,Node8,AGA,R,unpublished|MPX/039/19|Nigeria_Bayelsa_State|2019-04-20,AAA,K,nonsynonymous,26,conservative,False,1
+83496,OPG105_CDS_95,forward,C->T,TC,True,2,Node8,TCT,S,unpublished|MPX/039/19|Nigeria_Bayelsa_State|2019-04-20,TTT,F,nonsynonymous,155,radical,False,1
+90945,OPG111_CDS_89,forward,C->T,TC,True,1,Node8,CAA,Q,unpublished|MPX/039/19|Nigeria_Bayelsa_State|2019-04-20,TAA,*,nonsense,NA,NA,False,1
+138571,OPG156_CDS_45,reverse,G->A,GT,False,1,Node8,CAA,Q,unpublished|MPX/039/19|Nigeria_Bayelsa_State|2019-04-20,TAA,*,nonsense,NA,NA,False,1
+1126,OPG001_CDS_178,reverse,G->A,GA,True,2,Node8,TCG,S,Node16,TTG,L,nonsynonymous,145,moderately radical,False,1
+69017,OPG087_CDS_113,forward,C->T,TC,True,3,Node16,TTC,F,unpublished|MPX/040/19|Nigeria_Bayelsa_State|2019-04-20,TTT,F,synonymous,NA,NA,False,1
+150406,OPG176_CDS_28,forward,C->T,AC,False,2,Node16,ACT,T,unpublished|MPX/040/19|Nigeria_Bayelsa_State|2019-04-20,ATT,I,nonsynonymous,89,moderately conservative,False,1
+182196,OPG210_CDS_7,forward,G->A,GA,True,2,Node16,TGA,*,unpublished|MPX/040/19|Nigeria_Bayelsa_State|2019-04-20,TAA,*,synonymous,NA,NA,False,1
+2152,OPG002_CDS_177,reverse,G->A,GG,False,2,Node16,CCG,P,unpublished|MPX/104/19|Nigeria_Oyo_State|2019-10-07,CTG,L,nonsynonymous,98,moderately conservative,False,1
+6948,NA,NA,C->T,TC,True,NA,Node16,NA,NA,unpublished|MPX/104/19|Nigeria_Oyo_State|2019-10-07,NA,NA,intergenic,NA,NA,False,1
+47224,OPG066_CDS_133,reverse,C->T,TC,True,3,Node16,TCG,S,unpublished|MPX/104/19|Nigeria_Oyo_State|2019-10-07,TCA,S,synonymous,NA,NA,False,1
+77726,OPG099_CDS_101,forward,C->T,TC,True,3,Node16,TTC,F,unpublished|MPX/104/19|Nigeria_Oyo_State|2019-10-07,TTT,F,synonymous,NA,NA,False,1
+143845,OPG165_CDS_36,forward,C->T,TC,True,1,Node16,CAT,H,unpublished|MPX/104/19|Nigeria_Oyo_State|2019-10-07,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+152431,NA,NA,G->A,GA,True,NA,Node16,NA,NA,unpublished|MPX/104/19|Nigeria_Oyo_State|2019-10-07,NA,NA,intergenic,NA,NA,False,1
+166786,OPG192_CDS_18,forward,C->T,TC,True,3,Node16,TTC,F,unpublished|MPX/104/19|Nigeria_Oyo_State|2019-10-07,TTT,F,synonymous,NA,NA,False,1
+184037,OPG210_CDS_7,forward,G->T,,False,1,Node16,GGC,G,unpublished|MPX/104/19|Nigeria_Oyo_State|2019-10-07,TGC,C,nonsynonymous,159,radical,False,1
+184535,OPG210_CDS_7,forward,C->T,TC,True,1,Node16,CAG,Q,unpublished|MPX/104/19|Nigeria_Oyo_State|2019-10-07,TAG,*,nonsense,NA,NA,False,1
+13625,OPG025_CDS_169,reverse,G->A,GT,False,1,Node1,CGG,R,KJ642617|Nigeria-SE-1971|Nigeria_Abie_State|1971-04-14,TGG,W,nonsynonymous,101,moderately radical,False,1
+98727,OPG118_CDS_82,forward,C->T,AC,False,1,Node1,CGA,R,KJ642617|Nigeria-SE-1971|Nigeria_Abie_State|1971-04-14,TGA,*,nonsense,NA,NA,False,1
+119718,OPG137_CDS_63,forward,T->C,,False,1,Node1,TCA,S,KJ642617|Nigeria-SE-1971|Nigeria_Abie_State|1971-04-14,CCA,P,nonsynonymous,74,moderately conservative,False,1
+129762,OPG151_CDS_49,forward,A->G,,False,3,Node1,TGA,*,KJ642617|Nigeria-SE-1971|Nigeria_Abie_State|1971-04-14,TGG,W,nonsynonymous,NA,NA,False,1
+149744,OPG175_CDS_29,forward,G->A,GT,False,1,Node1,GTG,V,KJ642617|Nigeria-SE-1971|Nigeria_Abie_State|1971-04-14,ATG,M,nonsynonymous,21,conservative,False,1
+160174,NA,NA,G->T,,False,NA,Node1,NA,NA,KJ642617|Nigeria-SE-1971|Nigeria_Abie_State|1971-04-14,NA,NA,intergenic,NA,NA,False,1
+160852,OPG187_CDS_23,forward,C->T,AC,False,1,Node1,CGT,R,KJ642617|Nigeria-SE-1971|Nigeria_Abie_State|1971-04-14,TGT,C,nonsynonymous,180,radical,False,1

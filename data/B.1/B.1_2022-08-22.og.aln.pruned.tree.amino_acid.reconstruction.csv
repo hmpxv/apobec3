@@ -1,0 +1,801 @@
+site,gene,direction,snp,dimer,apobec,aa_position,parent,parent_codon,parent_aa,child,child_codon,child_aa,mutation_category,score,prediction,homoplasy,occurrence
+3111,OPG003_CDS_176,reverse,G->A,GA,True,2,Node1,TCC,S,Node2,TTC,F,nonsynonymous,155,radical,False,1
+39139,OPG057_CDS_142,reverse,C->T,TC,True,3,Node1,GCG,A,Node2,GCA,A,synonymous,NA,NA,False,1
+73239,OPG093_CDS_107,forward,G->A,GA,True,2,Node1,AGA,R,Node2,AAA,K,nonsynonymous,26,conservative,False,1
+74205,OPG094_CDS_106,forward,G->A,GA,True,1,Node1,GAA,E,Node2,AAA,K,nonsynonymous,56,moderately conservative,False,1
+77383,OPG098_CDS_102,forward,G->A,GA,True,2,Node1,TGA,*,Node2,TAA,*,synonymous,NA,NA,False,1
+84587,OPG105_CDS_95,forward,C->T,TC,True,1,Node1,CGG,R,Node2,TGG,W,nonsynonymous,101,moderately radical,False,1
+150469,OPG176_CDS_28,forward,C->T,TC,True,2,Node1,TCA,S,Node2,TTA,L,nonsynonymous,145,moderately radical,False,1
+151461,NA,NA,A->C,,False,NA,Node1,NA,NA,Node2,NA,NA,intergenic,NA,NA,False,1
+155795,NA,NA,G->A,GG,False,NA,Node1,NA,NA,Node2,NA,NA,intergenic,NA,NA,False,1
+170262,OPG198_CDS_14,forward,G->A,GG,False,1,Node1,GGA,G,Node2,AGA,R,nonsynonymous,125,moderately radical,False,1
+183519,OPG210_CDS_7,forward,C->T,TC,True,2,Node1,TCC,S,Node2,TTC,F,nonsynonymous,155,radical,False,1
+186165,OPG210_CDS_7,forward,G->A,GA,True,2,Node2,TGA,*,Node42,TAA,*,synonymous,NA,NA,True,2
+186165,OPG210_CDS_7,forward,A->G,,False,2,Node80,TAA,*,OP257247|MpxV/human/USA/UW-WA-0070/2022|USA|2022-08,TGA,*,synonymous,NA,NA,True,2
+53787,OPG071_CDS_129,reverse,C->T,TC,True,3,Node42,TCG,S,OP257243|MpxV/human/USA/UW-WA-0063/2022|USA|2022-08,TCA,S,synonymous,NA,NA,False,1
+55133,OPG074_CDS_126,reverse,G->A,GA,True,3,Node42,CTC,L,OP257243|MpxV/human/USA/UW-WA-0063/2022|USA|2022-08,CTT,L,synonymous,NA,NA,True,3
+55133,OPG074_CDS_126,reverse,G->A,GA,True,3,Node520,CTC,L,Node521,CTT,L,synonymous,NA,NA,True,3
+55133,OPG074_CDS_126,reverse,G->A,GA,True,3,Node519,CTC,L,OP169345|MpxV/human/USA/UW-WA-0052/2022|USA|2022-07,CTT,L,synonymous,NA,NA,True,3
+55133,MPXVgp059_CDS_127,reverse,G->A,GA,True,2,Node42,TCG,S,OP257243|MpxV/human/USA/UW-WA-0063/2022|USA|2022-08,TTG,L,nonsynonymous,145,moderately radical,True,3
+55133,MPXVgp059_CDS_127,reverse,G->A,GA,True,2,Node520,TCG,S,Node521,TTG,L,nonsynonymous,145,moderately radical,True,3
+55133,MPXVgp059_CDS_127,reverse,G->A,GA,True,2,Node519,TCG,S,OP169345|MpxV/human/USA/UW-WA-0052/2022|USA|2022-07,TTG,L,nonsynonymous,145,moderately radical,True,3
+100182,OPG118_CDS_82,forward,G->A,GA,True,1,Node42,GAA,E,OP257243|MpxV/human/USA/UW-WA-0063/2022|USA|2022-08,AAA,K,nonsynonymous,56,moderately conservative,True,3
+100182,OPG118_CDS_82,forward,G->A,GA,True,1,Node80,GAA,E,Node82,AAA,K,nonsynonymous,56,moderately conservative,True,3
+100182,OPG118_CDS_82,forward,G->A,GA,True,1,Node519,GAA,E,OP169345|MpxV/human/USA/UW-WA-0052/2022|USA|2022-07,AAA,K,nonsynonymous,56,moderately conservative,True,3
+5375,OPG015_CDS_175,reverse,G->A,GC,False,1,Node42,CCG,P,Node80,TCG,S,nonsynonymous,74,moderately conservative,False,1
+89252,OPG109_CDS_91,reverse,T->C,,False,3,Node80,ATA,I,OP184765|MpxV/human/USA/UW-WA-0062/2022|USA|2022-07,ATG,M,nonsynonymous,10,conservative,False,1
+20992,OPG036_CDS_162,reverse,C->T,TC,True,3,Node42,CCG,P,Node63,CCA,P,synonymous,NA,NA,True,2
+20992,OPG036_CDS_162,reverse,T->C,,False,3,Node65,CCA,P,Node73,CCG,P,synonymous,NA,NA,True,2
+143789,OPG165_CDS_36,forward,G->A,GA,True,2,Node42,AGA,R,Node63,AAA,K,nonsynonymous,26,conservative,False,1
+147168,OPG171_CDS_33,forward,C->T,TC,True,2,Node63,TCT,S,Node65,TTT,F,nonsynonymous,155,radical,False,1
+136035,NA,NA,C->T,TC,True,NA,Node65,NA,NA,OP215274|MPXV/Germany/2022/RKI254|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+156622,NA,NA,G->A,GA,True,NA,Node65,NA,NA,OP215274|MPXV/Germany/2022/RKI254|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+147899,OPG172_CDS_32,forward,A->T,,False,3,Node65,GTA,V,OP215280|MPXV/Germany/2022/RKI261|Germany|2022-08,GTT,V,synonymous,NA,NA,False,1
+61253,OPG080_CDS_120,reverse,G->A,GA,True,3,Node65,TTC,F,Node73,TTT,F,synonymous,NA,NA,True,2
+61253,OPG080_CDS_120,reverse,G->A,GA,True,3,Node63,TTC,F,ON929067|MPXV/Germany/2022/RKI109|Germany|2022-07,TTT,F,synonymous,NA,NA,True,2
+44220,OPG064_CDS_135,reverse,C->T,TC,True,1,Node73,GAT,D,OP205127|MPXV_UK_2022_9000178|United_Kingdom|2022-06-27,AAT,N,nonsynonymous,23,conservative,True,2
+44220,OPG064_CDS_135,reverse,C->T,TC,True,1,Node273,GAT,D,OP215252|MPXV/Germany/2022/RKI222|Germany|2022-08,AAT,N,nonsynonymous,23,conservative,True,2
+29229,OPG045_CDS_154,reverse,C->T,TC,True,3,Node65,TAG,*,Node72,TAA,*,synonymous,NA,NA,False,1
+149561,OPG175_CDS_29,forward,G->A,GA,True,1,Node72,GAT,D,OP205089|MPXV_UK_2022_9000101|United_Kingdom|2022-06-09,AAT,N,nonsynonymous,23,conservative,False,1
+182486,OPG210_CDS_7,forward,G->A,GA,True,1,Node72,GAA,E,OP205089|MPXV_UK_2022_9000101|United_Kingdom|2022-06-09,AAA,K,nonsynonymous,56,moderately conservative,False,1
+57492,OPG075_CDS_125,reverse,C->T,TC,True,3,Node72,CCG,P,OP205140|MPXV_UK_2022_9000193|United_Kingdom|2022-07-04,CCA,P,synonymous,NA,NA,False,1
+76820,OPG097_CDS_103,reverse,C->T,TC,True,1,Node65,GAG,E,OP018592|MPXV/Germany/2022/RKI166|Germany|2022-07,AAG,K,nonsynonymous,56,moderately conservative,False,1
+180154,OPG208_CDS_9,forward,C->T,TC,True,2,Node65,TCT,S,OP018592|MPXV/Germany/2022/RKI166|Germany|2022-07,TTT,F,nonsynonymous,155,radical,False,1
+185176,OPG210_CDS_7,forward,C->T,TC,True,3,Node65,ATC,I,OP018593|MPXV/Germany/2022/RKI167|Germany|2022-07,ATT,I,synonymous,NA,NA,False,1
+143708,OPG165_CDS_36,forward,G->A,GA,True,2,Node42,TGA,*,Node83,TAA,*,synonymous,NA,NA,False,1
+168380,OPG195_CDS_16,forward,A->G,,False,2,Node83,CAG,Q,OP205112|MPXV_UK_2022_9000149|United_Kingdom|2022-06-14,CGG,R,nonsynonymous,43,conservative,False,1
+32638,OPG049_CDS_150,reverse,C->T,AC,False,3,Node83,ACG,T,ON853651|MPXV/Germany/2022/RKI073|Germany|2022-06,ACA,T,synonymous,NA,NA,False,1
+188391,NA,NA,C->T,AC,False,NA,Node42,NA,NA,Node86,NA,NA,intergenic,NA,NA,False,1
+22880,OPG038_CDS_160,reverse,C->T,TC,True,3,Node86,CTG,L,OP215256|MPXV/Germany/2022/RKI228|Germany|2022-08,CTA,L,synonymous,NA,NA,False,1
+62253,OPG081_CDS_119,reverse,G->A,GA,True,2,Node86,TCT,S,OP215256|MPXV/Germany/2022/RKI228|Germany|2022-08,TTT,F,nonsynonymous,155,radical,False,1
+182303,OPG210_CDS_7,forward,G->A,GA,True,1,Node86,GAT,D,OP215262|MPXV/Germany/2022/RKI238|Germany|2022-08,AAT,N,nonsynonymous,23,conservative,False,1
+157527,NA,NA,T->C,,False,NA,Node86,NA,NA,Node92,NA,NA,intergenic,NA,NA,True,2
+157527,NA,NA,T->C,,False,NA,Node42,NA,NA,Node85,NA,NA,intergenic,NA,NA,True,2
+150087,OPG176_CDS_28,forward,G->A,GA,True,1,Node92,GAT,D,OP215279|MPXV/Germany/2022/RKI260|Germany|2022-08,AAT,N,nonsynonymous,23,conservative,True,2
+150087,OPG176_CDS_28,forward,G->A,GA,True,1,Node648,GAT,D,OP215227|MPXV/Germany/2022/RKI242|Germany|2022-08,AAT,N,nonsynonymous,23,conservative,True,2
+156429,NA,NA,C->T,TC,True,NA,Node92,NA,NA,OP215279|MPXV/Germany/2022/RKI260|Germany|2022-08,NA,NA,intergenic,NA,NA,True,2
+156429,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node504,NA,NA,intergenic,NA,NA,True,2
+156509,NA,NA,C->T,TC,True,NA,Node92,NA,NA,OP215279|MPXV/Germany/2022/RKI260|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+177872,OPG205_CDS_10,forward,G->A,GA,True,1,Node92,GAG,E,OP215279|MPXV/Germany/2022/RKI260|Germany|2022-08,AAG,K,nonsynonymous,56,moderately conservative,False,1
+88757,OPG109_CDS_91,reverse,C->T,TC,True,3,Node92,TAG,*,OP205073|MPXV_UK_2022_9000067|United_Kingdom|2022-06-08,TAA,*,synonymous,NA,NA,False,1
+44107,OPG064_CDS_135,reverse,G->A,GA,True,3,Node92,GTC,V,ON959151|MPXV/Germany/2022/RKI160|Germany|2022-07,GTT,V,synonymous,NA,NA,False,1
+22425,OPG037_CDS_161,reverse,G->A,GA,True,2,Node92,TCG,S,ON853649|MPXV/Germany/2022/RKI068|Germany|2022-06,TTG,L,nonsynonymous,145,moderately radical,False,1
+22971,OPG038_CDS_160,reverse,G->A,GA,True,2,Node92,TCG,S,ON853649|MPXV/Germany/2022/RKI068|Germany|2022-06,TTG,L,nonsynonymous,145,moderately radical,False,1
+26694,OPG042_CDS_157,reverse,C->A,,False,1,Node92,GGA,G,ON853649|MPXV/Germany/2022/RKI068|Germany|2022-06,TGA,*,nonsense,NA,NA,False,1
+77829,OPG099_CDS_101,forward,C->T,TC,True,1,Node92,CAT,H,ON853649|MPXV/Germany/2022/RKI068|Germany|2022-06,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+118391,OPG136_CDS_64,reverse,G->A,GA,True,2,Node42,TCG,S,Node50,TTG,L,nonsynonymous,145,moderately radical,False,1
+23845,OPG039_CDS_159,reverse,C->T,TC,True,3,Node50,ATG,M,Node51,ATA,I,nonsynonymous,10,conservative,False,1
+12099,OPG023_CDS_171,reverse,G->A,GA,True,3,Node51,CTC,L,OP215257|MPXV/Germany/2022/RKI230|Germany|2022-08,CTT,L,synonymous,NA,NA,False,1
+45637,OPG064_CDS_135,reverse,C->T,GC,False,3,Node51,CCG,P,OP215257|MPXV/Germany/2022/RKI230|Germany|2022-08,CCA,P,synonymous,NA,NA,False,1
+123899,OPG144_CDS_56,reverse,C->T,TC,True,3,Node42,ATG,M,OP205082|MPXV_UK_2022_9000079|United_Kingdom|2022-06-15,ATA,I,nonsynonymous,10,conservative,False,1
+92048,OPG113_CDS_87,forward,G->A,GA,True,1,Node42,GAA,E,OP205131|MPXV_UK_2022_9000186|United_Kingdom|2022-06-29,AAA,K,nonsynonymous,56,moderately conservative,False,1
+43068,OPG063_CDS_136,reverse,C->T,TC,True,2,Node42,AGA,R,OP185716|MPXV_USA_2022_CA0005|USA|2022-06,AAA,K,nonsynonymous,26,conservative,False,1
+40648,NA,NA,C->T,TC,True,NA,Node85,NA,NA,ON929090|MPXV/Germany/2022/RKI135|Germany|2022-07,NA,NA,intergenic,NA,NA,False,1
+144832,OPG167_CDS_35,reverse,C->T,TC,True,2,Node85,TGA,*,ON929090|MPXV/Germany/2022/RKI135|Germany|2022-07,TAA,*,synonymous,NA,NA,False,1
+55173,OPG074_CDS_126,reverse,G->A,GA,True,2,Node85,TCA,S,ON813263|MPXV/Germany/2022/RKI063|Germany|2022-06,TTA,L,nonsynonymous,145,moderately radical,False,1
+6999,NA,NA,C->T,TC,True,NA,Node42,NA,NA,ON755239|MPXV/Germany/2022/RKI033|Germany|2022-06,NA,NA,intergenic,NA,NA,True,2
+6999,NA,NA,C->T,TC,True,NA,Node463,NA,NA,ON853656|MPXV/Germany/2022/RKI070|Germany|2022-06,NA,NA,intergenic,NA,NA,True,2
+125702,OPG147_CDS_53,reverse,C->T,TC,True,3,Node42,ACG,T,ON755239|MPXV/Germany/2022/RKI033|Germany|2022-06,ACA,T,synonymous,NA,NA,False,1
+18133,OPG031_CDS_165,reverse,C->T,TC,True,2,Node2,CGA,R,Node211,CAA,Q,nonsynonymous,43,conservative,False,1
+67611,OPG085_CDS_115,reverse,G->A,GT,False,2,Node2,ACA,T,Node211,ATA,I,nonsynonymous,89,moderately conservative,False,1
+130231,OPG151_CDS_49,forward,G->A,GA,True,1,Node2,GAA,E,Node211,AAA,K,nonsynonymous,56,moderately conservative,False,1
+159277,OPG185_CDS_24,forward,G->A,GA,True,2,Node2,AGA,R,Node211,AAA,K,nonsynonymous,26,conservative,False,1
+2590,OPG002_CDS_177,reverse,G->A,GA,True,2,Node211,TCA,S,Node215,TTA,L,nonsynonymous,145,moderately radical,False,1
+66878,OPG085_CDS_115,reverse,C->T,TC,True,3,Node211,CTG,L,Node215,CTA,L,synonymous,NA,NA,False,1
+148419,OPG174_CDS_30,reverse,G->A,GA,True,1,Node211,CCC,P,Node215,TCC,S,nonsynonymous,74,moderately conservative,False,1
+121374,NA,NA,G->A,GA,True,NA,Node211,NA,NA,OP123055|MpxV/human/USA/UW-WA-0041/2022|USA|2022-07,NA,NA,intergenic,NA,NA,False,1
+12128,OPG023_CDS_171,reverse,G->A,GA,True,1,Node211,CAT,H,OP055809|MpxV/human/USA/UW-WA-0023/2022|USA|2022-07,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+74360,OPG094_CDS_106,forward,G->A,GC,False,3,Node2,ACG,T,Node248,ACA,T,synonymous,NA,NA,False,1
+52232,OPG071_CDS_129,reverse,G->A,GA,True,1,Node248,CGT,R,Node270,TGT,C,nonsynonymous,180,radical,False,1
+119838,OPG137_CDS_63,forward,C->T,TC,True,1,Node248,CGA,R,Node270,TGA,*,nonsense,NA,NA,False,1
+47600,NA,NA,G->A,GA,True,NA,Node270,NA,NA,OP257251|MpxV/human/USA/UW-WA-0078/2022|USA|2022-08,NA,NA,intergenic,NA,NA,False,1
+79512,OPG102_CDS_98,forward,G->A,GA,True,3,Node270,ACG,T,OP169341|MpxV/human/USA/UW-WA-0047/2022|USA|2022-07,ACA,T,synonymous,NA,NA,False,1
+138008,OPG154_CDS_47,reverse,G->A,GA,True,3,Node270,TTC,F,OP169341|MpxV/human/USA/UW-WA-0047/2022|USA|2022-07,TTT,F,synonymous,NA,NA,False,1
+150511,OPG176_CDS_28,forward,G->A,GA,True,2,Node270,CGA,R,OP169341|MpxV/human/USA/UW-WA-0047/2022|USA|2022-07,CAA,Q,nonsynonymous,43,conservative,False,1
+74134,OPG094_CDS_106,forward,C->G,,False,2,Node270,GCC,A,OP055800|MpxV/human/USA/UW-WA-0011/2022|USA|2022-07,GGC,G,nonsynonymous,60,moderately conservative,False,1
+68675,OPG086_CDS_114,reverse,C->T,TC,True,2,Node248,CGA,R,Node331,CAA,Q,nonsynonymous,43,conservative,False,1
+22739,OPG038_CDS_160,reverse,C->T,TC,True,3,Node248,CGG,R,Node273,CGA,R,synonymous,NA,NA,False,1
+144256,OPG165_CDS_36,forward,C->T,TC,True,1,Node273,CAA,Q,Node287,TAA,*,nonsense,NA,NA,False,1
+170785,OPG198_CDS_14,forward,G->A,GA,True,2,Node273,TGA,*,Node287,TAA,*,synonymous,NA,NA,False,1
+6376,NA,NA,G->A,GA,True,NA,Node287,NA,NA,OP215242|MPXV/Germany/2022/RKI205|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+13107,OPG024_CDS_170,reverse,G->A,GA,True,1,Node287,CGT,R,OP215242|MPXV/Germany/2022/RKI205|Germany|2022-08,TGT,C,nonsynonymous,180,radical,False,1
+117345,OPG136_CDS_64,reverse,G->A,GA,True,1,Node287,CTG,L,OP215242|MPXV/Germany/2022/RKI205|Germany|2022-08,TTG,L,synonymous,NA,NA,False,1
+15876,NA,NA,G->A,GA,True,NA,Node287,NA,NA,OP215278|MPXV/Germany/2022/RKI259|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+186124,OPG210_CDS_7,forward,C->T,TC,True,3,Node273,TTC,F,Node292,TTT,F,synonymous,NA,NA,False,1
+189996,NA,NA,C->T,TC,True,NA,Node273,NA,NA,Node292,NA,NA,intergenic,NA,NA,False,1
+32627,OPG049_CDS_150,reverse,C->T,TC,True,2,Node273,TGA,*,OP215252|MPXV/Germany/2022/RKI222|Germany|2022-08,TAA,*,synonymous,NA,NA,True,2
+32627,OPG049_CDS_150,reverse,C->T,TC,True,2,Node445,TGA,*,ON880538|MpxV/human/CAN/UN-NML-3336/2022|Canada|2022-06-01,TAA,*,synonymous,NA,NA,True,2
+54012,OPG071_CDS_129,reverse,C->T,TC,True,3,Node273,GTG,V,OP215252|MPXV/Germany/2022/RKI222|Germany|2022-08,GTA,V,synonymous,NA,NA,False,1
+103240,OPG123_CDS_77,reverse,G->A,GA,True,3,Node273,ATC,I,OP215252|MPXV/Germany/2022/RKI222|Germany|2022-08,ATT,I,synonymous,NA,NA,True,2
+103240,OPG123_CDS_77,reverse,G->A,GA,True,3,Node2,ATC,I,OP245329|MPX/PT0075/2022|Portugal|2022-07-22,ATT,I,synonymous,NA,NA,True,2
+173727,NA,NA,G->A,GA,True,NA,Node273,NA,NA,Node297,NA,NA,intergenic,NA,NA,False,1
+11267,OPG023_CDS_171,reverse,G->A,GA,True,1,Node297,CGT,R,OP245355|MPX/PT0122/2022|Portugal|2022-07-15,TGT,C,nonsynonymous,180,radical,False,1
+18540,OPG031_CDS_165,reverse,G->A,GA,True,3,Node297,ATC,I,OP245355|MPX/PT0122/2022|Portugal|2022-07-15,ATT,I,synonymous,NA,NA,False,1
+55993,OPG074_CDS_126,reverse,G->A,GA,True,1,Node297,CTT,L,Node301,TTT,F,nonsynonymous,22,conservative,False,1
+78189,OPG100_CDS_100,forward,G->A,GT,False,3,Node301,TTG,L,OP215212|MPXV/Germany/2022/RKI204|Germany|2022-08,TTA,L,synonymous,NA,NA,False,1
+134898,NA,NA,C->T,TC,True,NA,Node301,NA,NA,OP215212|MPXV/Germany/2022/RKI204|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+86567,OPG108_CDS_92,reverse,C->T,TC,True,3,Node273,CCG,P,Node305,CCA,P,synonymous,NA,NA,False,1
+9245,NA,NA,G->A,GA,True,NA,Node305,NA,NA,OP215272|MPXV/Germany/2022/RKI253|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+21060,OPG036_CDS_162,reverse,G->A,GT,False,1,Node305,CGT,R,OP215272|MPXV/Germany/2022/RKI253|Germany|2022-08,TGT,C,nonsynonymous,180,radical,False,1
+22740,OPG038_CDS_160,reverse,C->T,TC,True,2,Node273,CGA,R,Node307,CAA,Q,nonsynonymous,43,conservative,False,1
+38937,OPG056_CDS_143,reverse,C->T,TC,True,1,Node273,GAA,E,Node307,AAA,K,nonsynonymous,56,moderately conservative,True,2
+38937,OPG056_CDS_143,reverse,C->T,TC,True,1,Node443,GAA,E,OP245309|MPX/PT0052/2022|Portugal|2022-07-30,AAA,K,nonsynonymous,56,moderately conservative,True,2
+113660,OPG133_CDS_67,reverse,C->T,TC,True,2,Node273,TGA,*,OP225960|MPXV_USA_2022_NY0013|USA|2022-06,TAA,*,synonymous,NA,NA,False,1
+163459,OPG189_CDS_21,forward,C->T,TC,True,2,Node273,TCG,S,OP225960|MPXV_USA_2022_NY0013|USA|2022-06,TTG,L,nonsynonymous,145,moderately radical,False,1
+80719,OPG104_CDS_96,reverse,C->T,AC,False,3,Node273,CCG,P,OP018591|MPXV/Germany/2022/RKI183|Germany|2022-07,CCA,P,synonymous,NA,NA,False,1
+21655,OPG037_CDS_161,reverse,G->A,GA,True,1,Node273,CGA,R,Node309,TGA,*,nonsense,NA,NA,False,1
+135221,NA,NA,G->A,GA,True,NA,Node273,NA,NA,Node309,NA,NA,intergenic,NA,NA,False,1
+172542,OPG200_CDS_12,forward,G->A,GA,True,1,Node309,GAT,D,ON929059|MPXV/Germany/2022/RKI072|Germany|2022-07,AAT,N,nonsynonymous,23,conservative,False,1
+63811,OPG083_CDS_117,reverse,G->A,GA,True,2,Node309,TCA,S,ON853655|MPXV/Germany/2022/RKI088|Germany|2022-06,TTA,L,nonsynonymous,145,moderately radical,True,3
+63811,OPG083_CDS_117,reverse,G->A,GA,True,2,Node623,TCA,S,Node624,TTA,L,nonsynonymous,145,moderately radical,True,3
+63811,OPG083_CDS_117,reverse,G->A,GA,True,2,Node2,TCA,S,OP205104|MPXV_UK_2022_9000140|United_Kingdom|2022-07-06,TTA,L,nonsynonymous,145,moderately radical,True,3
+63892,OPG083_CDS_117,reverse,G->A,GA,True,2,Node309,TCT,S,ON853655|MPXV/Germany/2022/RKI088|Germany|2022-06,TTT,F,nonsynonymous,155,radical,False,1
+50007,OPG069_CDS_131,forward,C->T,TC,True,2,Node273,TCA,S,ON929073|MPXV/Germany/2022/RKI115|Germany|2022-07,TTA,L,nonsynonymous,145,moderately radical,False,1
+151213,NA,NA,C->T,TC,True,NA,Node273,NA,NA,Node303,NA,NA,intergenic,NA,NA,False,1
+184562,OPG210_CDS_7,forward,G->A,GA,True,1,Node273,GAC,D,Node303,AAC,N,nonsynonymous,23,conservative,False,1
+21833,OPG037_CDS_161,reverse,C->T,TC,True,3,Node273,CAG,Q,ON929084|MPXV/Germany/2022/RKI129|Germany|2022-07,CAA,Q,synonymous,NA,NA,False,1
+135719,NA,NA,G->A,GA,True,NA,Node273,NA,NA,ON929084|MPXV/Germany/2022/RKI129|Germany|2022-07,NA,NA,intergenic,NA,NA,False,1
+176536,OPG205_CDS_10,forward,G->A,GA,True,3,Node248,TAG,*,OP215245|MPXV/Germany/2022/RKI208|Germany|2022-08,TAA,*,synonymous,NA,NA,False,1
+29887,OPG047_CDS_152,reverse,C->T,TC,True,2,Node248,CGA,R,OP215247|MPXV/Germany/2022/RKI211|Germany|2022-08,CAA,Q,nonsynonymous,43,conservative,False,1
+40937,OPG060_CDS_139,reverse,C->T,GC,False,2,Node248,CGC,R,OP215268|MPXV/Germany/2022/RKI248|Germany|2022-08,CAC,H,nonsynonymous,29,conservative,False,1
+175349,OPG204_CDS_11,forward,G->A,GT,False,3,Node248,CAG,Q,OP215268|MPXV/Germany/2022/RKI248|Germany|2022-08,CAA,Q,synonymous,NA,NA,False,1
+3850,OPG003_CDS_176,reverse,C->T,TC,True,1,Node248,GAG,E,OP215287|MPXV/Germany/2022/RKI268|Germany|2022-08,AAG,K,nonsynonymous,56,moderately conservative,False,1
+155698,NA,NA,G->A,GA,True,NA,Node248,NA,NA,Node316,NA,NA,intergenic,NA,NA,False,1
+161575,NA,NA,G->A,GA,True,NA,Node316,NA,NA,OP245330|MPX/PT0076/2022|Portugal|2022-07-23,NA,NA,intergenic,NA,NA,False,1
+11562,OPG023_CDS_171,reverse,C->T,TC,True,3,Node316,TTG,L,Node317,TTA,L,synonymous,NA,NA,False,1
+138237,OPG155_CDS_46,reverse,G->A,GG,False,2,Node316,CCG,P,Node317,CTG,L,nonsynonymous,98,moderately conservative,False,1
+173429,NA,NA,G->A,GA,True,NA,Node248,NA,NA,Node322,NA,NA,intergenic,NA,NA,False,1
+786,NA,NA,C->T,TC,True,NA,Node322,NA,NA,OP204857|MPXV-ROK-P1-2022|South_Korea|2022-08,NA,NA,intergenic,NA,NA,False,1
+71728,OPG091_CDS_109,forward,C->T,GC,False,3,Node322,TGC,C,OP204857|MPXV-ROK-P1-2022|South_Korea|2022-08,TGT,C,synonymous,NA,NA,False,1
+1861,OPG002_CDS_177,reverse,G->A,GA,True,2,Node322,TCG,S,ON929064|MPXV/Germany/2022/RKI106|Germany|2022-07,TTG,L,nonsynonymous,145,moderately radical,False,1
+127376,OPG149_CDS_51,forward,G->A,GA,True,2,Node322,TGA,*,ON929064|MPXV/Germany/2022/RKI106|Germany|2022-07,TAA,*,synonymous,NA,NA,False,1
+5404,OPG015_CDS_175,reverse,C->T,TC,True,2,Node322,TGA,*,ON853668|MPXV/Germany/2022/RKI086|Germany|2022-06,TAA,*,synonymous,NA,NA,False,1
+108050,OPG126_CDS_74,reverse,G->A,GA,True,2,Node322,TCG,S,ON853668|MPXV/Germany/2022/RKI086|Germany|2022-06,TTG,L,nonsynonymous,145,moderately radical,False,1
+133552,NA,NA,G->A,GA,True,NA,Node248,NA,NA,OP123046|MpxV/human/USA/UW-WA-0032/2022|USA|2022-07,NA,NA,intergenic,NA,NA,False,1
+44529,OPG064_CDS_135,reverse,C->T,AC,False,1,Node248,GTA,V,ON959136|MPXV_USA_2022_NY005|USA|2022-06,ATA,I,nonsynonymous,29,conservative,False,1
+134504,NA,NA,C->T,TC,True,NA,Node248,NA,NA,ON959136|MPXV_USA_2022_NY005|USA|2022-06,NA,NA,intergenic,NA,NA,False,1
+97413,OPG117_CDS_83,forward,T->A,,False,1,Node248,TCC,S,ON929069|MPXV/Germany/2022/RKI111|Germany|2022-07,ACC,T,nonsynonymous,58,moderately conservative,False,1
+179853,OPG208_CDS_9,forward,C->T,TC,True,1,Node248,CGG,R,ON929069|MPXV/Germany/2022/RKI111|Germany|2022-07,TGG,W,nonsynonymous,101,moderately radical,True,2
+179853,OPG208_CDS_9,forward,C->T,TC,True,1,Node2,CGG,R,OP245349|MPX/PT0115/2022|Portugal|2022-07-14,TGG,W,nonsynonymous,101,moderately radical,True,2
+181495,OPG210_CDS_7,forward,C->T,TC,True,3,Node248,ATC,I,ON929069|MPXV/Germany/2022/RKI111|Germany|2022-07,ATT,I,synonymous,NA,NA,True,2
+181495,OPG210_CDS_7,forward,C->T,TC,True,3,Node642,ATC,I,OP245322|MPX/PT0068/2022|Portugal|2022-07-25,ATT,I,synonymous,NA,NA,True,2
+132440,NA,NA,C->T,TC,True,NA,Node248,NA,NA,ON929087|MPXV/Germany/2022/RKI132|Germany|2022-07,NA,NA,intergenic,NA,NA,False,1
+142240,OPG163_CDS_38,forward,G->A,GA,True,1,Node248,GAC,D,ON813256|MPXV/Germany/2022/RKI059|Germany|2022-06,AAC,N,nonsynonymous,23,conservative,False,1
+21530,OPG037_CDS_161,reverse,C->T,TC,True,3,Node248,TTG,L,ON755252|MPXV/Germany/2022/RKI046|Germany|2022-06,TTA,L,synonymous,NA,NA,False,1
+152033,OPG178_CDS_27,forward,C->T,TC,True,1,Node248,CGA,R,ON694337|MPXV/Germany/2022/RKI020|Germany|2022-05,TGA,*,nonsense,NA,NA,False,1
+13609,OPG025_CDS_169,reverse,C->T,TC,True,2,Node2,TGA,*,OP257252|MpxV/human/USA/UW-WA-0079/2022|USA|2022-08,TAA,*,synonymous,NA,NA,False,1
+164248,OPG189_CDS_21,forward,G->A,GA,True,2,Node2,AGA,R,OP257252|MpxV/human/USA/UW-WA-0079/2022|USA|2022-08,AAA,K,nonsynonymous,26,conservative,False,1
+187164,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP257252|MpxV/human/USA/UW-WA-0079/2022|USA|2022-08,NA,NA,intergenic,NA,NA,False,1
+164653,OPG189_CDS_21,forward,G->T,,False,2,Node2,AGA,R,OP257253|MpxV/human/USA/UW-WA-0080/2022|USA|2022-08,ATA,I,nonsynonymous,97,moderately conservative,False,1
+132520,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node353,NA,NA,intergenic,NA,NA,True,2
+132520,NA,NA,C->T,TC,True,NA,Node669,NA,NA,Node671,NA,NA,intergenic,NA,NA,True,2
+175093,OPG204_CDS_11,forward,G->A,GA,True,2,Node2,AGA,R,Node353,AAA,K,nonsynonymous,26,conservative,False,1
+70190,OPG089_CDS_111,forward,G->A,GA,True,2,Node353,CGA,R,OP225966|MPXV_USA_2022_IL0023|USA|2022-06,CAA,Q,nonsynonymous,43,conservative,True,3
+70190,OPG089_CDS_111,forward,G->A,GA,True,2,Node617,CGA,R,OP215215|MPXV/Germany/2022/RKI213|Germany|2022-08,CAA,Q,nonsynonymous,43,conservative,True,3
+70190,OPG089_CDS_111,forward,G->A,GA,True,2,Node2,CGA,R,Node194,CAA,Q,nonsynonymous,43,conservative,True,3
+165086,NA,NA,G->A,GA,True,NA,Node353,NA,NA,OP225966|MPXV_USA_2022_IL0023|USA|2022-06,NA,NA,intergenic,NA,NA,False,1
+162565,OPG188_CDS_22,forward,C->T,TC,True,2,Node353,TCC,S,Node356,TTC,F,nonsynonymous,155,radical,False,1
+36405,OPG055_CDS_144,reverse,C->T,GC,False,3,Node2,CTG,L,Node138,CTA,L,synonymous,NA,NA,False,1
+44856,OPG064_CDS_135,reverse,G->T,,False,1,Node2,CTG,L,OP257256|MpxV/human/USA/UW-WA-0086/2022|USA|2022-08,ATG,M,nonsynonymous,15,conservative,False,1
+190660,hypothetical_protein_CDS_5,forward,G->A,GA,True,3,Node2,CAG,Q,Node519,CAA,Q,synonymous,NA,NA,False,1
+64426,OPG083_CDS_117,reverse,C->T,TC,True,2,Node519,CGA,R,Node520,CAA,Q,nonsynonymous,43,conservative,False,1
+143066,OPG164_CDS_37,forward,G->A,GA,True,2,Node521,TGA,*,OP257258|MpxV/human/USA/UW-WA-0089/2022|USA|2022-08,TAA,*,synonymous,NA,NA,False,1
+189048,NA,NA,G->A,GA,True,NA,Node521,NA,NA,OP257262|MpxV/human/USA/UW-WA-0093/2022|USA|2022-08,NA,NA,intergenic,NA,NA,False,1
+36659,OPG055_CDS_144,reverse,G->A,GC,False,1,Node521,CAG,Q,OP215250|MPXV/Germany/2022/RKI220|Germany|2022-08,TAG,*,nonsense,NA,NA,False,1
+174642,OPG204_CDS_11,forward,G->A,GA,True,1,Node521,GAG,E,OP215250|MPXV/Germany/2022/RKI220|Germany|2022-08,AAG,K,nonsynonymous,56,moderately conservative,False,1
+190444,hypothetical_protein_CDS_5,forward,C->T,TC,True,3,Node521,ATC,I,OP215250|MPXV/Germany/2022/RKI220|Germany|2022-08,ATT,I,synonymous,NA,NA,False,1
+5515,OPG015_CDS_175,reverse,G->A,GA,True,2,Node521,TCA,S,OP215273|MPXV/Germany/2022/RKI251|Germany|2022-08,TTA,L,nonsynonymous,145,moderately radical,False,1
+54004,OPG071_CDS_129,reverse,T->C,,False,2,Node521,CAC,H,OP215273|MPXV/Germany/2022/RKI251|Germany|2022-08,CGC,R,nonsynonymous,29,conservative,False,1
+179259,NA,NA,C->T,TC,True,NA,Node521,NA,NA,OP215273|MPXV/Germany/2022/RKI251|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+36620,OPG055_CDS_144,reverse,A->C,,False,1,Node521,TTT,F,Node540,GTT,V,nonsynonymous,50,conservative,False,1
+91811,OPG113_CDS_87,forward,G->A,GA,True,1,Node540,GAG,E,OP215288|MPXV/Germany/2022/RKI270|Germany|2022-08,AAG,K,nonsynonymous,56,moderately conservative,False,1
+148578,OPG174_CDS_30,reverse,G->A,GA,True,1,Node540,CTA,L,OP215288|MPXV/Germany/2022/RKI270|Germany|2022-08,TTA,L,synonymous,NA,NA,False,1
+149527,OPG175_CDS_29,forward,C->T,TC,True,3,Node540,ATC,I,OP215288|MPXV/Germany/2022/RKI270|Germany|2022-08,ATT,I,synonymous,NA,NA,False,1
+153729,OPG180_CDS_26,forward,C->T,TC,True,1,Node540,CGA,R,OP215288|MPXV/Germany/2022/RKI270|Germany|2022-08,TGA,*,nonsense,NA,NA,False,1
+142545,OPG163_CDS_38,forward,C->T,TC,True,3,Node521,ATC,I,OP205133|MPXV_UK_2022_9000188|United_Kingdom|2022-06-29,ATT,I,synonymous,NA,NA,False,1
+133161,NA,NA,C->T,TC,True,NA,Node521,NA,NA,Node536,NA,NA,intergenic,NA,NA,False,1
+157632,NA,NA,C->T,TC,True,NA,Node521,NA,NA,Node536,NA,NA,intergenic,NA,NA,False,1
+146824,NA,NA,C->T,GC,False,NA,Node536,NA,NA,OP144212|MPXV/ITM_pt_16/Belgium/10-Jun-2022|Belgium|2022-06-10,NA,NA,intergenic,NA,NA,False,1
+37250,OPG056_CDS_143,reverse,G->A,GA,True,2,Node521,TCA,S,OX248696|RNA|Slovakia|2022-07-04,TTA,L,nonsynonymous,145,moderately radical,False,1
+138080,OPG155_CDS_46,reverse,C->T,TC,True,3,Node521,CAG,Q,OX248696|RNA|Slovakia|2022-07-04,CAA,Q,synonymous,NA,NA,False,1
+15947,OPG027_CDS_168,reverse,C->T,TC,True,1,Node521,GAG,E,ON853661|MPXV/Germany/2022/RKI079|Germany|2022-06,AAG,K,nonsynonymous,56,moderately conservative,False,1
+159376,OPG185_CDS_24,forward,G->A,GA,True,2,Node521,GGA,G,ON792320|hMpxV/Switzerland/ZH-UZH-IMV-3ba6449f/2022|Switzerland|2022-06-01,GAA,E,nonsynonymous,98,moderately conservative,False,1
+50337,OPG069_CDS_131,forward,G->A,GG,False,2,Node521,CGG,R,ON782054|MPXV/Spain/HUNSC_ITER_0001a/2022|Spain|2022-05-31,CAG,Q,nonsynonymous,43,conservative,False,1
+122238,OPG143_CDS_57,reverse,A->T,,False,3,Node521,TAT,Y,ON782054|MPXV/Spain/HUNSC_ITER_0001a/2022|Spain|2022-05-31,TAA,*,nonsense,NA,NA,False,1
+48265,OPG068_CDS_132,forward,A->T,,False,3,Node521,GGA,G,ON782055|MPXV/Spain/HUNSC_ITER_0001b/2022|Spain|2022-05-31,GGT,G,synonymous,NA,NA,False,1
+48296,OPG068_CDS_132,forward,C->G,,False,1,Node521,CCT,P,ON782055|MPXV/Spain/HUNSC_ITER_0001b/2022|Spain|2022-05-31,GCT,A,nonsynonymous,27,conservative,False,1
+167517,OPG193_CDS_17,forward,G->A,GA,True,2,Node521,AGA,R,Node547,AAA,K,nonsynonymous,26,conservative,False,1
+32715,OPG049_CDS_150,reverse,G->A,GA,True,1,Node521,CTA,L,ON755251|MPXV/Germany/2022/RKI045|Germany|2022-06,TTA,L,synonymous,NA,NA,True,2
+32715,OPG049_CDS_150,reverse,G->A,GA,True,1,Node2,CTA,L,OP133007|hMPXV/Austria/MUW1536480/2022|Austria|2022-07-22,TTA,L,synonymous,NA,NA,True,2
+190020,NA,NA,G->A,GA,True,NA,Node521,NA,NA,ON755251|MPXV/Germany/2022/RKI045|Germany|2022-06,NA,NA,intergenic,NA,NA,False,1
+109627,OPG129_CDS_71,reverse,C->A,,False,3,Node521,GAG,E,ON622722|MPXV_FR_HCL0001_2022|France|2022-05-22,GAT,D,nonsynonymous,45,conservative,False,1
+451,NA,NA,G->A,GA,True,NA,Node520,NA,NA,OP184762|MpxV/human/USA/UW-WA-0059/2022|USA|2022-07,NA,NA,intergenic,NA,NA,False,1
+153664,OPG180_CDS_26,forward,G->A,GA,True,2,Node520,TGA,*,OP184762|MpxV/human/USA/UW-WA-0059/2022|USA|2022-07,TAA,*,synonymous,NA,NA,False,1
+163711,OPG189_CDS_21,forward,C->T,TC,True,2,Node520,TCT,S,OP184762|MpxV/human/USA/UW-WA-0059/2022|USA|2022-07,TTT,F,nonsynonymous,155,radical,False,1
+39898,OPG057_CDS_142,reverse,C->T,TC,True,3,Node519,CGG,R,Node552,CGA,R,synonymous,NA,NA,False,1
+148933,OPG174_CDS_30,reverse,C->T,TC,True,3,Node519,CCG,P,Node552,CCA,P,synonymous,NA,NA,False,1
+171318,OPG199_CDS_13,forward,G->A,GA,True,2,Node519,TGA,*,Node552,TAA,*,synonymous,NA,NA,False,1
+175241,OPG204_CDS_11,forward,C->T,TC,True,3,Node519,ATC,I,Node552,ATT,I,synonymous,NA,NA,False,1
+17196,NA,NA,C->T,AC,False,NA,Node552,NA,NA,OP205116|MPXV_UK_2022_9000158|United_Kingdom|2022-07-07,NA,NA,intergenic,NA,NA,False,1
+183013,OPG210_CDS_7,forward,G->A,GT,False,3,Node519,CAG,Q,OP169345|MpxV/human/USA/UW-WA-0052/2022|USA|2022-07,CAA,Q,synonymous,NA,NA,False,1
+17752,OPG030_CDS_166,reverse,C->T,TC,True,3,Node519,TAG,*,OP150924|MPXV_USA_2022_CA006|USA|2022-06,TAA,*,synonymous,NA,NA,False,1
+80450,OPG103_CDS_97,forward,G->A,GA,True,1,Node519,GAT,D,ON755231|MPXV/Germany/2022/RKI013|Germany|2022-06,AAT,N,nonsynonymous,23,conservative,False,1
+97153,OPG117_CDS_83,forward,C->T,TC,True,2,Node2,TCT,S,Node346,TTT,F,nonsynonymous,155,radical,False,1
+136972,OPG153_CDS_48,reverse,C->T,TC,True,2,Node346,TGA,*,Node348,TAA,*,synonymous,NA,NA,False,1
+32321,OPG049_CDS_150,reverse,C->T,TC,True,2,Node346,TGA,*,OP055807|MpxV/human/USA/UW-WA-0021/2022|USA|2022-07,TAA,*,synonymous,NA,NA,False,1
+126055,OPG148_CDS_52,forward,G->A,GA,True,2,Node346,AGA,R,OP055807|MpxV/human/USA/UW-WA-0021/2022|USA|2022-07,AAA,K,nonsynonymous,26,conservative,False,1
+116130,OPG134_CDS_66,forward,G->A,GA,True,1,Node2,GAA,E,OP257265|MpxV/human/USA/UW-WA-0097/2022|USA|2022-08,AAA,K,nonsynonymous,56,moderately conservative,False,1
+152202,NA,NA,G->A,GA,True,NA,Node2,NA,NA,OP257265|MpxV/human/USA/UW-WA-0097/2022|USA|2022-08,NA,NA,intergenic,NA,NA,False,1
+157598,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP257265|MpxV/human/USA/UW-WA-0097/2022|USA|2022-08,NA,NA,intergenic,NA,NA,False,1
+178546,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP257265|MpxV/human/USA/UW-WA-0097/2022|USA|2022-08,NA,NA,intergenic,NA,NA,False,1
+14796,OPG025_CDS_169,reverse,C->T,TC,True,3,Node2,ACG,T,OP257267|MpxV/human/USA/UW-WA-00101/2022|USA|2022-08,ACA,T,synonymous,NA,NA,False,1
+76791,OPG097_CDS_103,reverse,C->T,TC,True,3,Node2,ATG,M,OP257267|MpxV/human/USA/UW-WA-00101/2022|USA|2022-08,ATA,I,nonsynonymous,10,conservative,False,1
+115971,OPG134_CDS_66,forward,C->T,TC,True,1,Node2,CAG,Q,OP257267|MpxV/human/USA/UW-WA-00101/2022|USA|2022-08,TAG,*,nonsense,NA,NA,False,1
+143463,OPG164_CDS_37,forward,G->A,GA,True,3,Node2,CTG,L,OP257267|MpxV/human/USA/UW-WA-00101/2022|USA|2022-08,CTA,L,synonymous,NA,NA,False,1
+146267,OPG170_CDS_34,reverse,G->A,GA,True,1,Node2,CTG,L,OP257267|MpxV/human/USA/UW-WA-00101/2022|USA|2022-08,TTG,L,synonymous,NA,NA,False,1
+86622,OPG108_CDS_92,reverse,C->T,TC,True,2,Node2,AGA,R,OP263626|MPXV/Germany/2022/RKI272|Germany|2022-08,AAA,K,nonsynonymous,26,conservative,False,1
+176379,OPG205_CDS_10,forward,C->T,TC,True,2,Node2,TCG,S,OP263626|MPXV/Germany/2022/RKI272|Germany|2022-08,TTG,L,nonsynonymous,145,moderately radical,False,1
+50982,OPG070_CDS_130,forward,G->A,GA,True,1,Node2,GAC,D,Node648,AAC,N,nonsynonymous,23,conservative,False,1
+125074,OPG145_CDS_55,forward,C->T,TC,True,1,Node2,CGT,R,Node648,TGT,C,nonsynonymous,180,radical,False,1
+44740,OPG064_CDS_135,reverse,C->T,TC,True,3,Node648,TAG,*,Node650,TAA,*,synonymous,NA,NA,False,1
+77807,OPG099_CDS_101,forward,G->A,GA,True,3,Node650,TAG,*,OP263627|MPXV/Germany/2022/RKI272|Germany|2022-08,TAA,*,synonymous,NA,NA,True,2
+77807,OPG099_CDS_101,forward,G->A,GA,True,3,Node622,TAG,*,OP018603|MPXV/Germany/2022/RKI178|Germany|2022-07,TAA,*,synonymous,NA,NA,True,2
+80067,OPG103_CDS_97,forward,C->T,TC,True,2,Node650,TCC,S,OP215263|MPXV/Germany/2022/RKI239|Germany|2022-08,TTC,F,nonsynonymous,155,radical,False,1
+80067,OPG102_CDS_98,forward,C->T,TC,True,3,Node650,ATC,I,OP215263|MPXV/Germany/2022/RKI239|Germany|2022-08,ATT,I,synonymous,NA,NA,False,1
+156850,NA,NA,G->A,GA,True,NA,Node650,NA,NA,OP215263|MPXV/Germany/2022/RKI239|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+35969,OPG054_CDS_145,reverse,C->T,TC,True,3,Node648,CTG,L,OP215227|MPXV/Germany/2022/RKI242|Germany|2022-08,CTA,L,synonymous,NA,NA,False,1
+134403,NA,NA,G->A,GA,True,NA,Node648,NA,NA,OP215251|MPXV/Germany/2022/RKI221|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+25644,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node365,NA,NA,intergenic,NA,NA,True,3
+25644,NA,NA,C->T,TC,True,NA,Node474,NA,NA,OP205094|MPXV_UK_2022_9000106|United_Kingdom|2022-06-14,NA,NA,intergenic,NA,NA,True,3
+25644,NA,NA,C->T,TC,True,NA,Node463,NA,NA,Node479,NA,NA,intergenic,NA,NA,True,3
+66249,OPG084_CDS_116,forward,C->T,TC,True,2,Node365,TCT,S,OP263628|MPXV/Germany/2022/RKI274|Germany|2022-08,TTT,F,nonsynonymous,155,radical,False,1
+88644,OPG109_CDS_91,reverse,C->A,,False,2,Node365,AGG,R,OP263628|MPXV/Germany/2022/RKI274|Germany|2022-08,ATG,M,nonsynonymous,91,moderately conservative,False,1
+104134,OPG123_CDS_77,reverse,C->T,GC,False,3,Node365,ACG,T,OP263628|MPXV/Germany/2022/RKI274|Germany|2022-08,ACA,T,synonymous,NA,NA,False,1
+112638,OPG132_CDS_68,reverse,C->T,CC,False,2,Node365,CGG,R,OP263628|MPXV/Germany/2022/RKI274|Germany|2022-08,CAG,Q,nonsynonymous,43,conservative,False,1
+63147,OPG082_CDS_118,reverse,G->A,GA,True,2,Node365,TCG,S,Node377,TTG,L,nonsynonymous,145,moderately radical,True,3
+63147,OPG082_CDS_118,reverse,G->A,GA,True,2,Node463,TCG,S,Node474,TTG,L,nonsynonymous,145,moderately radical,True,3
+63147,OPG082_CDS_118,reverse,G->A,GA,True,2,Node2,TCG,S,ON755234|MPXV/Germany/2022/RKI028|Germany|2022-06,TTG,L,nonsynonymous,145,moderately radical,True,3
+157546,NA,NA,G->A,GA,True,NA,Node377,NA,NA,OP263633|MPXV/Germany/2022/RKI278|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+10224,OPG021_CDS_173,forward,G->A,GA,True,3,Node377,ACG,T,Node380,ACA,T,synonymous,NA,NA,False,1
+129761,OPG151_CDS_49,forward,G->A,GA,True,2,Node377,TGA,*,Node380,TAA,*,synonymous,NA,NA,False,1
+143625,OPG165_CDS_36,forward,T->A,,False,3,Node377,AAT,N,Node380,AAA,K,nonsynonymous,94,moderately conservative,False,1
+177847,OPG205_CDS_10,forward,C->T,TC,True,3,Node377,CTC,L,Node380,CTT,L,synonymous,NA,NA,False,1
+73398,OPG093_CDS_107,forward,G->A,GA,True,2,Node377,TGA,*,ON853665|MPXV/Germany/2022/RKI083|Germany|2022-06,TAA,*,synonymous,NA,NA,False,1
+120241,OPG137_CDS_63,forward,G->A,GA,True,2,Node365,GGA,G,Node386,GAA,E,nonsynonymous,98,moderately conservative,False,1
+125660,OPG147_CDS_53,reverse,C->T,TC,True,3,Node386,CTG,L,Node391,CTA,L,synonymous,NA,NA,False,1
+148534,OPG174_CDS_30,reverse,C->T,TC,True,3,Node391,ATG,M,OP215230|MPXV/Germany/2022/RKI187|Germany|2022-08,ATA,I,nonsynonymous,10,conservative,False,1
+170557,OPG198_CDS_14,forward,G->A,GA,True,2,Node386,CGA,R,ON959153|MPXV/Germany/2022/RKI165|Germany|2022-07,CAA,Q,nonsynonymous,43,conservative,False,1
+57088,OPG074_CDS_126,reverse,G->A,GA,True,1,Node386,CAA,Q,ON911481|Monkeypox/MX-UANL001/2022|Mexico|2022-06-28,TAA,*,nonsense,NA,NA,False,1
+127530,OPG149_CDS_51,forward,C->T,TC,True,3,Node386,CTC,L,ON911481|Monkeypox/MX-UANL001/2022|Mexico|2022-06-28,CTT,L,synonymous,NA,NA,False,1
+168120,OPG193_CDS_17,forward,T->C,,False,2,Node386,TTT,F,ON911481|Monkeypox/MX-UANL001/2022|Mexico|2022-06-28,TCT,S,nonsynonymous,155,radical,False,1
+148771,OPG174_CDS_30,reverse,C->T,TC,True,3,Node365,TCG,S,Node393,TCA,S,synonymous,NA,NA,False,1
+139055,OPG156_CDS_45,reverse,C->T,TC,True,3,Node393,CCG,P,OP215243|MPXV/Germany/2022/RKI206|Germany|2022-08,CCA,P,synonymous,NA,NA,False,1
+18629,OPG031_CDS_165,reverse,C->G,,False,1,Node393,GTG,V,ON959172|MPXV/Germany/2022/RKI158|Germany|2022-07,CTG,L,nonsynonymous,32,conservative,False,1
+99542,OPG118_CDS_82,forward,C->T,TC,True,3,Node393,TTC,F,ON755255|MPXV/Germany/2022/RKI049|Germany|2022-06,TTT,F,synonymous,NA,NA,False,1
+42504,OPG063_CDS_136,reverse,G->A,GA,True,2,Node365,TCA,S,Node401,TTA,L,nonsynonymous,145,moderately radical,False,1
+134850,NA,NA,C->T,TC,True,NA,Node401,NA,NA,OP245307|MPX/PT0050/2022|Portugal|2022-08-01,NA,NA,intergenic,NA,NA,False,1
+159741,OPG185_CDS_24,forward,C->T,TC,True,1,Node401,CGT,R,OP245307|MPX/PT0050/2022|Portugal|2022-08-01,TGT,C,nonsynonymous,180,radical,False,1
+74267,OPG094_CDS_106,forward,G->A,GA,True,3,Node401,TCG,S,Node406,TCA,S,synonymous,NA,NA,False,1
+115870,OPG134_CDS_66,forward,C->T,TC,True,2,Node401,TCT,S,Node406,TTT,F,nonsynonymous,155,radical,False,1
+5292,OPG015_CDS_175,reverse,C->T,TC,True,3,Node406,TTG,L,OP245331|MPX/PT0077/2022|Portugal|2022-07-28,TTA,L,synonymous,NA,NA,False,1
+11924,OPG023_CDS_171,reverse,G->A,GA,True,1,Node406,CGG,R,OP245331|MPX/PT0077/2022|Portugal|2022-07-28,TGG,W,nonsynonymous,101,moderately radical,False,1
+161784,OPG188_CDS_22,forward,A->T,,False,1,Node406,ACT,T,OP245331|MPX/PT0077/2022|Portugal|2022-07-28,TCT,S,nonsynonymous,58,moderately conservative,False,1
+4077,OPG003_CDS_176,reverse,G->A,GA,True,2,Node401,TCA,S,OP245357|MPX/PT0124/2022|Portugal|2022-07-14,TTA,L,nonsynonymous,145,moderately radical,False,1
+67757,OPG085_CDS_115,reverse,C->T,TC,True,3,Node401,TCG,S,OP245357|MPX/PT0124/2022|Portugal|2022-07-14,TCA,S,synonymous,NA,NA,False,1
+148135,OPG173_CDS_31,forward,G->A,GA,True,1,Node401,GAA,E,OP245357|MPX/PT0124/2022|Portugal|2022-07-14,AAA,K,nonsynonymous,56,moderately conservative,False,1
+163714,OPG189_CDS_21,forward,G->A,GA,True,2,Node401,AGA,R,OP245357|MPX/PT0124/2022|Portugal|2022-07-14,AAA,K,nonsynonymous,26,conservative,False,1
+182189,OPG210_CDS_7,forward,G->A,GA,True,1,Node401,GAT,D,OP245357|MPX/PT0124/2022|Portugal|2022-07-14,AAT,N,nonsynonymous,23,conservative,True,2
+182189,OPG210_CDS_7,forward,G->A,GA,True,1,Node2,GAT,D,Node713,AAT,N,nonsynonymous,23,conservative,True,2
+40862,OPG060_CDS_139,reverse,C->T,TC,True,2,Node401,CGA,R,OP205098|MPXV_UK_2022_9000131|United_Kingdom|2022-07-05,CAA,Q,nonsynonymous,43,conservative,False,1
+95871,OPG116_CDS_84,forward,G->A,GA,True,2,Node401,AGA,R,OP205098|MPXV_UK_2022_9000131|United_Kingdom|2022-07-05,AAA,K,nonsynonymous,26,conservative,False,1
+15562,NA,NA,C->T,TC,True,NA,Node401,NA,NA,OP205111|MPXV_UK_2022_9000148|United_Kingdom|2022-06-14,NA,NA,intergenic,NA,NA,False,1
+186970,OPG210_CDS_7,forward,C->T,TC,True,3,Node365,GTC,V,OP225963|MPXV_USA_2022_CO0006|USA|2022-06,GTT,V,synonymous,NA,NA,False,1
+98456,OPG118_CDS_82,forward,G->A,GA,True,3,Node365,CGG,R,Node409,CGA,R,synonymous,NA,NA,True,2
+98456,OPG118_CDS_82,forward,G->A,GA,True,3,Node160,CAG,Q,Node161,CAA,Q,synonymous,NA,NA,True,2
+103258,OPG123_CDS_77,reverse,C->T,TC,True,3,Node365,ACG,T,Node409,ACA,T,synonymous,NA,NA,False,1
+14077,OPG025_CDS_169,reverse,C->T,AC,False,2,Node365,CGT,R,Node382,CAT,H,nonsynonymous,29,conservative,False,1
+4529,OPG003_CDS_176,reverse,C->T,TC,True,3,Node382,GTG,V,OP205084|MPXV_UK_2022_9000093|United_Kingdom|2022-05-30,GTA,V,synonymous,NA,NA,False,1
+155585,NA,NA,G->A,GA,True,NA,Node382,NA,NA,OP205084|MPXV_UK_2022_9000093|United_Kingdom|2022-05-30,NA,NA,intergenic,NA,NA,False,1
+37691,OPG056_CDS_143,reverse,G->A,GG,False,2,Node382,CCA,P,OP205097|MPXV_UK_2022_9000130|United_Kingdom|2022-07-05,CTA,L,nonsynonymous,98,moderately conservative,False,1
+147799,OPG172_CDS_32,forward,G->A,GC,False,2,Node382,GGC,G,OP205097|MPXV_UK_2022_9000130|United_Kingdom|2022-07-05,GAC,D,nonsynonymous,94,moderately conservative,False,1
+157353,NA,NA,G->A,GA,True,NA,Node382,NA,NA,OP205097|MPXV_UK_2022_9000130|United_Kingdom|2022-07-05,NA,NA,intergenic,NA,NA,False,1
+57173,OPG075_CDS_125,reverse,C->T,TC,True,1,Node365,GAG,E,Node397,AAG,K,nonsynonymous,56,moderately conservative,False,1
+174924,OPG204_CDS_11,forward,A->T,,False,1,Node365,AAC,N,Node397,TAC,Y,nonsynonymous,143,moderately radical,False,1
+56365,OPG074_CDS_126,reverse,G->A,GA,True,1,Node397,CTG,L,OP205099|MPXV_UK_2022_9000133|United_Kingdom|2022-07-05,TTG,L,synonymous,NA,NA,False,1
+174227,NA,NA,C->T,AC,False,NA,Node365,NA,NA,OP205101|MPXV_UK_2022_9000136|United_Kingdom|2022-07-07,NA,NA,intergenic,NA,NA,False,1
+12842,OPG023_CDS_171,reverse,C->T,TC,True,1,Node365,GAG,E,OP205103|MPXV_UK_2022_9000138|United_Kingdom|2022-07-06,AAG,K,nonsynonymous,56,moderately conservative,False,1
+54365,OPG071_CDS_129,reverse,C->T,TC,True,1,Node365,GAA,E,OP205118|MPXV_UK_2022_9000160|United_Kingdom|2022-07-05,AAA,K,nonsynonymous,56,moderately conservative,False,1
+71796,OPG091_CDS_109,forward,G->A,GA,True,2,Node365,TGA,*,OP205118|MPXV_UK_2022_9000160|United_Kingdom|2022-07-05,TAA,*,synonymous,NA,NA,False,1
+123397,OPG144_CDS_56,reverse,C->T,GC,False,1,Node365,GCA,A,OP205118|MPXV_UK_2022_9000160|United_Kingdom|2022-07-05,ACA,T,nonsynonymous,58,moderately conservative,True,2
+123397,OPG144_CDS_56,reverse,C->T,GC,False,1,Node2,GCA,A,OP215229|MPXV/Germany/2022/RKI250|Germany|2022-08,ACA,T,nonsynonymous,58,moderately conservative,True,2
+160426,NA,NA,C->T,TC,True,NA,Node365,NA,NA,OP205118|MPXV_UK_2022_9000160|United_Kingdom|2022-07-05,NA,NA,intergenic,NA,NA,False,1
+23359,OPG039_CDS_159,reverse,G->A,GA,True,3,Node365,ATC,I,Node399,ATT,I,synonymous,NA,NA,False,1
+114955,OPG133_CDS_67,reverse,C->T,TC,True,3,Node365,GCG,A,Node399,GCA,A,synonymous,NA,NA,False,1
+116175,OPG134_CDS_66,forward,C->T,TC,True,1,Node365,CGG,R,Node399,TGG,W,nonsynonymous,101,moderately radical,False,1
+17463,OPG030_CDS_166,reverse,G->A,GA,True,1,Node365,CAG,Q,OP205122|MPXV_UK_2022_9000165|United_Kingdom|2022-07-04,TAG,*,nonsense,NA,NA,False,1
+32761,OPG049_CDS_150,reverse,C->T,TC,True,3,Node365,GCG,A,OP205122|MPXV_UK_2022_9000165|United_Kingdom|2022-07-04,GCA,A,synonymous,NA,NA,False,1
+53441,OPG071_CDS_129,reverse,G->A,GA,True,1,Node365,CAT,H,OP205137|MPXV_UK_2022_9000192|United_Kingdom|2022-07-05,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+40784,OPG060_CDS_139,reverse,C->T,TC,True,2,Node365,CGA,R,OP018607|MPXV/Germany/2022/RKI185|Germany|2022-07,CAA,Q,nonsynonymous,43,conservative,False,1
+28887,OPG045_CDS_154,reverse,C->T,TC,True,3,Node2,ATG,M,Node558,ATA,I,nonsynonymous,10,conservative,False,1
+3569,OPG003_CDS_176,reverse,C->T,GC,False,3,Node558,CCG,P,OP263634|MPXV/Germany/2022/RKI279|Germany|2022-08,CCA,P,synonymous,NA,NA,False,1
+54262,OPG071_CDS_129,reverse,C->T,TC,True,2,Node558,CGA,R,OP263634|MPXV/Germany/2022/RKI279|Germany|2022-08,CAA,Q,nonsynonymous,43,conservative,False,1
+5595,OPG015_CDS_175,reverse,G->A,GA,True,3,Node2,TTC,F,Node609,TTT,F,synonymous,NA,NA,False,1
+161296,OPG187_CDS_23,forward,G->A,GG,False,1,Node609,GGG,G,Node611,AGG,R,nonsynonymous,125,moderately radical,False,1
+86391,OPG108_CDS_92,reverse,C->T,TC,True,2,Node611,TGA,*,OP263630|MPXV/Germany/2022/RKI275|Germany|2022-08,TAA,*,synonymous,NA,NA,False,1
+103786,OPG123_CDS_77,reverse,C->T,TC,True,3,Node611,AAG,K,OP263630|MPXV/Germany/2022/RKI275|Germany|2022-08,AAA,K,synonymous,NA,NA,False,1
+160088,NA,NA,C->T,TC,True,NA,Node611,NA,NA,OP263630|MPXV/Germany/2022/RKI275|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+186255,OPG210_CDS_7,forward,G->A,GA,True,2,Node611,AGA,R,OP263630|MPXV/Germany/2022/RKI275|Germany|2022-08,AAA,K,nonsynonymous,26,conservative,False,1
+2039,OPG002_CDS_177,reverse,G->A,GA,True,1,Node611,CAG,Q,Node617,TAG,*,nonsense,NA,NA,False,1
+34298,OPG053_CDS_146,reverse,G->T,,False,2,Node617,CCG,P,OP215215|MPXV/Germany/2022/RKI213|Germany|2022-08,CAG,Q,nonsynonymous,76,moderately conservative,False,1
+37048,OPG055_CDS_144,reverse,C->T,TC,True,2,Node617,TGA,*,OP215215|MPXV/Germany/2022/RKI213|Germany|2022-08,TAA,*,synonymous,NA,NA,False,1
+169328,NA,NA,T->A,,False,NA,Node617,NA,NA,OP215215|MPXV/Germany/2022/RKI213|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+80545,OPG103_CDS_97,forward,C->T,TC,True,3,Node611,TTC,F,Node622,TTT,F,synonymous,NA,NA,False,1
+16213,OPG027_CDS_168,reverse,G->A,GA,True,2,Node622,TCG,S,OP018603|MPXV/Germany/2022/RKI178|Germany|2022-07,TTG,L,nonsynonymous,145,moderately radical,False,1
+186220,OPG210_CDS_7,forward,C->T,GC,False,3,Node611,GGC,G,Node621,GGT,G,synonymous,NA,NA,False,1
+24929,OPG040_CDS_158,reverse,C->T,TC,True,3,Node611,TTG,L,ON929061|MPXV/Germany/2022/RKI103|Germany|2022-07,TTA,L,synonymous,NA,NA,False,1
+78034,OPG100_CDS_100,forward,G->A,GA,True,1,Node609,GAT,D,Node623,AAT,N,nonsynonymous,23,conservative,False,1
+78034,OPG099_CDS_101,forward,G->A,GA,True,2,Node609,CGA,R,Node623,CAA,Q,nonsynonymous,43,conservative,False,1
+80111,OPG103_CDS_97,forward,C->T,CC,False,1,Node609,CGA,R,Node623,TGA,*,nonsense,NA,NA,False,1
+22643,OPG038_CDS_160,reverse,G->A,GG,False,3,Node623,CCC,P,Node624,CCT,P,synonymous,NA,NA,False,1
+119985,OPG137_CDS_63,forward,T->C,,False,1,Node624,TAG,*,OP171923|MPXV22/human/USA-NE-48|USA|2022-07-15,CAG,Q,nonsynonymous,NA,NA,False,1
+122649,OPG143_CDS_57,reverse,C->T,TC,True,3,Node623,CTG,L,ON720849|MpxV/Spain/MD-HGUGM-6532064/2022|Spain|2022-05-27,CTA,L,synonymous,NA,NA,False,1
+139150,OPG156_CDS_45,reverse,T->C,,False,1,Node623,AAT,N,ON622718|MPXV/ES0001/HUGTiP/2022|Spain|2022-05-20,GAT,D,nonsynonymous,23,conservative,False,1
+130606,OPG151_CDS_49,forward,C->T,TC,True,1,Node2,CGG,R,Node567,TGG,W,nonsynonymous,101,moderately radical,False,1
+89296,OPG109_CDS_91,reverse,G->T,,False,1,Node567,CAG,Q,OP205113|MPXV_UK_2022_9000150|United_Kingdom|2022-06-16,AAG,K,nonsynonymous,53,moderately conservative,False,1
+165465,OPG190_CDS_20,forward,G->A,GA,True,3,Node567,TGG,W,OP205113|MPXV_UK_2022_9000150|United_Kingdom|2022-06-16,TGA,*,nonsense,NA,NA,False,1
+56259,OPG074_CDS_126,reverse,C->T,TC,True,2,Node2,AGA,R,OP215217|MPXV/Germany/2022/RKI218|Germany|2022-08,AAA,K,nonsynonymous,26,conservative,False,1
+188946,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP215217|MPXV/Germany/2022/RKI218|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+70780,OPG089_CDS_111,forward,C->T,TC,True,1,Node2,CTA,L,Node463,TTA,L,synonymous,NA,NA,True,2
+70780,OPG089_CDS_111,forward,C->T,TC,True,1,Node502,CTA,L,OP245318|MPX/PT0064/2022|Portugal|2022-08-01,TTA,L,synonymous,NA,NA,True,2
+32909,OPG049_CDS_150,reverse,C->T,TC,True,2,Node474,CGA,R,OP215225|MPXV/Germany/2022/RKI240|Germany|2022-08,CAA,Q,nonsynonymous,43,conservative,False,1
+190668,hypothetical_protein_CDS_5,forward,C->T,TC,True,2,Node474,TCG,S,OP215225|MPXV/Germany/2022/RKI240|Germany|2022-08,TTG,L,nonsynonymous,145,moderately radical,True,2
+190668,hypothetical_protein_CDS_5,forward,C->T,TC,True,2,Node479,TCG,S,ON959149|MPXV/Germany/2022/RKI140|Germany|2022-07,TTG,L,nonsynonymous,145,moderately radical,True,2
+44333,OPG064_CDS_135,reverse,C->T,TC,True,2,Node463,TGA,*,Node476,TAA,*,synonymous,NA,NA,False,1
+2898,OPG003_CDS_176,reverse,G->A,GC,False,2,Node476,GCG,A,OP245315|MPX/PT0061/2022|Portugal|2022-08-01,GTG,V,nonsynonymous,64,moderately conservative,False,1
+27953,OPG043_CDS_156,reverse,C->T,TC,True,2,Node476,TGA,*,OP245315|MPX/PT0061/2022|Portugal|2022-08-01,TAA,*,synonymous,NA,NA,False,1
+33103,OPG049_CDS_150,reverse,C->T,TC,True,3,Node476,CTG,L,OP245315|MPX/PT0061/2022|Portugal|2022-08-01,CTA,L,synonymous,NA,NA,True,2
+33103,OPG049_CDS_150,reverse,C->T,TC,True,3,Node454,CTG,L,OP215226|MPXV/Germany/2022/RKI241|Germany|2022-08,CTA,L,synonymous,NA,NA,True,2
+93512,OPG113_CDS_87,forward,G->T,,False,1,Node476,GGT,G,OP245315|MPX/PT0061/2022|Portugal|2022-08-01,TGT,C,nonsynonymous,159,radical,False,1
+114490,OPG133_CDS_67,reverse,C->T,TC,True,3,Node476,CCG,P,OP245315|MPX/PT0061/2022|Portugal|2022-08-01,CCA,P,synonymous,NA,NA,False,1
+133295,NA,NA,C->T,TC,True,NA,Node476,NA,NA,OP245315|MPX/PT0061/2022|Portugal|2022-08-01,NA,NA,intergenic,NA,NA,False,1
+46956,OPG066_CDS_133,reverse,G->A,GG,False,1,Node476,CGT,R,ON853667|MPXV/Germany/2022/RKI085|Germany|2022-06,TGT,C,nonsynonymous,180,radical,False,1
+156469,NA,NA,G->A,GA,True,NA,Node479,NA,NA,ON959149|MPXV/Germany/2022/RKI140|Germany|2022-07,NA,NA,intergenic,NA,NA,True,2
+156469,NA,NA,G->A,GA,True,NA,Node661,NA,NA,OP215284|MPXV/Germany/2022/RKI265|Germany|2022-08,NA,NA,intergenic,NA,NA,True,2
+26136,OPG042_CDS_157,reverse,G->A,GA,True,1,Node463,CTA,L,ON959170|MPXV/Germany/2022/RKI156|Germany|2022-07,TTA,L,synonymous,NA,NA,False,1
+78593,OPG101_CDS_99,forward,G->A,GA,True,1,Node463,GAC,D,ON959173|MPXV/Germany/2022/RKI159|Germany|2022-07,AAC,N,nonsynonymous,23,conservative,False,1
+126202,OPG148_CDS_52,forward,C->T,TC,True,2,Node463,TCC,S,ON959173|MPXV/Germany/2022/RKI159|Germany|2022-07,TTC,F,nonsynonymous,155,radical,False,1
+28702,OPG045_CDS_154,reverse,C->T,CC,False,2,Node463,GGG,G,ON918656|MPXV/human/Taiwan/110-231642/2022|Taiwan|2022-06,GAG,E,nonsynonymous,98,moderately conservative,False,1
+34793,OPG054_CDS_145,reverse,T->C,,False,3,Node463,GTA,V,ON918656|MPXV/human/Taiwan/110-231642/2022|Taiwan|2022-06,GTG,V,synonymous,NA,NA,False,1
+50861,OPG070_CDS_130,forward,T->C,,False,3,Node463,CGT,R,ON918656|MPXV/human/Taiwan/110-231642/2022|Taiwan|2022-06,CGC,R,synonymous,NA,NA,False,1
+51777,OPG071_CDS_129,reverse,C->T,TC,True,3,Node463,TAG,*,ON918656|MPXV/human/Taiwan/110-231642/2022|Taiwan|2022-06,TAA,*,synonymous,NA,NA,False,1
+161488,OPG187_CDS_23,forward,G->A,GT,False,1,Node463,GTT,V,ON853656|MPXV/Germany/2022/RKI070|Germany|2022-06,ATT,I,nonsynonymous,29,conservative,False,1
+177845,OPG205_CDS_10,forward,C->T,TC,True,1,Node463,CTC,L,ON853656|MPXV/Germany/2022/RKI070|Germany|2022-06,TTC,F,nonsynonymous,22,conservative,False,1
+16333,OPG027_CDS_168,reverse,G->A,GA,True,2,Node463,TCG,S,ON813261|MPXV/Germany/2022/RKI061|Germany|2022-06,TTG,L,nonsynonymous,145,moderately radical,False,1
+67289,OPG085_CDS_115,reverse,C->T,TC,True,3,Node463,CCG,P,ON813261|MPXV/Germany/2022/RKI061|Germany|2022-06,CCA,P,synonymous,NA,NA,False,1
+28706,OPG045_CDS_154,reverse,G->A,GG,False,1,Node463,CGC,R,ON755254|MPXV/Germany/2022/RKI048|Germany|2022-06,TGC,C,nonsynonymous,180,radical,False,1
+51885,OPG071_CDS_129,reverse,C->T,TC,True,3,Node463,CTG,L,ON755254|MPXV/Germany/2022/RKI048|Germany|2022-06,CTA,L,synonymous,NA,NA,False,1
+87017,OPG108_CDS_92,reverse,C->T,TC,True,3,Node2,TTG,L,OP215220|MPXV/Germany/2022/RKI224|Germany|2022-08,TTA,L,synonymous,NA,NA,False,1
+4592,OPG003_CDS_176,reverse,C->T,TC,True,3,Node2,ACG,T,OP215221|MPXV/Germany/2022/RKI229|Germany|2022-08,ACA,T,synonymous,NA,NA,False,1
+11462,OPG023_CDS_171,reverse,G->A,GA,True,1,Node2,CAA,Q,OP215221|MPXV/Germany/2022/RKI229|Germany|2022-08,TAA,*,nonsense,NA,NA,False,1
+20767,OPG036_CDS_162,reverse,G->A,GA,True,3,Node2,ATC,I,OP215221|MPXV/Germany/2022/RKI229|Germany|2022-08,ATT,I,synonymous,NA,NA,False,1
+92865,OPG113_CDS_87,forward,C->T,TC,True,2,Node2,TCT,S,OP215221|MPXV/Germany/2022/RKI229|Germany|2022-08,TTT,F,nonsynonymous,155,radical,False,1
+133750,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP215221|MPXV/Germany/2022/RKI229|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+149590,OPG175_CDS_29,forward,G->A,GA,True,3,Node2,TCG,S,OP215221|MPXV/Germany/2022/RKI229|Germany|2022-08,TCA,S,synonymous,NA,NA,False,1
+160391,NA,NA,G->A,GA,True,NA,Node2,NA,NA,OP215221|MPXV/Germany/2022/RKI229|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+164459,OPG189_CDS_21,forward,G->A,GA,True,3,Node2,TGG,W,OP215221|MPXV/Germany/2022/RKI229|Germany|2022-08,TGA,*,nonsense,NA,NA,False,1
+110464,OPG129_CDS_71,reverse,C->T,CC,False,3,Node2,TCG,S,OP215222|MPXV/Germany/2022/RKI231|Germany|2022-08,TCA,S,synonymous,NA,NA,False,1
+89906,OPG110_CDS_90,forward,C->T,TC,True,3,Node2,TTC,F,Node454,TTT,F,synonymous,NA,NA,False,1
+94798,OPG115_CDS_85,forward,G->A,GA,True,2,Node2,TGA,*,Node454,TAA,*,synonymous,NA,NA,True,2
+94798,OPG115_CDS_85,forward,G->A,GA,True,2,Node459,TGA,*,OP215260|MPXV/Germany/2022/RKI236|Germany|2022-08,TAA,*,synonymous,NA,NA,True,2
+45605,OPG064_CDS_135,reverse,C->T,TC,True,2,Node454,TGA,*,OP215226|MPXV/Germany/2022/RKI241|Germany|2022-08,TAA,*,synonymous,NA,NA,False,1
+47702,NA,NA,G->A,GA,True,NA,Node454,NA,NA,OP215226|MPXV/Germany/2022/RKI241|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+120237,OPG137_CDS_63,forward,C->T,TC,True,1,Node454,CGA,R,OP245334|MPX/PT0081/2022|Portugal|2022-07-23,TGA,*,nonsense,NA,NA,False,1
+126047,OPG148_CDS_52,forward,G->A,GA,True,3,Node454,GAG,E,OP245334|MPX/PT0081/2022|Portugal|2022-07-23,GAA,E,synonymous,NA,NA,False,1
+150831,NA,NA,C->T,TC,True,NA,Node454,NA,NA,ON959143|MPX-96/Finland/2022|Finland|2022-06-16,NA,NA,intergenic,NA,NA,False,1
+188491,NA,NA,C->T,TC,True,NA,Node454,NA,NA,ON959143|MPX-96/Finland/2022|Finland|2022-06-16,NA,NA,intergenic,NA,NA,False,1
+79533,OPG102_CDS_98,forward,C->T,AC,False,3,Node454,TAC,Y,ON720848|MpxV/Spain/MD-HGUGM-6513479/2022|Spain|2022-05-27,TAT,Y,synonymous,NA,NA,False,1
+150538,NA,NA,T->A,,False,NA,Node454,NA,NA,ON720848|MpxV/Spain/MD-HGUGM-6513479/2022|Spain|2022-05-27,NA,NA,intergenic,NA,NA,False,1
+87268,OPG109_CDS_91,reverse,A->G,,False,1,Node2,TGC,C,Node219,CGC,R,nonsynonymous,180,radical,False,1
+40980,OPG060_CDS_139,reverse,C->T,TC,True,1,Node219,GAA,E,OP215228|MPXV/Germany/2022/RKI249|Germany|2022-08,AAA,K,nonsynonymous,56,moderately conservative,False,1
+149416,NA,NA,G->A,GA,True,NA,Node219,NA,NA,OP215228|MPXV/Germany/2022/RKI249|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+108239,OPG127_CDS_73,reverse,G->A,GA,True,1,Node219,CTA,L,OP215233|MPXV/Germany/2022/RKI191|Germany|2022-08,TTA,L,synonymous,NA,NA,False,1
+54664,OPG072_CDS_128,forward,G->A,GA,True,1,Node219,GAA,E,OP215240|MPXV/Germany/2022/RKI200|Germany|2022-08,AAA,K,nonsynonymous,56,moderately conservative,False,1
+63120,OPG082_CDS_118,reverse,C->T,TC,True,2,Node219,TGA,*,OP215240|MPXV/Germany/2022/RKI200|Germany|2022-08,TAA,*,synonymous,NA,NA,False,1
+105222,OPG124_CDS_76,reverse,C->T,TC,True,2,Node219,CGA,R,OP215240|MPXV/Germany/2022/RKI200|Germany|2022-08,CAA,Q,nonsynonymous,43,conservative,False,1
+125815,OPG147_CDS_53,reverse,G->A,GA,True,1,Node219,CTG,L,OP215240|MPXV/Germany/2022/RKI200|Germany|2022-08,TTG,L,synonymous,NA,NA,False,1
+141757,OPG162_CDS_39,forward,C->T,TC,True,2,Node219,TCT,S,ON929076|MPXV/Germany/2022/RKI121|Germany|2022-07,TTT,F,nonsynonymous,155,radical,False,1
+188111,NA,NA,G->A,GA,True,NA,Node2,NA,NA,OP215229|MPXV/Germany/2022/RKI250|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+101074,OPG120_CDS_80,reverse,C->T,TC,True,2,Node2,TGA,*,Node661,TAA,*,synonymous,NA,NA,False,1
+138682,OPG156_CDS_45,reverse,G->A,GA,True,1,Node2,CTT,L,Node661,TTT,F,nonsynonymous,22,conservative,False,1
+124558,OPG145_CDS_55,forward,C->T,TC,True,1,Node661,CTT,L,OP215266|MPXV/Germany/2022/RKI246|Germany|2022-08,TTT,F,nonsynonymous,22,conservative,False,1
+73609,OPG093_CDS_107,forward,C->T,TC,True,3,Node2,CTC,L,Node187,CTT,L,synonymous,NA,NA,False,1
+113740,OPG133_CDS_67,reverse,C->T,TC,True,3,Node2,CTG,L,Node187,CTA,L,synonymous,NA,NA,False,1
+143845,OPG165_CDS_36,forward,C->T,TC,True,1,Node2,CAT,H,OP215236|MPXV/Germany/2022/RKI194|Germany|2022-08,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+56205,OPG074_CDS_126,reverse,G->A,GG,False,2,Node2,CCG,P,Node583,CTG,L,nonsynonymous,98,moderately conservative,False,1
+136374,OPG153_CDS_48,reverse,C->T,TC,True,3,Node2,TTG,L,Node583,TTA,L,synonymous,NA,NA,False,1
+57857,OPG077_CDS_123,reverse,C->T,TC,True,3,Node583,TAG,*,OP215213|MPXV/Germany/2022/RKI209|Germany|2022-08,TAA,*,synonymous,NA,NA,False,1
+169928,OPG197_CDS_15,forward,G->A,GA,True,2,Node2,TGA,*,Node560,TAA,*,synonymous,NA,NA,False,1
+58518,OPG077_CDS_123,reverse,G->A,GA,True,2,Node560,TCA,S,Node561,TTA,L,nonsynonymous,145,moderately radical,False,1
+63861,OPG083_CDS_117,reverse,G->A,GA,True,3,Node561,ATC,I,OP215241|MPXV/Germany/2022/RKI201|Germany|2022-08,ATT,I,synonymous,NA,NA,False,1
+109844,OPG129_CDS_71,reverse,G->A,GA,True,2,Node561,TCG,S,OP215241|MPXV/Germany/2022/RKI201|Germany|2022-08,TTG,L,nonsynonymous,145,moderately radical,False,1
+143277,OPG164_CDS_37,forward,C->T,TC,True,3,Node561,TTC,F,OP215241|MPXV/Germany/2022/RKI201|Germany|2022-08,TTT,F,synonymous,NA,NA,False,1
+23345,OPG039_CDS_159,reverse,C->T,TC,True,2,Node561,AGA,R,OP215277|MPXV/Germany/2022/RKI258|Germany|2022-08,AAA,K,nonsynonymous,26,conservative,False,1
+23353,OPG039_CDS_159,reverse,C->T,TC,True,3,Node561,ACG,T,OP215277|MPXV/Germany/2022/RKI258|Germany|2022-08,ACA,T,synonymous,NA,NA,False,1
+23356,OPG039_CDS_159,reverse,C->T,TC,True,3,Node561,TTG,L,OP215277|MPXV/Germany/2022/RKI258|Germany|2022-08,TTA,L,synonymous,NA,NA,False,1
+81977,OPG105_CDS_95,forward,G->A,GA,True,1,Node561,GAC,D,ON853670|MPXV/Germany/2022/RKI090|Germany|2022-06,AAC,N,nonsynonymous,23,conservative,False,1
+10118,OPG021_CDS_173,forward,G->A,GA,True,2,Node560,TGA,*,Node564,TAA,*,synonymous,NA,NA,False,1
+15004,OPG025_CDS_169,reverse,C->T,TC,True,2,Node560,TGA,*,Node564,TAA,*,synonymous,NA,NA,False,1
+16819,OPG029_CDS_167,reverse,G->A,GA,True,1,Node564,CAA,Q,ON983165|MpxV/human/CAN/UN-NML-3686/2022|Canada|2022-06-14,TAA,*,nonsense,NA,NA,False,1
+180825,OPG209_CDS_8,forward,C->T,TC,True,3,Node564,GTC,V,ON983165|MpxV/human/CAN/UN-NML-3686/2022|Canada|2022-06-14,GTT,V,synonymous,NA,NA,False,1
+48317,OPG068_CDS_132,forward,C->T,TC,True,1,Node2,CAA,Q,Node153,TAA,*,nonsense,NA,NA,False,1
+174842,OPG204_CDS_11,forward,C->T,TC,True,3,Node2,TTC,F,OP215246|MPXV/Germany/2022/RKI210|Germany|2022-08,TTT,F,synonymous,NA,NA,False,1
+8638,NA,NA,G->A,GA,True,NA,Node2,NA,NA,OP215253|MPXV/Germany/2022/RKI225|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+24238,NA,NA,C->T,AC,False,NA,Node2,NA,NA,OP215254|MPXV/Germany/2022/RKI226|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+168738,OPG195_CDS_16,forward,G->A,GA,True,3,Node2,TCG,S,OP215254|MPXV/Germany/2022/RKI226|Germany|2022-08,TCA,S,synonymous,NA,NA,False,1
+12908,NA,NA,G->A,GA,True,NA,Node2,NA,NA,Node139,NA,NA,intergenic,NA,NA,False,1
+15057,OPG025_CDS_169,reverse,C->T,TC,True,3,Node2,ATG,M,Node139,ATA,I,nonsynonymous,10,conservative,False,1
+67261,OPG085_CDS_115,reverse,G->A,GA,True,1,Node2,CAG,Q,Node139,TAG,*,nonsense,NA,NA,False,1
+132631,NA,NA,G->A,GT,False,NA,Node139,NA,NA,OP215258|MPXV/Germany/2022/RKI232|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+143997,OPG165_CDS_36,forward,C->T,TC,True,3,Node139,GTC,V,OP245350|MPX/PT0117/2022|Portugal|2022-07-14,GTT,V,synonymous,NA,NA,False,1
+148268,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node717,NA,NA,intergenic,NA,NA,False,1
+9963,OPG021_CDS_173,forward,G->A,GA,True,3,Node717,AAG,K,OP205108|MPXV_UK_2022_9000145|United_Kingdom|2022-06-16,AAA,K,synonymous,NA,NA,False,1
+74417,OPG094_CDS_106,forward,C->T,TC,True,3,Node717,GTC,V,OP205108|MPXV_UK_2022_9000145|United_Kingdom|2022-06-16,GTT,V,synonymous,NA,NA,False,1
+150003,OPG176_CDS_28,forward,G->A,GC,False,1,Node717,GCT,A,OP205108|MPXV_UK_2022_9000145|United_Kingdom|2022-06-16,ACT,T,nonsynonymous,58,moderately conservative,False,1
+95004,OPG115_CDS_85,forward,C->T,TC,True,1,Node2,CAA,Q,Node459,TAA,*,nonsense,NA,NA,False,1
+152588,NA,NA,G->A,GA,True,NA,Node2,NA,NA,Node459,NA,NA,intergenic,NA,NA,False,1
+112605,OPG132_CDS_68,reverse,G->A,GA,True,2,Node459,TCA,S,OP215260|MPXV/Germany/2022/RKI236|Germany|2022-08,TTA,L,nonsynonymous,145,moderately radical,False,1
+57919,OPG077_CDS_123,reverse,C->T,TC,True,1,Node2,GAG,E,OP215261|MPXV/Germany/2022/RKI237|Germany|2022-08,AAG,K,nonsynonymous,56,moderately conservative,False,1
+58904,OPG079_CDS_121,reverse,C->T,TC,True,3,Node2,TAG,*,OP215261|MPXV/Germany/2022/RKI237|Germany|2022-08,TAA,*,synonymous,NA,NA,False,1
+135057,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP215261|MPXV/Germany/2022/RKI237|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+145305,OPG167_CDS_35,reverse,G->A,GA,True,3,Node2,TTC,F,OP215261|MPXV/Germany/2022/RKI237|Germany|2022-08,TTT,F,synonymous,NA,NA,False,1
+156068,NA,NA,A->G,,False,NA,Node2,NA,NA,OP215261|MPXV/Germany/2022/RKI237|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+156172,NA,NA,A->G,,False,NA,Node2,NA,NA,OP215261|MPXV/Germany/2022/RKI237|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+178435,NA,NA,G->A,GA,True,NA,Node2,NA,NA,OP215261|MPXV/Germany/2022/RKI237|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+179783,OPG208_CDS_9,forward,T->C,,False,3,Node2,TAT,Y,OP215261|MPXV/Germany/2022/RKI237|Germany|2022-08,TAC,Y,synonymous,NA,NA,False,1
+77971,OPG099_CDS_101,forward,G->C,,False,2,Node2,AGT,S,OP215264|MPXV/Germany/2022/RKI244|Germany|2022-08,ACT,T,nonsynonymous,58,moderately conservative,False,1
+36617,OPG055_CDS_144,reverse,G->A,GA,True,1,Node2,CAG,Q,Node412,TAG,*,nonsense,NA,NA,False,1
+159779,OPG185_CDS_24,forward,C->T,TC,True,3,Node2,GTC,V,Node412,GTT,V,synonymous,NA,NA,False,1
+84008,OPG105_CDS_95,forward,C->T,TC,True,1,Node412,CAA,Q,OP215265|MPXV/Germany/2022/RKI245|Germany|2022-08,TAA,*,nonsense,NA,NA,False,1
+151204,NA,NA,C->T,TC,True,NA,Node412,NA,NA,OP215265|MPXV/Germany/2022/RKI245|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+8552,NA,NA,C->T,TC,True,NA,Node412,NA,NA,OP018604|MPXV/Germany/2022/RKI179|Germany|2022-07,NA,NA,intergenic,NA,NA,False,1
+8597,NA,NA,C->T,TC,True,NA,Node412,NA,NA,OP018604|MPXV/Germany/2022/RKI179|Germany|2022-07,NA,NA,intergenic,NA,NA,False,1
+46179,OPG065_CDS_134,reverse,G->A,GA,True,1,Node412,CAG,Q,OP018604|MPXV/Germany/2022/RKI179|Germany|2022-07,TAG,*,nonsense,NA,NA,False,1
+63026,OPG082_CDS_118,reverse,T->G,,False,3,Node412,TTA,L,OP018604|MPXV/Germany/2022/RKI179|Germany|2022-07,TTC,F,nonsynonymous,22,conservative,False,1
+133557,NA,NA,C->T,TC,True,NA,Node412,NA,NA,OP018604|MPXV/Germany/2022/RKI179|Germany|2022-07,NA,NA,intergenic,NA,NA,False,1
+162919,OPG188_CDS_22,forward,T->C,,False,2,Node412,GTA,V,OP018604|MPXV/Germany/2022/RKI179|Germany|2022-07,GCA,A,nonsynonymous,64,moderately conservative,False,1
+2132,OPG002_CDS_177,reverse,G->A,GA,True,1,Node412,CAA,Q,ON959135|MPXV_USA_2022_NY004|USA|2022-05,TAA,*,nonsense,NA,NA,False,1
+96835,OPG117_CDS_83,forward,G->A,GA,True,2,Node412,TGA,*,ON959135|MPXV_USA_2022_NY004|USA|2022-05,TAA,*,synonymous,NA,NA,False,1
+168365,OPG195_CDS_16,forward,G->A,GA,True,2,Node412,CGA,R,ON959169|MPXV/Germany/2022/RKI155|Germany|2022-07,CAA,Q,nonsynonymous,43,conservative,False,1
+170929,NA,NA,G->A,GA,True,NA,Node412,NA,NA,ON959169|MPXV/Germany/2022/RKI155|Germany|2022-07,NA,NA,intergenic,NA,NA,False,1
+127245,OPG149_CDS_51,forward,C->T,TC,True,3,Node412,GTC,V,ON929060|MPXV/Germany/2022/RKI102|Germany|2022-07,GTT,V,synonymous,NA,NA,False,1
+127245,OPG148_CDS_52,forward,C->T,TC,True,1,Node412,CAA,Q,ON929060|MPXV/Germany/2022/RKI102|Germany|2022-07,TAA,*,nonsense,NA,NA,False,1
+132437,NA,NA,C->T,TC,True,NA,Node412,NA,NA,ON929060|MPXV/Germany/2022/RKI102|Germany|2022-07,NA,NA,intergenic,NA,NA,False,1
+158617,NA,NA,G->A,GA,True,NA,Node412,NA,NA,ON929060|MPXV/Germany/2022/RKI102|Germany|2022-07,NA,NA,intergenic,NA,NA,False,1
+183790,OPG210_CDS_7,forward,C->T,TC,True,3,Node412,ATC,I,ON929060|MPXV/Germany/2022/RKI102|Germany|2022-07,ATT,I,synonymous,NA,NA,False,1
+3837,OPG003_CDS_176,reverse,C->T,TC,True,2,Node412,CGA,R,ON694330|MPXV/Germany/2022/RKI019|Germany|2022-05,CAA,Q,nonsynonymous,43,conservative,False,1
+13653,OPG025_CDS_169,reverse,C->T,TC,True,3,Node2,CTG,L,OP215269|MPXV/Germany/2022/RKI252|Germany|2022-08,CTA,L,synonymous,NA,NA,False,1
+116100,OPG134_CDS_66,forward,C->T,TC,True,1,Node2,CTT,L,OP215269|MPXV/Germany/2022/RKI252|Germany|2022-08,TTT,F,nonsynonymous,22,conservative,False,1
+121971,OPG142_CDS_58,reverse,G->A,GA,True,2,Node2,TCG,S,OP215269|MPXV/Germany/2022/RKI252|Germany|2022-08,TTG,L,nonsynonymous,145,moderately radical,False,1
+150376,OPG176_CDS_28,forward,G->A,GA,True,2,Node2,TGA,*,OP215269|MPXV/Germany/2022/RKI252|Germany|2022-08,TAA,*,synonymous,NA,NA,False,1
+187059,NA,NA,G->A,GA,True,NA,Node2,NA,NA,OP215269|MPXV/Germany/2022/RKI252|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+21998,OPG037_CDS_161,reverse,C->T,TC,True,3,Node2,CAG,Q,OP215270|MPXV/Germany/2022/RKI255|Germany|2022-08,CAA,Q,synonymous,NA,NA,False,1
+72097,OPG092_CDS_108,reverse,G->A,GA,True,1,Node2,CTA,L,OP215275|MPXV/Germany/2022/RKI256|Germany|2022-08,TTA,L,synonymous,NA,NA,False,1
+145842,NA,NA,C->T,CC,False,NA,Node2,NA,NA,OP215275|MPXV/Germany/2022/RKI256|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+184945,OPG210_CDS_7,forward,G->A,GA,True,3,Node2,TAG,*,OP215281|MPXV/Germany/2022/RKI262|Germany|2022-08,TAA,*,synonymous,NA,NA,False,1
+3698,OPG003_CDS_176,reverse,G->A,GA,True,3,Node2,ATC,I,OP215282|MPXV/Germany/2022/RKI263|Germany|2022-08,ATT,I,synonymous,NA,NA,False,1
+33851,OPG052_CDS_147,reverse,G->A,GA,True,3,Node2,GTC,V,OP215282|MPXV/Germany/2022/RKI263|Germany|2022-08,GTT,V,synonymous,NA,NA,False,1
+128585,OPG150_CDS_50,forward,C->T,TC,True,1,Node2,CAT,H,OP215282|MPXV/Germany/2022/RKI263|Germany|2022-08,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+132970,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP215282|MPXV/Germany/2022/RKI263|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+141143,OPG161_CDS_40,forward,C->T,TC,True,1,Node2,CTC,L,OP215282|MPXV/Germany/2022/RKI263|Germany|2022-08,TTC,F,nonsynonymous,22,conservative,False,1
+187154,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node199,NA,NA,intergenic,NA,NA,False,1
+123765,OPG144_CDS_56,reverse,G->A,GA,True,2,Node199,TCA,S,OP215206|MPXV/Germany/2022/RKI243|Germany|2022-08,TTA,L,nonsynonymous,145,moderately radical,False,1
+11787,OPG023_CDS_171,reverse,C->T,TC,True,3,Node2,TTG,L,Node606,TTA,L,synonymous,NA,NA,False,1
+168943,NA,NA,C->T,TC,True,NA,Node606,NA,NA,Node607,NA,NA,intergenic,NA,NA,False,1
+127526,OPG149_CDS_51,forward,G->A,GT,False,2,Node607,CGT,R,OP245341|MPX/PT0098/2022|Portugal|2022-07-20,CAT,H,nonsynonymous,29,conservative,False,1
+25539,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP215286|MPXV/Germany/2022/RKI267|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+156437,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP215286|MPXV/Germany/2022/RKI267|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+183939,OPG210_CDS_7,forward,G->A,GA,True,2,Node2,CGA,R,OP215286|MPXV/Germany/2022/RKI267|Germany|2022-08,CAA,Q,nonsynonymous,43,conservative,False,1
+73616,OPG093_CDS_107,forward,C->T,TC,True,1,Node2,CAA,Q,OP245306|MPX/PT0049/2022|Portugal|2022-08-01,TAA,*,nonsense,NA,NA,False,1
+159132,OPG185_CDS_24,forward,G->T,,False,1,Node2,GGA,G,OP245306|MPX/PT0049/2022|Portugal|2022-08-01,TGA,*,nonsense,NA,NA,False,1
+181367,OPG210_CDS_7,forward,G->A,GA,True,1,Node2,GAA,E,Node443,AAA,K,nonsynonymous,56,moderately conservative,False,1
+51093,OPG070_CDS_130,forward,G->A,GT,False,1,Node443,GTT,V,OP245309|MPX/PT0052/2022|Portugal|2022-07-30,ATT,I,nonsynonymous,29,conservative,False,1
+54123,OPG071_CDS_129,reverse,C->T,TC,True,3,Node443,ATG,M,OP245309|MPX/PT0052/2022|Portugal|2022-07-30,ATA,I,nonsynonymous,10,conservative,False,1
+100640,OPG119_CDS_81,forward,C->T,TC,True,1,Node443,CAG,Q,OP245309|MPX/PT0052/2022|Portugal|2022-07-30,TAG,*,nonsense,NA,NA,False,1
+176823,OPG205_CDS_10,forward,G->A,GA,True,2,Node443,TGA,*,Node445,TAA,*,synonymous,NA,NA,False,1
+34432,OPG053_CDS_146,reverse,C->T,TC,True,3,Node445,CTG,L,ON843181|Monkeypox/PT0045/2022|Portugal|2022-06-06,CTA,L,synonymous,NA,NA,False,1
+71464,OPG091_CDS_109,forward,C->T,TC,True,3,Node445,ATC,I,ON843181|Monkeypox/PT0045/2022|Portugal|2022-06-06,ATT,I,synonymous,NA,NA,False,1
+57110,OPG074_CDS_126,reverse,C->T,TC,True,3,Node445,CGG,R,Node449,CGA,R,synonymous,NA,NA,False,1
+33889,OPG052_CDS_147,reverse,G->A,GA,True,1,Node449,CAT,H,ON649714|Monkeypox/PT0015/2022|Portugal|2022-05-20,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+82853,OPG105_CDS_95,forward,G->A,GA,True,1,Node445,GAC,D,ON585037|Monkeypox/PT0005/2022|Portugal|2022-05-15,AAC,N,nonsynonymous,23,conservative,False,1
+16968,OPG029_CDS_167,reverse,C->T,TC,True,2,Node445,CGA,R,ON585038|Monkeypox/PT0008/2022|Portugal|2022-05-15,CAA,Q,nonsynonymous,43,conservative,False,1
+13059,OPG024_CDS_170,reverse,A->C,,False,1,Node2,TAA,*,OP245310|MPX/PT0053/2022|Portugal|2022-08-01,G,,nonsynonymous,NA,NA,False,1
+13081,OPG024_CDS_170,reverse,T->C,,False,3,Node2,TTA,L,OP245310|MPX/PT0053/2022|Portugal|2022-08-01,TG,,nonsynonymous,NA,NA,False,1
+96773,OPG117_CDS_83,forward,C->T,TC,True,3,Node2,TTC,F,OP245310|MPX/PT0053/2022|Portugal|2022-08-01,TTT,F,synonymous,NA,NA,False,1
+109432,OPG129_CDS_71,reverse,C->T,TC,True,3,Node2,CTG,L,OP245310|MPX/PT0053/2022|Portugal|2022-08-01,CTA,L,synonymous,NA,NA,False,1
+142356,OPG163_CDS_38,forward,C->T,TC,True,3,Node2,TTC,F,OP245310|MPX/PT0053/2022|Portugal|2022-08-01,TTT,F,synonymous,NA,NA,False,1
+136572,OPG153_CDS_48,reverse,C->T,TC,True,3,Node2,TCG,S,Node639,TCA,S,synonymous,NA,NA,False,1
+158190,NA,NA,G->A,GA,True,NA,Node2,NA,NA,Node639,NA,NA,intergenic,NA,NA,False,1
+74980,OPG095_CDS_105,forward,G->A,GA,True,2,Node639,GGA,G,OP215209|MPXV/Germany/2022/RKI198|Germany|2022-08,GAA,E,nonsynonymous,98,moderately conservative,False,1
+144241,OPG165_CDS_36,forward,C->T,AC,False,1,Node639,CAA,Q,OP215209|MPXV/Germany/2022/RKI198|Germany|2022-08,TAA,*,nonsense,NA,NA,False,1
+158698,NA,NA,C->T,TC,True,NA,Node639,NA,NA,OP215209|MPXV/Germany/2022/RKI198|Germany|2022-08,NA,NA,intergenic,NA,NA,False,1
+79473,OPG102_CDS_98,forward,C->A,,False,3,Node2,TCC,S,OP245312|MPX/PT0056/2022|Portugal|2022-07-29,TCA,S,synonymous,NA,NA,False,1
+171808,OPG199_CDS_13,forward,C->T,TC,True,3,Node2,TTC,F,OP245312|MPX/PT0056/2022|Portugal|2022-07-29,TTT,F,synonymous,NA,NA,False,1
+15652,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP245316|MPX/PT0062/2022|Portugal|2022-08-01,NA,NA,intergenic,NA,NA,False,1
+174678,OPG204_CDS_11,forward,G->A,GA,True,1,Node2,GAA,E,Node587,AAA,K,nonsynonymous,56,moderately conservative,False,1
+133867,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node502,NA,NA,intergenic,NA,NA,False,1
+71227,OPG090_CDS_110,forward,G->A,GA,True,2,Node502,CGA,R,OP245318|MPX/PT0064/2022|Portugal|2022-08-01,CAA,Q,nonsynonymous,43,conservative,False,1
+134247,NA,NA,C->T,TC,True,NA,Node502,NA,NA,OP245318|MPX/PT0064/2022|Portugal|2022-08-01,NA,NA,intergenic,NA,NA,False,1
+158866,NA,NA,G->A,GA,True,NA,Node502,NA,NA,OP245318|MPX/PT0064/2022|Portugal|2022-08-01,NA,NA,intergenic,NA,NA,False,1
+94097,OPG113_CDS_87,forward,C->T,TC,True,1,Node502,CGC,R,OP169340|MpxV/human/USA/UW-WA-0046/2022|USA|2022-07,TGC,C,nonsynonymous,180,radical,False,1
+144330,NA,NA,C->T,TC,True,NA,Node502,NA,NA,OP169340|MpxV/human/USA/UW-WA-0046/2022|USA|2022-07,NA,NA,intergenic,NA,NA,False,1
+162265,OPG188_CDS_22,forward,G->A,GA,True,2,Node504,CGA,R,Node505,CAA,Q,nonsynonymous,43,conservative,False,1
+165278,OPG190_CDS_20,forward,C->T,TC,True,2,Node504,TCA,S,Node505,TTA,L,nonsynonymous,145,moderately radical,False,1
+139646,OPG158_CDS_43,reverse,C->T,TC,True,3,Node505,ACG,T,OP245319|MPX/PT0065/2022|Portugal|2022-07-27,ACA,T,synonymous,NA,NA,False,1
+65571,OPG084_CDS_116,forward,C->T,TC,True,2,Node504,TCT,S,Node506,TTT,F,nonsynonymous,155,radical,False,1
+144988,OPG167_CDS_35,reverse,G->A,GA,True,2,Node504,TCG,S,Node506,TTG,L,nonsynonymous,145,moderately radical,False,1
+40625,OPG059_CDS_140,reverse,G->A,GA,True,2,Node506,TCG,S,Node514,TTG,L,nonsynonymous,145,moderately radical,False,1
+134205,NA,NA,C->T,TC,True,NA,Node506,NA,NA,Node514,NA,NA,intergenic,NA,NA,False,1
+101227,OPG120_CDS_80,reverse,G->A,GA,True,2,Node506,TCA,S,OP013012|MpxV/human/CAN/UN-NML-3657/2022|Canada|2022-06-10,TTA,L,nonsynonymous,145,moderately radical,False,1
+170389,OPG198_CDS_14,forward,G->A,GA,True,2,Node506,CGA,R,ON803420|MpxV/human/CAN/UN-NML-2846/2022|Canada|2022-05-19,CAA,Q,nonsynonymous,43,conservative,False,1
+170698,OPG198_CDS_14,forward,G->A,GA,True,2,Node506,CGA,R,ON803420|MpxV/human/CAN/UN-NML-2846/2022|Canada|2022-05-19,CAA,Q,nonsynonymous,43,conservative,True,2
+170698,OPG198_CDS_14,forward,G->A,GA,True,2,Node2,CGA,R,ON880541|MpxV/human/CAN/UN-NML-3344/2022|Canada|2022-06-01,CAA,Q,nonsynonymous,43,conservative,True,2
+143074,OPG164_CDS_37,forward,C->T,TC,True,1,Node2,CGC,R,Node591,TGC,C,nonsynonymous,180,radical,False,1
+174112,NA,NA,G->A,GA,True,NA,Node591,NA,NA,Node592,NA,NA,intergenic,NA,NA,False,1
+46456,OPG065_CDS_134,reverse,G->A,GA,True,3,Node592,CTC,L,OP245320|MPX/PT0066/2022|Portugal|2022-07-27,CTT,L,synonymous,NA,NA,False,1
+77643,OPG098_CDS_102,forward,G->A,GA,True,1,Node592,GAC,D,OP245320|MPX/PT0066/2022|Portugal|2022-07-27,AAC,N,nonsynonymous,23,conservative,False,1
+23599,OPG039_CDS_159,reverse,C->T,TC,True,3,Node592,TGG,W,OP245332|MPX/PT0078/2022|Portugal|2022-07-26,TGA,*,nonsense,NA,NA,False,1
+24443,OPG040_CDS_158,reverse,C->T,TC,True,3,Node592,CTG,L,OP245332|MPX/PT0078/2022|Portugal|2022-07-26,CTA,L,synonymous,NA,NA,False,1
+24485,OPG040_CDS_158,reverse,C->T,TC,True,3,Node592,CGG,R,OP245332|MPX/PT0078/2022|Portugal|2022-07-26,CGA,R,synonymous,NA,NA,False,1
+25148,OPG040_CDS_158,reverse,C->T,TC,True,3,Node592,TCG,S,OP245332|MPX/PT0078/2022|Portugal|2022-07-26,TCA,S,synonymous,NA,NA,False,1
+25768,NA,NA,C->T,TC,True,NA,Node592,NA,NA,OP245332|MPX/PT0078/2022|Portugal|2022-07-26,NA,NA,intergenic,NA,NA,False,1
+25882,OPG042_CDS_157,reverse,C->T,TC,True,3,Node592,ATG,M,OP245332|MPX/PT0078/2022|Portugal|2022-07-26,ATA,I,nonsynonymous,10,conservative,False,1
+25914,OPG042_CDS_157,reverse,C->T,TC,True,1,Node592,GAC,D,OP245332|MPX/PT0078/2022|Portugal|2022-07-26,AAC,N,nonsynonymous,23,conservative,False,1
+49892,OPG068_CDS_132,forward,C->T,AC,False,1,Node591,CGG,R,OP205079|MPXV_UK_2022_9000074|United_Kingdom|2022-06-09,TGG,W,nonsynonymous,101,moderately radical,True,2
+49892,OPG068_CDS_132,forward,C->T,AC,False,1,Node2,CGG,R,Node490,TGG,W,nonsynonymous,101,moderately radical,True,2
+76758,OPG097_CDS_103,reverse,C->T,TC,True,3,Node591,ACG,T,OP205079|MPXV_UK_2022_9000074|United_Kingdom|2022-06-09,ACA,T,synonymous,NA,NA,False,1
+105794,OPG124_CDS_76,reverse,C->T,TC,True,3,Node591,CCG,P,OP205079|MPXV_UK_2022_9000074|United_Kingdom|2022-06-09,CCA,P,synonymous,NA,NA,False,1
+133991,NA,NA,G->A,GA,True,NA,Node591,NA,NA,OP205079|MPXV_UK_2022_9000074|United_Kingdom|2022-06-09,NA,NA,intergenic,NA,NA,False,1
+151929,OPG178_CDS_27,forward,G->A,GA,True,2,Node591,CGA,R,OP205079|MPXV_UK_2022_9000074|United_Kingdom|2022-06-09,CAA,Q,nonsynonymous,43,conservative,False,1
+146816,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node642,NA,NA,intergenic,NA,NA,False,1
+16362,OPG027_CDS_168,reverse,C->T,TC,True,3,Node642,ACG,T,OP245322|MPX/PT0068/2022|Portugal|2022-07-25,ACA,T,synonymous,NA,NA,False,1
+24621,OPG040_CDS_158,reverse,C->T,TC,True,2,Node642,CGA,R,OP245322|MPX/PT0068/2022|Portugal|2022-07-25,CAA,Q,nonsynonymous,43,conservative,False,1
+32772,OPG049_CDS_150,reverse,C->T,TC,True,1,Node642,GAA,E,OP245342|MPX/PT0108/2022|Portugal|2022-07-18,AAA,K,nonsynonymous,56,moderately conservative,False,1
+96065,OPG117_CDS_83,forward,G->A,GA,True,3,Node642,TAG,*,OP245342|MPX/PT0108/2022|Portugal|2022-07-18,TAA,*,synonymous,NA,NA,False,1
+136995,OPG153_CDS_48,reverse,G->A,GA,True,3,Node642,ATC,I,OP245342|MPX/PT0108/2022|Portugal|2022-07-18,ATT,I,synonymous,NA,NA,False,1
+173875,NA,NA,G->A,GT,False,NA,Node642,NA,NA,OP245342|MPX/PT0108/2022|Portugal|2022-07-18,NA,NA,intergenic,NA,NA,False,1
+7201,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP245327|MPX/PT0073/2022|Portugal|2022-07-27,NA,NA,intergenic,NA,NA,False,1
+132698,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP245327|MPX/PT0073/2022|Portugal|2022-07-27,NA,NA,intergenic,NA,NA,False,1
+41351,OPG061_CDS_138,reverse,G->A,GC,False,2,Node2,GCA,A,OP245328|MPX/PT0074/2022|Portugal|2022-07-27,GTA,V,nonsynonymous,64,moderately conservative,False,1
+70841,OPG089_CDS_111,forward,G->A,GA,True,2,Node2,TGA,*,Node713,TAA,*,synonymous,NA,NA,False,1
+132625,NA,NA,G->A,GA,True,NA,Node713,NA,NA,OP245333|MPX/PT0080/2022|Portugal|2022-07-26,NA,NA,intergenic,NA,NA,True,2
+132625,NA,NA,G->A,GA,True,NA,Node360,NA,NA,OP205105|MPXV_UK_2022_9000142|United_Kingdom|2022-06-15,NA,NA,intergenic,NA,NA,True,2
+107442,OPG125_CDS_75,reverse,C->T,TC,True,2,Node713,TGA,*,OP245360|MPX/PT0127/2022|Portugal|2022-07-12,TAA,*,synonymous,NA,NA,False,1
+135738,NA,NA,C->T,TC,True,NA,Node713,NA,NA,OP245360|MPX/PT0127/2022|Portugal|2022-07-12,NA,NA,intergenic,NA,NA,False,1
+151873,OPG178_CDS_27,forward,C->T,CC,False,3,Node2,ACC,T,OP245335|MPX/PT0084/2022|Portugal|2022-07-22,ACT,T,synonymous,NA,NA,False,1
+159001,OPG185_CDS_24,forward,G->A,GA,True,2,Node2,TGA,*,OP245340|MPX/PT0090/2022|Portugal|2022-07-21,TAA,*,synonymous,NA,NA,False,1
+12238,OPG023_CDS_171,reverse,A->T,,False,2,Node2,CTT,L,Node571,CAT,H,nonsynonymous,99,moderately conservative,False,1
+151793,OPG178_CDS_27,forward,G->C,,False,1,Node2,GTT,V,Node571,CTT,L,nonsynonymous,32,conservative,False,1
+144301,OPG165_CDS_36,forward,C->A,,False,1,Node571,CAT,H,Node572,AAT,N,nonsynonymous,68,moderately conservative,False,1
+3821,OPG003_CDS_176,reverse,G->A,GA,True,3,Node571,ATC,I,OP245351|MPX/PT0118/2022|Portugal|2022-07-13,ATT,I,synonymous,NA,NA,False,1
+20709,OPG036_CDS_162,reverse,C->T,TC,True,1,Node2,GAA,E,Node711,AAA,K,nonsynonymous,56,moderately conservative,False,1
+12827,OPG023_CDS_171,reverse,T->C,,False,1,Node711,ATG,M,OP245347|MPX/PT0113/2022|Portugal|2022-07-15,GTG,V,nonsynonymous,21,conservative,False,1
+12833,OPG023_CDS_171,reverse,T->A,,False,1,Node711,ATC,I,OP245347|MPX/PT0113/2022|Portugal|2022-07-15,TTC,F,nonsynonymous,21,conservative,False,1
+118330,OPG136_CDS_64,reverse,C->T,TC,True,3,Node711,CAG,Q,OP245356|MPX/PT0123/2022|Portugal|2022-07-13,CAA,Q,synonymous,NA,NA,False,1
+65058,OPG084_CDS_116,forward,G->A,GA,True,2,Node2,AGA,R,OP245349|MPX/PT0115/2022|Portugal|2022-07-14,AAA,K,nonsynonymous,26,conservative,False,1
+102694,OPG122_CDS_78,forward,G->A,GA,True,1,Node2,GAA,E,OP245349|MPX/PT0115/2022|Portugal|2022-07-14,AAA,K,nonsynonymous,56,moderately conservative,True,2
+102694,OPG122_CDS_78,forward,G->A,GA,True,1,Node161,GAA,E,Node163,AAA,K,nonsynonymous,56,moderately conservative,True,2
+2174,OPG002_CDS_177,reverse,G->A,GA,True,1,Node2,CGT,R,OP245353|MPX/PT0120/2022|Portugal|2022-07-13,TGT,C,nonsynonymous,180,radical,False,1
+115572,OPG133_CDS_67,reverse,C->T,TC,True,1,Node2,GAA,E,OP245358|MPX/PT0125/2022|Portugal|2022-07-14,AAA,K,nonsynonymous,56,moderately conservative,False,1
+77462,OPG098_CDS_102,forward,C->T,TC,True,3,Node2,TTC,F,Node358,TTT,F,synonymous,NA,NA,False,1
+130787,OPG151_CDS_49,forward,G->A,GA,True,2,Node358,AGA,R,OP184761|MpxV/human/USA/UW-WA-0058/2022|USA|2022-07,AAA,K,nonsynonymous,26,conservative,False,1
+170977,NA,NA,T->A,,False,NA,Node358,NA,NA,OP184761|MpxV/human/USA/UW-WA-0058/2022|USA|2022-07,NA,NA,intergenic,NA,NA,False,1
+183220,OPG210_CDS_7,forward,C->T,TC,True,3,Node2,TTC,F,OP215204|MPXV/Germany/2022/RKI188|Germany|2022-08,TTT,F,synonymous,NA,NA,False,1
+83660,OPG105_CDS_95,forward,C->T,TC,True,1,Node2,CGT,R,OP205068|MPXV_UK_2022_9000062|United_Kingdom|2022-06-05,TGT,C,nonsynonymous,180,radical,False,1
+164096,OPG189_CDS_21,forward,C->T,TC,True,3,Node2,CTC,L,Node766,CTT,L,synonymous,NA,NA,False,1
+188683,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node766,NA,NA,intergenic,NA,NA,False,1
+190269,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node766,NA,NA,intergenic,NA,NA,False,1
+30128,OPG047_CDS_152,reverse,G->T,,False,1,Node766,CAG,Q,OP205092|MPXV_UK_2022_9000104|United_Kingdom|2022-06-12,AAG,K,nonsynonymous,53,moderately conservative,False,1
+56110,OPG074_CDS_126,reverse,A->G,,False,1,Node490,TGA,*,OP205095|MPXV_UK_2022_9000107|United_Kingdom|2022-06-13,CGA,R,nonsynonymous,NA,NA,False,1
+14611,OPG025_CDS_169,reverse,G->A,GA,True,2,Node490,TCT,S,Node492,TTT,F,nonsynonymous,155,radical,True,2
+14611,OPG025_CDS_169,reverse,G->A,GA,True,2,Node2,TCT,S,Node669,TTT,F,nonsynonymous,155,radical,True,2
+52752,OPG071_CDS_129,reverse,G->A,GA,True,3,Node490,ATC,I,Node492,ATT,I,synonymous,NA,NA,True,2
+52752,OPG071_CDS_129,reverse,G->A,GA,True,3,Node671,ATC,I,ON880547|MpxV/human/CAN/UN-NML-3441/2022|Canada|2022-06-03,ATT,I,synonymous,NA,NA,True,2
+177009,OPG205_CDS_10,forward,G->A,GA,True,2,Node492,CGA,R,OP013001|MpxV/human/CAN/UN-NML-2831/2022|Canada|2022-05-14,CAA,Q,nonsynonymous,43,conservative,False,1
+19894,OPG034_CDS_164,reverse,C->T,TC,True,3,Node492,CTG,L,Node497,CTA,L,synonymous,NA,NA,False,1
+41219,OPG061_CDS_138,reverse,C->T,TC,True,2,Node492,TGA,*,Node497,TAA,*,synonymous,NA,NA,False,1
+89344,OPG109_CDS_91,reverse,C->T,TC,True,1,Node492,GAA,E,Node497,AAA,K,nonsynonymous,56,moderately conservative,False,1
+814,NA,NA,C->T,TC,True,NA,Node497,NA,NA,OP013005|MpxV/human/CAN/UN-NML-3519/2022|Canada|2022-06-06,NA,NA,intergenic,NA,NA,False,1
+153993,OPG180_CDS_26,forward,C->T,TC,True,1,Node490,CTT,L,ON619837|MPXV_UK_2022_3|United_Kingdom|2022-05,TTT,F,nonsynonymous,22,conservative,False,1
+61102,OPG080_CDS_120,reverse,G->A,GA,True,1,Node2,CTG,L,OP205102|MPXV_UK_2022_9000137|United_Kingdom|2022-07-07,TTG,L,synonymous,NA,NA,False,1
+96440,OPG117_CDS_83,forward,C->T,AC,False,3,Node2,AAC,N,OP205102|MPXV_UK_2022_9000137|United_Kingdom|2022-07-07,AAT,N,synonymous,NA,NA,False,1
+5783,OPG015_CDS_175,reverse,G->A,GA,True,1,Node2,CTA,L,OP205104|MPXV_UK_2022_9000140|United_Kingdom|2022-07-06,TTA,L,synonymous,NA,NA,False,1
+170577,OPG198_CDS_14,forward,A->C,,False,1,Node2,AAA,K,OP205104|MPXV_UK_2022_9000140|United_Kingdom|2022-07-06,CAA,Q,nonsynonymous,53,moderately conservative,False,1
+178569,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node360,NA,NA,intergenic,NA,NA,False,1
+23567,OPG039_CDS_159,reverse,C->T,AC,False,2,Node2,CGT,R,OP205109|MPXV_UK_2022_9000146|United_Kingdom|2022-06-13,CAT,H,nonsynonymous,29,conservative,False,1
+118683,OPG136_CDS_64,reverse,C->T,TC,True,1,Node2,GAC,D,OP205109|MPXV_UK_2022_9000146|United_Kingdom|2022-06-13,AAC,N,nonsynonymous,23,conservative,False,1
+78232,OPG100_CDS_100,forward,C->T,TC,True,1,Node2,CAC,H,OP205115|MPXV_UK_2022_9000157|United_Kingdom|2022-07-07,TAC,Y,nonsynonymous,83,moderately conservative,False,1
+99954,OPG118_CDS_82,forward,C->T,TC,True,1,Node2,CAA,Q,Node678,TAA,*,nonsense,NA,NA,False,1
+1860,OPG002_CDS_177,reverse,C->T,TC,True,3,Node678,TCG,S,ON813260|MPXV/Germany/2022/RKI056|Germany|2022-06,TCA,S,synonymous,NA,NA,False,1
+47811,NA,NA,C->T,TC,True,NA,Node678,NA,NA,ON755243|MPXV/Germany/2022/RKI037|Germany|2022-06,NA,NA,intergenic,NA,NA,False,1
+132940,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP205124|MPXV_UK_2022_9000173|United_Kingdom|2022-05-26,NA,NA,intergenic,NA,NA,False,1
+143551,OPG165_CDS_36,forward,C->T,TC,True,1,Node2,CGG,R,OP205124|MPXV_UK_2022_9000173|United_Kingdom|2022-05-26,TGG,W,nonsynonymous,101,moderately radical,False,1
+27537,OPG043_CDS_156,reverse,C->T,TC,True,1,Node2,GAC,D,OP205125|MPXV_UK_2022_9000175|United_Kingdom|2022-06-24,AAC,N,nonsynonymous,23,conservative,False,1
+118790,OPG136_CDS_64,reverse,G->A,GA,True,2,Node2,TCG,S,OP205125|MPXV_UK_2022_9000175|United_Kingdom|2022-06-24,TTG,L,nonsynonymous,145,moderately radical,False,1
+82676,OPG105_CDS_95,forward,C->T,TC,True,1,Node2,CTT,L,OP205129|MPXV_UK_2022_9000184|United_Kingdom|2022-06-30,TTT,F,nonsynonymous,22,conservative,False,1
+33274,OPG050_CDS_149,reverse,G->A,GT,False,2,Node2,ACC,T,OP205130|MPXV_UK_2022_9000185|United_Kingdom|2022-06-29,ATC,I,nonsynonymous,89,moderately conservative,False,1
+47537,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP205130|MPXV_UK_2022_9000185|United_Kingdom|2022-06-29,NA,NA,intergenic,NA,NA,False,1
+68286,OPG085_CDS_115,reverse,G->A,GA,True,2,Node2,TCA,S,OP205130|MPXV_UK_2022_9000185|United_Kingdom|2022-06-29,TTA,L,nonsynonymous,145,moderately radical,False,1
+117044,OPG136_CDS_64,reverse,A->T,,False,2,Node2,CTT,L,OP205136|MPXV_UK_2022_9000191|United_Kingdom|2022-07-04,CAT,H,nonsynonymous,99,moderately conservative,False,1
+111084,OPG130_CDS_70,reverse,G->A,GA,True,2,Node2,TCA,S,Node157,TTA,L,nonsynonymous,145,moderately radical,False,1
+182950,OPG210_CDS_7,forward,C->T,TC,True,3,Node2,TTC,F,Node157,TTT,F,synonymous,NA,NA,False,1
+98233,OPG117_CDS_83,forward,G->A,GA,True,2,Node157,CGA,R,Node160,CAA,Q,nonsynonymous,43,conservative,False,1
+98455,OPG118_CDS_82,forward,G->A,GG,False,2,Node157,CGG,R,Node160,CAG,Q,nonsynonymous,43,conservative,False,1
+160484,NA,NA,G->A,GA,True,NA,Node161,NA,NA,Node163,NA,NA,intergenic,NA,NA,False,1
+10484,OPG022_CDS_172,reverse,C->T,TC,True,2,Node161,TGA,*,OP171925|MPXV22/human/USA-NE-75|USA|2022-07-25,TAA,*,synonymous,NA,NA,True,2
+10484,OPG022_CDS_172,reverse,C->T,TC,True,2,Node2,TGA,*,ON843168|Monkeypox/PT0032/2022|Portugal|2022-05-26,TAA,*,synonymous,NA,NA,True,2
+61974,OPG080_CDS_120,reverse,A->G,,False,2,Node161,TTG,L,OP171925|MPXV22/human/USA-NE-75|USA|2022-07-25,TCG,S,nonsynonymous,145,moderately radical,False,1
+76334,OPG097_CDS_103,reverse,C->T,TC,True,1,Node160,GAA,E,ON880413|MPX/BR0002/2022|Brazil|2022-06-14,AAA,K,nonsynonymous,56,moderately conservative,False,1
+121510,OPG140_CDS_60,reverse,G->A,GA,True,2,Node157,TCA,S,ON880540|MpxV/human/CAN/UN-NML-3342/2022|Canada|2022-06-01,TTA,L,nonsynonymous,145,moderately radical,False,1
+34308,OPG053_CDS_146,reverse,G->A,GA,True,1,Node2,CGG,R,Node420,TGG,W,nonsynonymous,101,moderately radical,False,1
+18027,OPG031_CDS_165,reverse,C->T,TC,True,3,Node420,ATG,M,OP185714|MPXV_USA_2022_CO0003|USA|2022-06,ATA,I,nonsynonymous,10,conservative,False,1
+159165,OPG185_CDS_24,forward,T->C,,False,1,Node420,TCT,S,OP185714|MPXV_USA_2022_CO0003|USA|2022-06,CCT,P,nonsynonymous,74,moderately conservative,False,1
+162156,OPG188_CDS_22,forward,G->A,GG,False,1,Node420,GGT,G,OP185714|MPXV_USA_2022_CO0003|USA|2022-06,AGT,S,nonsynonymous,56,moderately conservative,False,1
+24995,OPG040_CDS_158,reverse,C->T,TC,True,3,Node420,TCG,S,Node424,TCA,S,synonymous,NA,NA,False,1
+85774,OPG107_CDS_93,forward,G->A,GA,True,3,Node420,TAG,*,Node424,TAA,*,synonymous,NA,NA,False,1
+148427,OPG174_CDS_30,reverse,G->A,GA,True,2,Node420,TCA,S,Node424,TTA,L,nonsynonymous,145,moderately radical,False,1
+189258,OPG005_CDS_6,forward,G->A,GA,True,1,Node420,GAA,E,Node424,AAA,K,nonsynonymous,56,moderately conservative,False,1
+45236,OPG064_CDS_135,reverse,G->A,GA,True,2,Node424,TCC,S,OP062236|MpxV/human/CAN/UN-NML-3936/2022|Canada|2022-06-30,TTC,F,nonsynonymous,155,radical,False,1
+132531,NA,NA,G->A,GG,False,NA,Node424,NA,NA,OP062236|MpxV/human/CAN/UN-NML-3936/2022|Canada|2022-06-30,NA,NA,intergenic,NA,NA,False,1
+167106,OPG192_CDS_18,forward,G->A,GA,True,2,Node424,TGA,*,ON983164|MpxV/human/CAN/UN-NML-3558/2022|Canada|2022-06-09,TAA,*,synonymous,NA,NA,False,1
+127678,OPG149_CDS_51,forward,G->A,GA,True,1,Node424,GAG,E,ON880506|MpxV/human/CAN/UN-NML-2959/2022|Canada|2022-05-22,AAG,K,nonsynonymous,56,moderately conservative,False,1
+139901,OPG159_CDS_42,forward,C->T,TC,True,3,Node424,TTC,F,ON880506|MpxV/human/CAN/UN-NML-2959/2022|Canada|2022-05-22,TTT,F,synonymous,NA,NA,False,1
+52914,OPG071_CDS_129,reverse,G->A,GC,False,3,Node424,AGC,S,ON754989|mpx_2022_Canada_AB2|Canada|2022-06-06,AGT,S,synonymous,NA,NA,False,1
+61274,OPG080_CDS_120,reverse,C->G,,False,3,Node424,TAG,*,ON754989|mpx_2022_Canada_AB2|Canada|2022-06-06,TAC,Y,nonsynonymous,NA,NA,False,1
+83018,OPG105_CDS_95,forward,A->G,,False,1,Node424,ATC,I,ON754989|mpx_2022_Canada_AB2|Canada|2022-06-06,GTC,V,nonsynonymous,29,conservative,False,1
+10672,OPG022_CDS_172,reverse,C->T,TC,True,3,Node420,ACG,T,Node439,ACA,T,synonymous,NA,NA,False,1
+112481,OPG132_CDS_68,reverse,G->A,GT,False,3,Node420,AAC,N,Node439,AAT,N,synonymous,NA,NA,False,1
+144478,NA,NA,G->A,GA,True,NA,Node420,NA,NA,Node439,NA,NA,intergenic,NA,NA,False,1
+163626,OPG189_CDS_21,forward,G->A,GA,True,1,Node420,GAA,E,Node439,AAA,K,nonsynonymous,56,moderately conservative,False,1
+36545,OPG055_CDS_144,reverse,G->A,GA,True,1,Node439,CAT,H,OP013008|MpxV/human/CAN/UN-NML-3582/2022|Canada|2022-06-08,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+91067,OPG111_CDS_89,forward,C->T,TC,True,3,Node439,ATC,I,OP013008|MpxV/human/CAN/UN-NML-3582/2022|Canada|2022-06-08,ATT,I,synonymous,NA,NA,False,1
+85846,OPG107_CDS_93,forward,T->C,,False,3,Node420,TAT,Y,Node441,TAC,Y,synonymous,NA,NA,False,1
+69127,OPG087_CDS_113,forward,C->T,AC,False,2,Node420,ACG,T,ON803417|MpxV/human/CAN/UN-NML-2836/2022|Canada|2022-05-17,ATG,M,nonsynonymous,81,moderately conservative,False,1
+158750,NA,NA,G->A,GT,False,NA,Node420,NA,NA,ON803417|MpxV/human/CAN/UN-NML-2836/2022|Canada|2022-05-17,NA,NA,intergenic,NA,NA,False,1
+17437,OPG030_CDS_166,reverse,C->T,TC,True,3,Node2,ATG,M,OP185715|MPXV_USA_2022_CO0002|USA|2022-05,ATA,I,nonsynonymous,10,conservative,False,1
+163468,OPG189_CDS_21,forward,G->A,GA,True,2,Node2,TGA,*,OP185717|MPXV_USA_2022_AZ0001|USA|2022-06,TAA,*,synonymous,NA,NA,False,1
+62664,OPG082_CDS_118,reverse,G->A,GA,True,2,Node2,TCA,S,OP169338|MpxV/human/USA/UW-WA-0044/2022|USA|2022-07,TTA,L,nonsynonymous,145,moderately radical,False,1
+118710,OPG136_CDS_64,reverse,G->A,GA,True,1,Node2,CTA,L,OP169338|MpxV/human/USA/UW-WA-0044/2022|USA|2022-07,TTA,L,synonymous,NA,NA,False,1
+164272,OPG189_CDS_21,forward,C->T,TC,True,2,Node2,TCG,S,OP169338|MpxV/human/USA/UW-WA-0044/2022|USA|2022-07,TTG,L,nonsynonymous,145,moderately radical,False,1
+164635,OPG189_CDS_21,forward,G->A,GA,True,2,Node2,CGA,R,OP169338|MpxV/human/USA/UW-WA-0044/2022|USA|2022-07,CAA,Q,nonsynonymous,43,conservative,False,1
+38095,OPG056_CDS_143,reverse,C->T,TC,True,3,Node2,CCG,P,OP169343|MpxV/human/USA/UW-WA-0050/2022|USA|2022-07,CCA,P,synonymous,NA,NA,False,1
+64467,OPG083_CDS_117,reverse,C->T,TC,True,3,Node2,GCG,A,OP169343|MpxV/human/USA/UW-WA-0050/2022|USA|2022-07,GCA,A,synonymous,NA,NA,False,1
+172259,OPG200_CDS_12,forward,C->T,TC,True,3,Node2,GTC,V,OP171922|MPXV22/human/USA-NE-44|USA|2022-07-14,GTT,V,synonymous,NA,NA,False,1
+64522,OPG083_CDS_117,reverse,G->A,GA,True,2,Node2,TCG,S,OX261749|RNA|Slovakia|2022-07-20,TTG,L,nonsynonymous,145,moderately radical,False,1
+148207,OPG173_CDS_31,forward,A->T,,False,1,Node2,AAA,K,OP160532|hMpxV/Netherlands/NH-AUMC-0001/2022|Netherlands|2022-06,TAA,*,nonsense,NA,NA,False,1
+145659,NA,NA,G->A,GC,False,NA,Node2,NA,NA,Node598,NA,NA,intergenic,NA,NA,False,1
+188381,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP144217|MPXV/ITM_pt_09/Belgium/2-Jun-2022|Belgium|2022-06-02,NA,NA,intergenic,NA,NA,False,1
+83568,OPG105_CDS_95,forward,G->A,GC,False,2,Node2,TGC,C,Node194,TAC,Y,nonsynonymous,194,radical,False,1
+188252,NA,NA,C->T,TC,True,NA,Node2,NA,NA,Node643,NA,NA,intergenic,NA,NA,False,1
+322,NA,NA,A->G,,False,NA,Node643,NA,NA,OP133004|hMPXV/Austria/MUW1533374/2022|Austria|2022-07-11,NA,NA,intergenic,NA,NA,False,1
+450,NA,NA,T->C,,False,NA,Node643,NA,NA,OP133004|hMPXV/Austria/MUW1533374/2022|Austria|2022-07-11,NA,NA,intergenic,NA,NA,False,1
+122511,OPG143_CDS_57,reverse,C->T,TC,True,3,Node2,ATG,M,OP133006|hMPXV/Austria/MUW1532243/2022|Austria|2022-07-06,ATA,I,nonsynonymous,10,conservative,False,1
+151801,OPG178_CDS_27,forward,G->A,GA,True,3,Node2,TGG,W,OP133006|hMPXV/Austria/MUW1532243/2022|Austria|2022-07-06,TGA,*,nonsense,NA,NA,False,1
+153984,OPG180_CDS_26,forward,C->T,TC,True,1,Node2,CAT,H,OP133006|hMPXV/Austria/MUW1532243/2022|Austria|2022-07-06,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+169886,OPG197_CDS_15,forward,G->A,GA,True,2,Node2,AGA,R,OP133006|hMPXV/Austria/MUW1532243/2022|Austria|2022-07-06,AAA,K,nonsynonymous,26,conservative,False,1
+110407,OPG129_CDS_71,reverse,G->A,GA,True,3,Node2,TTC,F,OP133007|hMPXV/Austria/MUW1536480/2022|Austria|2022-07-22,TTT,F,synonymous,NA,NA,False,1
+173189,NA,NA,A->G,,False,NA,Node2,NA,NA,OP133007|hMPXV/Austria/MUW1536480/2022|Austria|2022-07-22,NA,NA,intergenic,NA,NA,False,1
+134814,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP123040|MpxV/human/USA/UW-WA-0026/2022|USA|2022-07,NA,NA,intergenic,NA,NA,False,1
+151411,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP123040|MpxV/human/USA/UW-WA-0026/2022|USA|2022-07,NA,NA,intergenic,NA,NA,False,1
+58506,OPG077_CDS_123,reverse,G->A,GA,True,2,Node2,TCA,S,OP123047|MpxV/human/USA/UW-WA-0033/2022|USA|2022-07,TTA,L,nonsynonymous,145,moderately radical,False,1
+57790,OPG077_CDS_123,reverse,C->T,TC,True,1,Node2,GAG,E,OP062230|MpxV/human/CAN/UN-NML-3864/2022|Canada|2022-06-22,AAG,K,nonsynonymous,56,moderately conservative,False,1
+75169,OPG095_CDS_105,forward,G->A,GA,True,2,Node2,CGA,R,Node223,CAA,Q,nonsynonymous,43,conservative,False,1
+61445,OPG080_CDS_120,reverse,G->A,GA,True,3,Node2,ATC,I,OP062234|MpxV/human/CAN/UN-NML-3921/2022|Canada|2022-06-29,ATT,I,synonymous,NA,NA,False,1
+124213,OPG145_CDS_55,forward,C->T,TC,True,1,Node2,CGT,R,OP062234|MpxV/human/CAN/UN-NML-3921/2022|Canada|2022-06-29,TGT,C,nonsynonymous,180,radical,False,1
+159243,OPG185_CDS_24,forward,G->A,GA,True,1,Node2,GAC,D,OP062234|MpxV/human/CAN/UN-NML-3921/2022|Canada|2022-06-29,AAC,N,nonsynonymous,23,conservative,False,1
+40275,OPG058_CDS_141,reverse,C->T,TC,True,3,Node2,TTG,L,Node668,TTA,L,synonymous,NA,NA,False,1
+75264,OPG095_CDS_105,forward,C->T,GC,False,1,Node2,CAA,Q,Node167,TAA,*,nonsense,NA,NA,False,1
+61013,OPG080_CDS_120,reverse,C->T,TC,True,3,Node167,CTG,L,ON880536|MpxV/human/CAN/UN-NML-3272/2022|Canada|2022-05-31,CTA,L,synonymous,NA,NA,False,1
+32469,OPG049_CDS_150,reverse,A->G,,False,1,Node2,TGC,C,OP013015|MpxV/human/CAN/UN-NML-3674/2022|Canada|2022-06-13,CGC,R,nonsynonymous,180,radical,False,1
+111574,OPG130_CDS_70,reverse,G->A,GA,True,1,Node2,CAT,H,OP018595|MPXV/Germany/2022/RKI170|Germany|2022-07,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+124902,OPG145_CDS_55,forward,C->T,TC,True,3,Node2,GTC,V,OP018595|MPXV/Germany/2022/RKI170|Germany|2022-07,GTT,V,synonymous,NA,NA,False,1
+134453,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP018601|MPXV/Germany/2022/RKI176|Germany|2022-07,NA,NA,intergenic,NA,NA,False,1
+135102,NA,NA,C->T,GC,False,NA,Node2,NA,NA,OP018601|MPXV/Germany/2022/RKI176|Germany|2022-07,NA,NA,intergenic,NA,NA,False,1
+179023,NA,NA,G->A,GA,True,NA,Node2,NA,NA,OP018601|MPXV/Germany/2022/RKI176|Germany|2022-07,NA,NA,intergenic,NA,NA,False,1
+107070,OPG125_CDS_75,reverse,A->C,,False,2,Node2,CTT,L,OP019275|hMPXV/Austria/MUW1525179/2022|Austria|2022-06-10,CGT,R,nonsynonymous,102,moderately radical,False,1
+144546,NA,NA,C->T,TC,True,NA,Node2,NA,NA,OP019275|hMPXV/Austria/MUW1525179/2022|Austria|2022-06-10,NA,NA,intergenic,NA,NA,False,1
+190319,NA,NA,G->A,GA,True,NA,Node2,NA,NA,OP019275|hMPXV/Austria/MUW1525179/2022|Austria|2022-06-10,NA,NA,intergenic,NA,NA,False,1
+98368,OPG117_CDS_83,forward,C->T,TC,True,2,Node2,TCT,S,ON959134|MPXV_USA_2022_NY003|USA|2022-05,TTT,F,nonsynonymous,155,radical,False,1
+73835,OPG094_CDS_106,forward,C->A,,False,3,Node2,ACC,T,ON959155|MPXV/Germany/2022/RKI138|Germany|2022-07,ACA,T,synonymous,NA,NA,False,1
+106729,OPG125_CDS_75,reverse,G->A,GA,True,1,Node2,CTG,L,ON959158|MPXV/Germany/2022/RKI143|Germany|2022-07,TTG,L,synonymous,NA,NA,False,1
+139397,OPG157_CDS_44,reverse,G->A,GT,False,1,Node2,CGG,R,ON959162|MPXV/Germany/2022/RKI148|Germany|2022-07,TGG,W,nonsynonymous,101,moderately radical,False,1
+139397,OPG156_CDS_45,reverse,G->A,GT,False,3,Node2,CAC,H,ON959162|MPXV/Germany/2022/RKI148|Germany|2022-07,CAT,H,synonymous,NA,NA,False,1
+153679,OPG180_CDS_26,forward,A->T,,False,2,Node2,GAC,D,ON959162|MPXV/Germany/2022/RKI148|Germany|2022-07,GTC,V,nonsynonymous,152,radical,False,1
+30283,OPG047_CDS_152,reverse,C->T,TC,True,2,Node2,CGA,R,Node584,CAA,Q,nonsynonymous,43,conservative,False,1
+153873,OPG180_CDS_26,forward,G->A,GA,True,1,Node2,GAG,E,Node584,AAG,K,nonsynonymous,56,moderately conservative,False,1
+165782,OPG190_CDS_20,forward,C->T,TC,True,2,Node2,TCC,S,Node584,TTC,F,nonsynonymous,155,radical,False,1
+152274,NA,NA,A->G,,False,NA,Node2,NA,NA,ON959165|MPXV/Germany/2022/RKI151|Germany|2022-07,NA,NA,intergenic,NA,NA,False,1
+143059,OPG164_CDS_37,forward,G->A,GA,True,1,Node2,GAA,E,ON959174|MPXV/Germany/2022/RKI161|Germany|2022-07,AAA,K,nonsynonymous,56,moderately conservative,False,1
+180523,OPG209_CDS_8,forward,G->A,GA,True,1,Node2,GAT,D,ON959174|MPXV/Germany/2022/RKI161|Germany|2022-07,AAT,N,nonsynonymous,23,conservative,False,1
+15437,NA,NA,G->A,GA,True,NA,Node2,NA,NA,ON929065|MPXV/Germany/2022/RKI107|Germany|2022-07,NA,NA,intergenic,NA,NA,False,1
+10648,OPG022_CDS_172,reverse,G->A,GA,True,3,Node2,ATC,I,ON929078|MPXV/Germany/2022/RKI123|Germany|2022-07,ATT,I,synonymous,NA,NA,False,1
+28818,OPG045_CDS_154,reverse,C->T,TC,True,3,Node2,CCG,P,ON929078|MPXV/Germany/2022/RKI123|Germany|2022-07,CCA,P,synonymous,NA,NA,False,1
+29641,OPG046_CDS_153,reverse,G->A,GA,True,1,Node2,CGC,R,ON929078|MPXV/Germany/2022/RKI123|Germany|2022-07,TGC,C,nonsynonymous,180,radical,False,1
+171207,OPG199_CDS_13,forward,G->A,GC,False,2,Node2,TGC,C,ON929078|MPXV/Germany/2022/RKI123|Germany|2022-07,TAC,Y,nonsynonymous,194,radical,False,1
+91746,OPG113_CDS_87,forward,G->A,GT,False,2,Node2,AGT,S,ON929081|MPXV/Germany/2022/RKI126|Germany|2022-07,AAT,N,nonsynonymous,46,conservative,False,1
+184189,OPG210_CDS_7,forward,C->A,,False,3,Node2,ACC,T,ON929083|MPXV/Germany/2022/RKI128|Germany|2022-07,ACA,T,synonymous,NA,NA,False,1
+3064,OPG003_CDS_176,reverse,G->A,GA,True,1,Node2,CAT,H,ON929086|MPXV/Germany/2022/RKI131|Germany|2022-07,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+124332,OPG145_CDS_55,forward,C->T,AC,False,3,Node671,CAC,H,ON880547|MpxV/human/CAN/UN-NML-3441/2022|Canada|2022-06-03,CAT,H,synonymous,NA,NA,False,1
+151626,OPG178_CDS_27,forward,C->T,TC,True,2,Node671,TCA,S,ON880547|MpxV/human/CAN/UN-NML-3441/2022|Canada|2022-06-03,TTA,L,nonsynonymous,145,moderately radical,False,1
+134052,NA,NA,C->T,TC,True,NA,Node2,NA,NA,ON880518|MpxV/human/CAN/UN-NML-3486/2022|Canada|2022-06-08,NA,NA,intergenic,NA,NA,False,1
+141458,OPG161_CDS_40,forward,C->T,TC,True,1,Node2,CGA,R,ON880518|MpxV/human/CAN/UN-NML-3486/2022|Canada|2022-06-08,TGA,*,nonsense,NA,NA,False,1
+179416,OPG208_CDS_9,forward,G->A,GA,True,2,Node2,TGA,*,ON880518|MpxV/human/CAN/UN-NML-3486/2022|Canada|2022-06-08,TAA,*,synonymous,NA,NA,False,1
+144199,OPG165_CDS_36,forward,C->T,TC,True,1,Node2,CGA,R,ON880520|MpxV/human/CAN/UN-NML-2857/2022|Canada|2022-05-19,TGA,*,nonsense,NA,NA,False,1
+158797,NA,NA,G->A,GA,True,NA,Node2,NA,NA,ON880535|MpxV/human/CAN/UN-NML-3269/2022|Canada|2022-05-31,NA,NA,intergenic,NA,NA,False,1
+174321,NA,NA,C->T,TC,True,NA,Node2,NA,NA,ON880535|MpxV/human/CAN/UN-NML-3269/2022|Canada|2022-05-31,NA,NA,intergenic,NA,NA,False,1
+127215,OPG149_CDS_51,forward,C->T,TC,True,3,Node2,TTC,F,ON880537|MpxV/human/CAN/UN-NML-3273/2022|Canada|2022-05-31,TTT,F,synonymous,NA,NA,False,1
+127215,OPG148_CDS_52,forward,C->T,TC,True,1,Node2,CGT,R,ON880537|MpxV/human/CAN/UN-NML-3273/2022|Canada|2022-05-31,TGT,C,nonsynonymous,180,radical,False,1
+17810,OPG030_CDS_166,reverse,C->T,TC,True,2,Node2,TGA,*,ON880543|MpxV/human/CAN/UN-NML-3357/2022|Canada|2022-06-02,TAA,*,synonymous,NA,NA,False,1
+62130,OPG081_CDS_119,reverse,G->A,GA,True,2,Node2,TCA,S,ON880543|MpxV/human/CAN/UN-NML-3357/2022|Canada|2022-06-02,TTA,L,nonsynonymous,145,moderately radical,False,1
+157792,NA,NA,C->T,TC,True,NA,Node2,NA,NA,ON880543|MpxV/human/CAN/UN-NML-3357/2022|Canada|2022-06-02,NA,NA,intergenic,NA,NA,False,1
+48785,OPG068_CDS_132,forward,T->C,,False,1,Node2,TAA,*,ON872184|WA-2022|Ireland|2022-05-30,CAA,Q,nonsynonymous,NA,NA,False,1
+49636,OPG068_CDS_132,forward,G->A,GA,True,3,Node2,AGG,R,ON872184|WA-2022|Ireland|2022-05-30,AGA,R,synonymous,NA,NA,False,1
+50017,OPG069_CDS_131,forward,C->T,AC,False,3,Node2,CAC,H,ON872184|WA-2022|Ireland|2022-05-30,CAT,H,synonymous,NA,NA,False,1
+72809,OPG092_CDS_108,reverse,T->C,,False,3,Node2,CGA,R,ON872184|WA-2022|Ireland|2022-05-30,CGG,R,synonymous,NA,NA,False,1
+178541,NA,NA,G->A,GC,False,NA,Node2,NA,NA,ON872184|WA-2022|Ireland|2022-05-30,NA,NA,intergenic,NA,NA,False,1
+45108,OPG064_CDS_135,reverse,C->T,TC,True,1,Node2,GAA,E,ON853666|MPXV/Germany/2022/RKI084|Germany|2022-06,AAA,K,nonsynonymous,56,moderately conservative,False,1
+166391,OPG191_CDS_19,forward,G->A,GA,True,1,Node2,GAA,E,ON853671|MPXV/Germany/2022/RKI091|Germany|2022-06,AAA,K,nonsynonymous,56,moderately conservative,False,1
+18933,NA,NA,G->A,GA,True,NA,Node2,NA,NA,Node674,NA,NA,intergenic,NA,NA,False,1
+90838,OPG111_CDS_89,forward,G->A,GA,True,2,Node2,TGA,*,ON838939|8887|Spain|2022-06-06,TAA,*,synonymous,NA,NA,False,1
+94328,OPG114_CDS_86,reverse,G->A,GA,True,3,Node2,CTC,L,ON838939|8887|Spain|2022-06-06,CTT,L,synonymous,NA,NA,False,1
+120638,OPG138_CDS_62,reverse,C->T,TC,True,2,Node2,AGA,R,ON843163|Monkeypox/PT0048/2022|Portugal|2022-05-13,AAA,K,nonsynonymous,26,conservative,False,1
+16125,OPG027_CDS_168,reverse,C->T,TC,True,3,Node2,ATG,M,ON843166|Monkeypox/PT0038/2022|Portugal|2022-05-24,ATA,I,nonsynonymous,10,conservative,False,1
+93828,OPG113_CDS_87,forward,G->A,GA,True,2,Node2,CGA,R,ON843166|Monkeypox/PT0038/2022|Portugal|2022-05-24,CAA,Q,nonsynonymous,43,conservative,False,1
+138426,OPG155_CDS_46,reverse,C->T,TC,True,2,Node2,AGA,R,ON843168|Monkeypox/PT0032/2022|Portugal|2022-05-26,AAA,K,nonsynonymous,26,conservative,False,1
+138956,OPG156_CDS_45,reverse,C->T,TC,True,3,Node2,ACG,T,ON843168|Monkeypox/PT0032/2022|Portugal|2022-05-26,ACA,T,synonymous,NA,NA,False,1
+49821,OPG068_CDS_132,forward,G->A,GA,True,2,Node2,AGA,R,ON843173|Monkeypox/PT0029/2022|Portugal|2022-05-27,AAA,K,nonsynonymous,26,conservative,False,1
+45851,OPG064_CDS_135,reverse,G->A,GC,False,2,Node2,GCC,A,ON843174|Monkeypox/PT0046/2022|Portugal|2022-05-30,GTC,V,nonsynonymous,64,moderately conservative,False,1
+136299,OPG153_CDS_48,reverse,C->T,TC,True,3,Node2,TTG,L,ON843174|Monkeypox/PT0046/2022|Portugal|2022-05-30,TTA,L,synonymous,NA,NA,False,1
+142942,OPG164_CDS_37,forward,G->A,GA,True,1,Node2,GAG,E,ON843182|Monkeypox/PT0044/2022|Portugal|2022-05-30,AAG,K,nonsynonymous,56,moderately conservative,False,1
+2242,OPG002_CDS_177,reverse,G->A,GG,False,2,Node2,CCG,P,ON803418|MpxV/human/CAN/UN-NML-2837/2022|Canada|2022-05-18,CTG,L,nonsynonymous,98,moderately conservative,False,1
+86004,OPG107_CDS_93,forward,G->A,GA,True,2,Node2,TGA,*,ON803418|MpxV/human/CAN/UN-NML-2837/2022|Canada|2022-05-18,TAA,*,synonymous,NA,NA,False,1
+183604,OPG210_CDS_7,forward,C->T,TC,True,3,Node2,ATC,I,Node593,ATT,I,synonymous,NA,NA,False,1
+24731,OPG040_CDS_158,reverse,C->T,TC,True,3,Node2,CAG,Q,ON803435|MpxV/human/CAN/UN-NML-2893/2022|Canada|2022-05-20,CAA,Q,synonymous,NA,NA,False,1
+152384,NA,NA,T->A,,False,NA,Node2,NA,NA,ON803435|MpxV/human/CAN/UN-NML-2893/2022|Canada|2022-05-20,NA,NA,intergenic,NA,NA,False,1
+153104,OPG180_CDS_26,forward,C->T,TC,True,3,Node2,ATC,I,ON803435|MpxV/human/CAN/UN-NML-2893/2022|Canada|2022-05-20,ATT,I,synonymous,NA,NA,False,1
+23766,OPG039_CDS_159,reverse,C->T,CC,False,1,Node2,GGA,G,ON803443|MpxV/human/CAN/UN-NML-2975/2022|Canada|2022-05-16,AGA,R,nonsynonymous,125,moderately radical,False,1
+21069,NA,NA,G->A,GA,True,NA,Node2,NA,NA,ON803444|MpxV/human/CAN/UN-NML-2969/2022|Canada|2022-05-24,NA,NA,intergenic,NA,NA,False,1
+20576,OPG036_CDS_162,reverse,G->A,GA,True,2,Node2,TCA,S,ON808416|CVR_MPXV1d|United_Kingdom|2022-05-15,TTA,L,nonsynonymous,145,moderately radical,False,1
+24824,OPG040_CDS_158,reverse,C->T,TC,True,3,Node2,TCG,S,ON755241|MPXV/Germany/2022/RKI035|Germany|2022-06,TCA,S,synonymous,NA,NA,False,1
+29990,OPG047_CDS_152,reverse,C->T,AC,False,1,Node2,GTG,V,ON755247|MPXV/Germany/2022/RKI041|Germany|2022-06,ATG,M,nonsynonymous,21,conservative,False,1
+187418,NA,NA,G->A,GA,True,NA,Node2,NA,NA,ON755247|MPXV/Germany/2022/RKI041|Germany|2022-06,NA,NA,intergenic,NA,NA,False,1
+187567,NA,NA,G->A,GA,True,NA,Node2,NA,NA,ON755247|MPXV/Germany/2022/RKI041|Germany|2022-06,NA,NA,intergenic,NA,NA,False,1
+50151,OPG069_CDS_131,forward,G->A,GA,True,2,Node2,AGA,R,ON745225|MpxV/Spain/MD-HGUGM-66649483/2022|Spain|2022-05-27,AAA,K,nonsynonymous,26,conservative,False,1
+119735,OPG137_CDS_63,forward,T->C,,False,3,Node2,GGT,G,ON736420|MPX/2022/Canada/AB1|Canada|2022-05-31,GGC,G,synonymous,NA,NA,False,1
+149818,OPG176_CDS_28,forward,G->A,GA,True,2,Node2,TGA,*,ON694335|MPXV/Germany/2022/RKI018|Germany|2022-05,TAA,*,synonymous,NA,NA,False,1
+149818,OPG175_CDS_29,forward,G->A,GA,True,3,Node2,TTG,L,ON694335|MPXV/Germany/2022/RKI018|Germany|2022-05,TTA,L,synonymous,NA,NA,False,1
+151362,NA,NA,G->A,GA,True,NA,Node2,NA,NA,ON694335|MPXV/Germany/2022/RKI018|Germany|2022-05,NA,NA,intergenic,NA,NA,False,1
+168174,NA,NA,G->A,GA,True,NA,Node2,NA,NA,ON694341|MPXV/Germany/2022/RKI012|Germany|2022-05,NA,NA,intergenic,NA,NA,False,1
+4454,OPG003_CDS_176,reverse,G->A,GA,True,3,Node2,CTC,L,Node703,CTT,L,synonymous,NA,NA,False,1
+127628,OPG149_CDS_51,forward,C->T,TC,True,2,Node2,TCC,S,ON676704|MPXV_USA_2022_FL002|USA|2022-05,TTC,F,nonsynonymous,155,radical,False,1
+133864,NA,NA,C->T,TC,True,NA,Node2,NA,NA,ON676704|MPXV_USA_2022_FL002|USA|2022-05,NA,NA,intergenic,NA,NA,False,1
+28330,OPG044_CDS_155,forward,G->A,GA,True,1,Node2,GAG,E,ON676705|MPXV_USA_2022_UT001|USA|2022-05,AAG,K,nonsynonymous,56,moderately conservative,False,1
+169796,OPG197_CDS_15,forward,A->T,,False,2,Node2,AAT,N,ON645312|MPXV_GSTT_Patient1|United_Kingdom|2022-05-11,TT,,nonsynonymous,NA,NA,False,1
+85079,OPG106_CDS_94,reverse,G->A,GT,False,2,Node2,ACG,T,ON649715|Monkeypox/PT0017/2022|Portugal|2022-05-20,ATG,M,nonsynonymous,81,moderately conservative,False,1
+162826,OPG188_CDS_22,forward,C->T,TC,True,2,Node2,TCA,S,ON649716|Monkeypox/PT0016/2022|Portugal|2022-05-23,TTA,L,nonsynonymous,145,moderately radical,False,1
+118296,OPG136_CDS_64,reverse,C->T,TC,True,1,Node2,GAG,E,ON649717|Monkeypox/PT0019/2022|Portugal|2022-05-21,AAG,K,nonsynonymous,56,moderately conservative,False,1
+21128,OPG037_CDS_161,reverse,C->T,TC,True,3,Node2,ACG,T,ON631963|MPxV/VIDRL01/2022|Australia|2022-05,ACA,T,synonymous,NA,NA,False,1
+7259,NA,NA,C->T,TC,True,NA,Node2,NA,NA,ON619836|MPXV_UK_2022_2|United_Kingdom|2022-05,NA,NA,intergenic,NA,NA,False,1
+33832,OPG052_CDS_147,reverse,C->T,TC,True,1,Node2,GAA,E,ON619836|MPXV_UK_2022_2|United_Kingdom|2022-05,AAA,K,nonsynonymous,56,moderately conservative,False,1
+147011,OPG171_CDS_33,forward,C->T,TC,True,1,Node2,CGA,R,ON619838|MPXV_UK_2022_4|United_Kingdom|2022-05,TGA,*,nonsense,NA,NA,False,1
+172095,NA,NA,G->A,GA,True,NA,Node2,NA,NA,ON619838|MPXV_UK_2022_4|United_Kingdom|2022-05,NA,NA,intergenic,NA,NA,False,1
+46125,OPG065_CDS_134,reverse,C->T,TC,True,1,Node2,GAG,E,ON622712|MPX/UZ_REGA_1/Belgium/2022|Belgium|2022-05-19,AAG,K,nonsynonymous,56,moderately conservative,False,1
+4629,NA,NA,C->T,TC,True,NA,Node2,NA,NA,ON622713|MPX/UZ_REGA_2/Belgium/2022|Belgium|2022-05-22,NA,NA,intergenic,NA,NA,False,1
+155611,NA,NA,G->A,GA,True,NA,Node2,NA,NA,ON615424|MPXV_2022_NL001|Netherlands|2022-05,NA,NA,intergenic,NA,NA,False,1
+171003,OPG199_CDS_13,forward,G->A,GA,True,2,Node2,GGA,G,ON615424|MPXV_2022_NL001|Netherlands|2022-05,GAA,E,nonsynonymous,98,moderately conservative,False,1
+55075,MPXVgp059_CDS_127,reverse,C->T,TC,True,3,Node2,CCG,P,ON585033|Monkeypox/PT0006/2022|Portugal|2022-05-15,CCA,P,synonymous,NA,NA,False,1
+127220,OPG149_CDS_51,forward,C->T,TC,True,2,Node2,TCA,S,ON585036|Monkeypox/PT0010/2022|Portugal|2022-05-15,TTA,L,nonsynonymous,145,moderately radical,False,1
+127220,OPG148_CDS_52,forward,C->T,TC,True,3,Node2,CTC,L,ON585036|Monkeypox/PT0010/2022|Portugal|2022-05-15,CTT,L,synonymous,NA,NA,False,1
+144527,NA,NA,C->T,TC,True,NA,Node2,NA,NA,ON585036|Monkeypox/PT0010/2022|Portugal|2022-05-15,NA,NA,intergenic,NA,NA,False,1
+79348,OPG102_CDS_98,forward,C->T,TC,True,1,Node1,CAT,H,ON676708|USA_2021_MD|USA|2021-11-16,TAT,Y,nonsynonymous,83,moderately conservative,False,1
+86979,OPG108_CDS_92,reverse,C->T,GC,False,2,Node1,AGC,S,ON676708|USA_2021_MD|USA|2021-11-16,AAC,N,nonsynonymous,46,conservative,False,1
+133714,NA,NA,C->T,TC,True,NA,Node1,NA,NA,ON676708|USA_2021_MD|USA|2021-11-16,NA,NA,intergenic,NA,NA,False,1
