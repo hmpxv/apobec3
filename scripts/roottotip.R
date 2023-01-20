@@ -1,12 +1,12 @@
 library(rethinking)
-d_all <- read.csv("../data/hMPXV1_root_to_tip.data.csv",header=T)
+d_all <- read.csv("hMPXV1_root_to_tip.data.csv",header=T)
 #d <- d_all
 #d_published <- d_all[d_all$published == TRUE,]
 #d <- d_published[d_published$omit == FALSE,]
 d <- d_all[d_all$omit == FALSE,]
 year_lower <- 2012
 y_upper <- 80
-interval_prob <- 0.97
+interval_prob <- 0.95
 background_colour <- alpha("#F1F0E7", 0.5)
 foreground_colour <- "#3B3B53"
 lineageA_colour <- "#025B68"
@@ -15,7 +15,7 @@ density_colour <- "#842A29"
 
 show_simulated <- FALSE
 
-b1_all <- read.csv("../data/B.1_root_to_tip.data.csv",header=T)
+b1_all <- read.csv("B.1_root_to_tip.data.csv",header=T)
 #b1_filtered <- b1_all
 b1_filtered <- b1_all[b1_all$omit == FALSE,]
 b1 <- b1_filtered[b1_filtered$precision == 'day',]
