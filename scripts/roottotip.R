@@ -14,6 +14,7 @@ lineageB_colour <- "goldenrod"
 density_colour <- "#842A29"
 
 show_simulated <- FALSE
+show_density <- FALSE
 
 b1_all <- read.csv("B.1_root_to_tip.data.csv",header=T)
 #b1_filtered <- b1_all
@@ -49,7 +50,7 @@ rtt <- quap(
     mu <- a + b * (year - xbar),
     a ~ dnorm(mut_min, 100),
     b ~ dlnorm(0, 1),
-    sigma ~ dnorm(0, 50)
+    sigma ~ dnorm(0, 20)
   ),
   data = d)
 
@@ -105,35 +106,76 @@ if (show_simulated) {
 }
 
 #extract a whole lot of sample lines
-post <- extract.samples(rtt, N=1E20)
+post <- extract.samples(rtt, N=1E200)
 
 #get the distribution of intersects with x-axis
 x_at_0 <- ((0 - post$a) / post$b) + xbar
 x_at_0_density <- density(x_at_0, adjust = 0.5)
 mean_x_at_0 <- mean(x_at_0)
 
-#lines(x_at_0_density$x, x_at_0_density$y * 10)
-par(fg = alpha(density_colour, 0.5))
-polygon(x_at_0_density$x, x_at_0_density$y * 10, col = alpha(density_colour, 0.2), border = NULL)
-par(fg=foreground_colour)
+#try different numbers of pre-APOBEC3 era mutations
+x_at_1 <- ((1 - post$a) / post$b) + xbar
+x_at_1_density <- density(x_at_1, adjust = 0.5)
+mean_x_at_1 <- mean(x_at_1)
+x_at_2 <- ((2 - post$a) / post$b) + xbar
+x_at_2_density <- density(x_at_2, adjust = 0.5)
+mean_x_at_2 <- mean(x_at_2)
+x_at_3 <- ((3 - post$a) / post$b) + xbar
+x_at_3_density <- density(x_at_3, adjust = 0.5)
+mean_x_at_3 <- mean(x_at_3)
 
-#print the interval
+#lines(x_at_0_density$x, x_at_0_density$y * 10)
+if (show_density) {
+  par(fg = alpha(density_colour, 0.5))
+  polygon(x_at_0_density$x, x_at_0_density$y * 10, col = alpha(density_colour, 0.2), border = NULL)
+  par(fg=foreground_colour)
+}
+
+#print the intervals
 origin <- HPDI(x_at_0, prob = interval_prob)
-print(mean(x_at_0))
-print(origin)
+cat("\n\nmean_x at y = 0: ", mean(x_at_0), " [", origin[1], ", ", origin[2], "]\n")
+origin1 <- HPDI(x_at_1, prob = interval_prob)
+cat("mean_x at y = 1: ", mean(x_at_1), " [", origin1[1], ", ", origin1[2], "]\n")
+origin2 <- HPDI(x_at_2, prob = interval_prob)
+cat("mean_x at y = 2: ", mean(x_at_2), " [", origin2[1], ", ", origin2[2], "]\n")
+origin3 <- HPDI(x_at_3, prob = interval_prob)
+cat("mean_x at y = 3: ", mean(x_at_3), " [", origin3[1], ", ", origin3[2], "]\n\n")
+#print(origin)
 
 #draw the interval
 #abline(v=origin[2], lty=1 , lwd=0.5 )
 #abline(v=origin[2], lty=1 , lwd=0.5 )
 clip(par("usr")[1], par("usr")[2], par("usr")[3], par("usr")[4])
-rect(xleft=origin[1], xright=origin[2], ybottom=par("usr")[3], ytop=par("usr")[4], 
-     col=alpha(density_colour, 0.1), border = "transparent")
-abline(v=mean_x_at_0, lty=1 , lwd=0.5, col=density_colour)
+if (show_density) {
+  rect(xleft=origin[1], xright=origin[2], ybottom=par("usr")[3], ytop=par("usr")[4], 
+       col=alpha(density_colour, 0.1), border = "transparent")
+  abline(v=mean_x_at_0, lty=1 , lwd=0.5, col=density_colour)
+}
+
+#abline(v=mean_x_at_0, lty=1 , lwd=0.5, col=density_colour)
+#abline(v=mean_x_at_1, lty=1 , lwd=0.5, col=density_colour)
+#abline(v=mean_x_at_2, lty=1 , lwd=0.5, col=density_colour)
+#abline(v=mean_x_at_3, lty=1 , lwd=0.5, col=density_colour)
+
+#abline(h=0, lty=1 , lwd=0.5, col=density_colour)
+#abline(h=1, lty=1 , lwd=0.5, col=density_colour)
+#abline(h=2, lty=1 , lwd=0.5, col=density_colour)
+#abline(h=3, lty=1 , lwd=0.5, col=density_colour)
+segments(x0=0, y0=0, x1=mean_x_at_0, y1=0, lwd=0.5, col=density_colour)
+segments(x0=mean_x_at_0, y0=-10, x1=mean_x_at_0, y1=0, lwd=0.5, col=density_colour)
+
+segments(x0=0, y0=1, x1=mean_x_at_1, y1=1, lwd=0.5, col=density_colour)
+segments(x0=mean_x_at_1, y0=-10, x1=mean_x_at_1, y1=1, lwd=0.5, col=density_colour)
+
+segments(x0=0, y0=2, x1=mean_x_at_2, y1=2, lwd=0.5, col=density_colour)
+segments(x0=mean_x_at_2, y0=-10, x1=mean_x_at_2, y1=2, lwd=0.5, col=density_colour)
+
+segments(x0=0, y0=3, x1=mean_x_at_3, y1=3, lwd=0.5, col=density_colour)
+segments(x0=mean_x_at_3, y0=-10, x1=mean_x_at_3, y1=3, lwd=0.5, col=density_colour)
 
 #########################
 # B.1 
 #########################
-
 
 year_min <- min(b1$year)
 
@@ -157,7 +199,7 @@ rtt_b1 <- quap(
     mu <- a + b * (year - xbar),
     a ~ dnorm(0, 100),
     b ~ dlnorm(0, 1),
-    sigma ~ dunif(1, 50)
+    sigma ~ dnorm(0, 20)
   ),
   data = b1)
 
