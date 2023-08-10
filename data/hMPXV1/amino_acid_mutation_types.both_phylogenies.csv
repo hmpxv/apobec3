@@ -1,0 +1,9 @@
+mutation_type,description,count,proportion
+nonsynonymous,Target,14618,0.62
+nonsynonymous,Observed,384,0.4
+synonymous,Target,4990,0.21
+synonymous,Observed,334,0.35
+nonsense,Target,692,0.03
+nonsense,Observed,55,0.06
+intergenic,Target,3418,0.14
+intergenic,Observed,187,0.19

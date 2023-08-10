@@ -1,0 +1,9 @@
+APOBEC,mutation_type,count,prop
+True,nonsynonymous,384,0.4
+True,synonymous,334,0.34791666666666665
+True,intergenic,187,0.19479166666666667
+True,nonsense,55,0.057291666666666664
+False,nonsynonymous,56,0.6363636363636364
+False,intergenic,19,0.2159090909090909
+False,nonsense,4,0.045454545454545456
+False,synonymous,9,0.10227272727272728
